@@ -5,38 +5,31 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"trojan","name":"🇨🇳_TG频道@baipiaoeverything_1","server":"20007.purefast2.com","port":20007,"password":"a1d4c471-61d1-3f61-8502-63b14b8b56be","udp":true,"skip-cert-verify":true,"sni":"purefast1.com"}
-  - {"type":"trojan","name":"🇹🇼_TG频道@baipiaoeverything_2","server":"download2tw.windowsupdate.lol","port":443,"password":"6248895b-4255-4f07-9479-d198bc1eb8db","udp":true,"skip-cert-verify":true,"sni":"dc1-download.windowsupdate1.com"}
-  - {"type":"vmess","name":"🇨🇳_TG频道@baipiaoeverything_3","ws-opts":{"path":"/guolicheng/us1","headers":{"host":"www.189.cn"}},"server":"223.111.122.199","port":"38080","uuid":"6248895b-4255-4f07-9479-d198bc1eb8db","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"trojan","name":"🇭🇰_TG频道@baipiaoeverything_4","server":"219.76.13.175","port":443,"password":"ZlYZ0KxC8uxngp736aR34y3TaFwFOC95DO2XR8yeeAD3cESNDSCBqAYIjpaSlz","udp":true,"skip-cert-verify":true,"sni":"python.protocolbuffer.com"}
-  - {"type":"ss","name":"🇧🇬_TG频道@baipiaoeverything_5","server":"213.183.63.217","port":9011,"cipher":"aes-256-cfb","password":"M3t2ZEQcMGRWBjRa"}
-  - {"type":"trojan","name":"🇯🇵_TG频道@baipiaoeverything_6","server":"c47ab06.pc.glados-config.net","port":3389,"password":"7b06d22a8a7c764f","udp":true,"skip-cert-verify":true}
-  - {"type":"ssr","name":"🇨🇳_TG频道@baipiaoeverything_7","server":"1cnrelay.initcloud.pro","port":560,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"plain","password":"mblank1port","protocol-param":"7811:nelpro123"}
-  - {"type":"vmess","name":"TG频道@baipiaoeverything_8","ws-opts":{"path":"/eisasqa","headers":{"host":"foxsg.fovi.tk"}},"server":"cf.fovi.tk","port":2053,"uuid":"bf67437e-6c90-45ca-abc2-c7240a5ce2aa","alterId":0,"cipher":"auto","network":"ws","tls":true}
-  - {"type":"ssr","name":"🇨🇳_TG频道@baipiaoeverything_9","server":"cmaisallin.debugspace.work","port":565,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"plain","password":"mblank1port","protocol-param":"7811:nelpro123"}
-  - {"type":"vmess","name":"🇺🇸_TG频道@baipiaoeverything_10","ws-opts":{"path":"/sshkit/Ertusg86/635014638c264/"},"server":"15.235.147.186","port":"80","uuid":"6fea1649-425b-4092-bf53-29792152c925","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇷🇺_TG频道@baipiaoeverything_11","server":"pf.napsternetv.com","port":40044,"uuid":"2F094845-E2BD-EBF7-DEB7-995992436FAF","alterId":0,"cipher":"auto","network":"tcp","tls":true}
-  - {"type":"trojan","name":"TG频道@baipiaoeverything_12","server":"idc1.vpn-akcelluler.my.id","port":443,"password":"idc117okt","udp":true,"skip-cert-verify":true,"sni":"idc1.vpn-akcelluler.my.id"}
-  - {"type":"vmess","name":"🇮🇩_TG频道@baipiaoeverything_13","ws-opts":{"path":"/v2ray","headers":{"host":"idnusa2.vpn-akcelluler.my.id"}},"server":"idnusa2.vpn-akcelluler.my.id","port":443,"uuid":"fc9c12e0-f4f2-4fc4-a30e-fc488bac7121","alterId":0,"cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇬🇧_TG频道@baipiaoeverything_14","ws-opts":{"path":"/chat","headers":{"host":"vuk2.0bad.com"}},"server":"vuk2.0bad.com","port":"443","uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇭🇰_TG频道@baipiaoeverything_15","ws-opts":{"path":"/je5x3pBN1vez3NQudNkB","headers":{"host":"node.inforun.work"}},"server":"asswb-1036-v2-1.hkg-d-kcd.nd.cjhh.mom","port":"888","uuid":"caac6285-511c-4a07-b6db-edfbdcfe3889","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇨🇳_TG频道@baipiaoeverything_16","server":"221.181.185.153","port":"16115","uuid":"f1d39fe1-bfa3-34ff-86a2-29250af03183","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"trojan","name":"🇺🇸_TG频道@baipiaoeverything_17","server":"ca.liangyuandian.top","port":443,"password":"53f20cd4-b381-4a80-8059-7bcd484bbb52","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"🇹🇼_TG频道@baipiaoeverything_18","server":"download1tw.windowsupdate.lol","port":443,"password":"6248895b-4255-4f07-9479-d198bc1eb8db","udp":true,"skip-cert-verify":true,"sni":"dc1-download.windowsupdate1.com"}
-  - {"type":"ss","name":"🇨🇳_TG频道@baipiaoeverything_19","server":"180.101.193.226","port":10068,"cipher":"aes-256-cfb","password":"RsDk3peCSuo76B68"}
-  - {"type":"vmess","name":"TG频道@baipiaoeverything_20","ws-opts":{"path":"/home","headers":{"host":"ca.0112233.xyz"}},"server":"ca.0112233.xyz","port":"8443","uuid":"c3000e9d-bee7-4fdb-b312-dd07030f325d","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇰🇷_TG频道@baipiaoeverything_21","ws-opts":{"path":"/adobe","headers":{"host":"a.189.cn"}},"server":"158.247.236.172","port":"80","uuid":"70de4924-d1ac-3482-a494-577b4ccc9b1d","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"trojan","name":"🇨🇳_TG频道@baipiaoeverything_22","server":"183.232.141.154","port":19202,"password":"a992be42-bed4-3037-8788-9e860cd635d3","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"🇨🇳_TG频道@baipiaoeverything_23","server":"221.181.185.171","port":"16308","uuid":"f1d39fe1-bfa3-34ff-86a2-29250af03183","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"TG频道@baipiaoeverything_24","ws-opts":{"path":"/je5x3pBN1vez3NQudNkB","headers":{"host":"node.inforun.work"}},"server":"lsrug-1037-v2-9.hkg-d-cmi.jd.cjhh.lol","port":"888","uuid":"caac6285-511c-4a07-b6db-edfbdcfe3889","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"trojan","name":"TG频道@baipiaoeverything_25","server":"103.176.78.153","port":443,"password":"idc117okt","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"🇭🇰_TG频道@baipiaoeverything_26","server":"219.76.13.180","port":443,"password":"F3CSSRxD8uljgF73IAn34C3aE9wSqAzZDp5ZOCpxDBRacNYelOYayKTe826Xy0","udp":true,"skip-cert-verify":true,"sni":"stutter.freetrade.link"}
-  - {"type":"trojan","name":"🇸🇬_TG频道@baipiaoeverything_27","server":"1024sg99.tfzhc.top","port":443,"password":"94a08db5-db61-487a-b208-c66445f32737","udp":true,"skip-cert-verify":true,"sni":"1024sg99.tfzhc.top"}
-  - {"type":"trojan","name":"🇸🇬_TG频道@baipiaoeverything_28","server":"sg.520748.xyz","port":443,"password":"a0147dae-1454-4544-bc85-96b83f554817","udp":true,"skip-cert-verify":true,"sni":"sg.520748.xyz"}
-  - {"type":"vmess","name":"TG频道@baipiaoeverything_29","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"clash6.ssr-free.xyz"}},"server":"198.41.212.150","port":"443","uuid":"5f64fa65-7b14-49c5-954d-aa15c6bfcacd","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"TG频道@baipiaoeverything_30","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"clash1.trump2023.net"}},"server":"141.101.114.20","port":"443","uuid":"176b598f-445b-41ac-9d2a-430c5c4df26a","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"trojan","name":"🇭🇰_TG频道@baipiaoeverything_31","server":"1002hk1326.tfzhc.top","port":443,"password":"94a08db5-db61-487a-b208-c66445f32737","udp":true,"skip-cert-verify":true,"sni":"1002hk1326.tfzhc.top"}
-  - {"type":"vmess","name":"🇺🇸_TG频道@baipiaoeverything_32","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"clash6.ssr-free.xyz"}},"server":"172.64.154.155","port":"443","uuid":"5f64fa65-7b14-49c5-954d-aa15c6bfcacd","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"🇨🇳_TG频道@baipiaoeverything_1","server":"xi.kanao.xyz","port":58832,"password":"8708ec3c-56b4-4c76-a43b-0f4c5bab80c7","udp":true,"skip-cert-verify":true,"sni":"soolos.com"}
+  - {"type":"vmess","name":"TG频道@baipiaoeverything_2","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"clash6.ssr-free.xyz"}},"server":"198.41.212.150","port":"443","uuid":"5f64fa65-7b14-49c5-954d-aa15c6bfcacd","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸_TG频道@baipiaoeverything_3","ws-opts":{"path":"/yitai"},"server":"198.199.70.13","port":80,"uuid":"cce5649e-bfb0-4011-b4e4-4833b4dab2e6","alterId":0,"cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"🇱🇺_TG频道@baipiaoeverything_4","server":"107.189.28.229","port":20470,"password":"d4aac5d7-d17a-3ad0-9068-ac555f750b6d","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"🇨🇦_TG频道@baipiaoeverything_5","ws-opts":{"path":"/sshocean","headers":{"host":"ca2.v2rayserv.com"}},"server":"ca2.v2rayserv.com","port":"80","uuid":"e3eba3ac-5bea-409f-ac5c-6c964e04d0c4","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇨🇳_TG频道@baipiaoeverything_6","ws-opts":{"path":"/","headers":{"host":"de01-cdn.airport-v2.com"}},"server":"in05.my1188.org","port":"63084","uuid":"ec908e55-25f5-3da5-9d0b-3e4d20fa1a3b","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇺🇸_TG频道@baipiaoeverything_7","ws-opts":{"path":"/sshkit/Ertusg86/635014638c264/"},"server":"15.235.147.186","port":"80","uuid":"6fea1649-425b-4092-bf53-29792152c925","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇺🇸_TG频道@baipiaoeverything_8","ws-opts":{"path":"/6","headers":{"host":"unus01.ajdkjaljdj.xyz"}},"server":"unus01.ajdkjaljdj.xyz","port":"1082","uuid":"95e9fda1-dc48-3bbd-8a15-e6528882ea3b","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"🇨🇳_TG频道@baipiaoeverything_9","server":"da.kanao.xyz","port":58807,"password":"8708ec3c-56b4-4c76-a43b-0f4c5bab80c7","udp":true,"skip-cert-verify":true,"sni":"soolos.com"}
+  - {"type":"vmess","name":"🇨🇳_TG频道@baipiaoeverything_10","ws-opts":{"path":"/mugua","headers":{"host":"jp-balancer.myn1des.com"}},"server":"in04.my1188.org","port":"63086","uuid":"ec908e55-25f5-3da5-9d0b-3e4d20fa1a3b","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"TG频道@baipiaoeverything_11","ws-opts":{"path":"/tlfmWciG/","headers":{"host":"us1.cachexy.ga"}},"server":"104.17.146.10","port":"80","uuid":"80a7f429-049b-4e94-9f16-aed2a42c529f","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇨🇳_TG频道@baipiaoeverything_12","ws-opts":{"path":"/","headers":{"host":"mugua-kr01.covid19.rip"}},"server":"in03.my1188.org","port":"63004","uuid":"ec908e55-25f5-3da5-9d0b-3e4d20fa1a3b","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ss","name":"🇨🇳_TG频道@baipiaoeverything_13","server":"180.101.193.226","port":10068,"cipher":"aes-256-cfb","password":"RsDk3peCSuo76B68"}
+  - {"type":"vmess","name":"🇨🇳_TG频道@baipiaoeverything_14","ws-opts":{"path":"/mg","headers":{"host":"mugua-us01.covid19.rip"}},"server":"in02.my1188.org","port":"63014","uuid":"ec908e55-25f5-3da5-9d0b-3e4d20fa1a3b","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸_TG频道@baipiaoeverything_15","ws-opts":{"path":"/ray","headers":{"host":"localhoster.ml"}},"server":"172.67.196.0","port":"443","uuid":"4db99e96-3ee3-419c-b1fb-856975801380","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"TG频道@baipiaoeverything_16","ws-opts":{"path":"/eisasqa","headers":{"host":"foxsg.fovi.tk"}},"server":"cf.fovi.tk","port":2053,"uuid":"bf67437e-6c90-45ca-abc2-c7240a5ce2aa","alterId":0,"cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸_TG频道@baipiaoeverything_17","ws-opts":{"path":"/@airproxies","headers":{"host":"air.brink.ga"}},"server":"172.67.154.11","port":"2095","uuid":"60b698c1-2d98-426e-d53e-0b5febe988f9","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇨🇳_TG频道@baipiaoeverything_18","ws-opts":{"path":"/","headers":{"host":"au01.iepl.nbsd.us"}},"server":"pro01.my1188.org","port":"3213","uuid":"ec908e55-25f5-3da5-9d0b-3e4d20fa1a3b","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"🇭🇰_TG频道@baipiaoeverything_19","server":"1002hk1326.tfzhc.top","port":443,"password":"e44e1be6-552f-4098-aedd-ff1ed59837e3","udp":true,"skip-cert-verify":true,"sni":"1002hk1326.tfzhc.top"}
+  - {"type":"trojan","name":"🇭🇰_TG频道@baipiaoeverything_20","server":"219.76.13.180","port":443,"password":"F3CSSRxD8uljgF73IAn34C3aE9wSqAzZDp5ZOCpxDBRacNYelOYayKTe826Xy0","udp":true,"skip-cert-verify":true,"sni":"stutter.freetrade.link"}
+  - {"type":"vmess","name":"🇨🇳_TG频道@baipiaoeverything_21","ws-opts":{"path":"/guolicheng/hkhgc","headers":{"host":"www.189.cn"}},"server":"223.111.122.199","port":"38080","uuid":"8498bfc8-c030-40df-80e8-69f9e06fe16a","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇺🇸_TG频道@baipiaoeverything_22","ws-opts":{"path":"/chat","headers":{"host":"vsg1.0bad.com"}},"server":"vsg1.0bad.com","port":"443","uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸_TG频道@baipiaoeverything_23","ws-opts":{"path":"/hk01"},"server":"hk1.fun513.ga","port":"26549","uuid":"1ad38ec5-7bf9-4454-922d-da7286093f5e","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇹🇼_TG频道@baipiaoeverything_24","ws-opts":{"path":"/linod","headers":{"host":"lindo.cnabc.eu.org"}},"server":"211.72.35.110","port":"443","uuid":"f6d7b072-de00-45dc-9e24-49f8cf43530d","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇨🇳_TG频道@baipiaoeverything_25","ws-opts":{"path":"/mugua","headers":{"host":"sg-balancer.tencent.best"}},"server":"in06.my1188.org","port":"63087","uuid":"ec908e55-25f5-3da5-9d0b-3e4d20fa1a3b","alterId":"0","cipher":"auto","network":"ws","tls":true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -44,37 +37,30 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - 🇨🇳_TG频道@baipiaoeverything_1
-      - 🇹🇼_TG频道@baipiaoeverything_2
-      - 🇨🇳_TG频道@baipiaoeverything_3
-      - 🇭🇰_TG频道@baipiaoeverything_4
-      - 🇧🇬_TG频道@baipiaoeverything_5
-      - 🇯🇵_TG频道@baipiaoeverything_6
-      - 🇨🇳_TG频道@baipiaoeverything_7
-      - TG频道@baipiaoeverything_8
+      - TG频道@baipiaoeverything_2
+      - 🇺🇸_TG频道@baipiaoeverything_3
+      - 🇱🇺_TG频道@baipiaoeverything_4
+      - 🇨🇦_TG频道@baipiaoeverything_5
+      - 🇨🇳_TG频道@baipiaoeverything_6
+      - 🇺🇸_TG频道@baipiaoeverything_7
+      - 🇺🇸_TG频道@baipiaoeverything_8
       - 🇨🇳_TG频道@baipiaoeverything_9
-      - 🇺🇸_TG频道@baipiaoeverything_10
-      - 🇷🇺_TG频道@baipiaoeverything_11
-      - TG频道@baipiaoeverything_12
-      - 🇮🇩_TG频道@baipiaoeverything_13
-      - 🇬🇧_TG频道@baipiaoeverything_14
-      - 🇭🇰_TG频道@baipiaoeverything_15
-      - 🇨🇳_TG频道@baipiaoeverything_16
+      - 🇨🇳_TG频道@baipiaoeverything_10
+      - TG频道@baipiaoeverything_11
+      - 🇨🇳_TG频道@baipiaoeverything_12
+      - 🇨🇳_TG频道@baipiaoeverything_13
+      - 🇨🇳_TG频道@baipiaoeverything_14
+      - 🇺🇸_TG频道@baipiaoeverything_15
+      - TG频道@baipiaoeverything_16
       - 🇺🇸_TG频道@baipiaoeverything_17
-      - 🇹🇼_TG频道@baipiaoeverything_18
-      - 🇨🇳_TG频道@baipiaoeverything_19
-      - TG频道@baipiaoeverything_20
-      - 🇰🇷_TG频道@baipiaoeverything_21
-      - 🇨🇳_TG频道@baipiaoeverything_22
-      - 🇨🇳_TG频道@baipiaoeverything_23
-      - TG频道@baipiaoeverything_24
-      - TG频道@baipiaoeverything_25
-      - 🇭🇰_TG频道@baipiaoeverything_26
-      - 🇸🇬_TG频道@baipiaoeverything_27
-      - 🇸🇬_TG频道@baipiaoeverything_28
-      - TG频道@baipiaoeverything_29
-      - TG频道@baipiaoeverything_30
-      - 🇭🇰_TG频道@baipiaoeverything_31
-      - 🇺🇸_TG频道@baipiaoeverything_32
+      - 🇨🇳_TG频道@baipiaoeverything_18
+      - 🇭🇰_TG频道@baipiaoeverything_19
+      - 🇭🇰_TG频道@baipiaoeverything_20
+      - 🇨🇳_TG频道@baipiaoeverything_21
+      - 🇺🇸_TG频道@baipiaoeverything_22
+      - 🇺🇸_TG频道@baipiaoeverything_23
+      - 🇹🇼_TG频道@baipiaoeverything_24
+      - 🇨🇳_TG频道@baipiaoeverything_25
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -82,37 +68,30 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 🇨🇳_TG频道@baipiaoeverything_1
-      - 🇹🇼_TG频道@baipiaoeverything_2
-      - 🇨🇳_TG频道@baipiaoeverything_3
-      - 🇭🇰_TG频道@baipiaoeverything_4
-      - 🇧🇬_TG频道@baipiaoeverything_5
-      - 🇯🇵_TG频道@baipiaoeverything_6
-      - 🇨🇳_TG频道@baipiaoeverything_7
-      - TG频道@baipiaoeverything_8
+      - TG频道@baipiaoeverything_2
+      - 🇺🇸_TG频道@baipiaoeverything_3
+      - 🇱🇺_TG频道@baipiaoeverything_4
+      - 🇨🇦_TG频道@baipiaoeverything_5
+      - 🇨🇳_TG频道@baipiaoeverything_6
+      - 🇺🇸_TG频道@baipiaoeverything_7
+      - 🇺🇸_TG频道@baipiaoeverything_8
       - 🇨🇳_TG频道@baipiaoeverything_9
-      - 🇺🇸_TG频道@baipiaoeverything_10
-      - 🇷🇺_TG频道@baipiaoeverything_11
-      - TG频道@baipiaoeverything_12
-      - 🇮🇩_TG频道@baipiaoeverything_13
-      - 🇬🇧_TG频道@baipiaoeverything_14
-      - 🇭🇰_TG频道@baipiaoeverything_15
-      - 🇨🇳_TG频道@baipiaoeverything_16
+      - 🇨🇳_TG频道@baipiaoeverything_10
+      - TG频道@baipiaoeverything_11
+      - 🇨🇳_TG频道@baipiaoeverything_12
+      - 🇨🇳_TG频道@baipiaoeverything_13
+      - 🇨🇳_TG频道@baipiaoeverything_14
+      - 🇺🇸_TG频道@baipiaoeverything_15
+      - TG频道@baipiaoeverything_16
       - 🇺🇸_TG频道@baipiaoeverything_17
-      - 🇹🇼_TG频道@baipiaoeverything_18
-      - 🇨🇳_TG频道@baipiaoeverything_19
-      - TG频道@baipiaoeverything_20
-      - 🇰🇷_TG频道@baipiaoeverything_21
-      - 🇨🇳_TG频道@baipiaoeverything_22
-      - 🇨🇳_TG频道@baipiaoeverything_23
-      - TG频道@baipiaoeverything_24
-      - TG频道@baipiaoeverything_25
-      - 🇭🇰_TG频道@baipiaoeverything_26
-      - 🇸🇬_TG频道@baipiaoeverything_27
-      - 🇸🇬_TG频道@baipiaoeverything_28
-      - TG频道@baipiaoeverything_29
-      - TG频道@baipiaoeverything_30
-      - 🇭🇰_TG频道@baipiaoeverything_31
-      - 🇺🇸_TG频道@baipiaoeverything_32
+      - 🇨🇳_TG频道@baipiaoeverything_18
+      - 🇭🇰_TG频道@baipiaoeverything_19
+      - 🇭🇰_TG频道@baipiaoeverything_20
+      - 🇨🇳_TG频道@baipiaoeverything_21
+      - 🇺🇸_TG频道@baipiaoeverything_22
+      - 🇺🇸_TG频道@baipiaoeverything_23
+      - 🇹🇼_TG频道@baipiaoeverything_24
+      - 🇨🇳_TG频道@baipiaoeverything_25
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -120,148 +99,120 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🇨🇳_TG频道@baipiaoeverything_1
-      - 🇹🇼_TG频道@baipiaoeverything_2
-      - 🇨🇳_TG频道@baipiaoeverything_3
-      - 🇭🇰_TG频道@baipiaoeverything_4
-      - 🇧🇬_TG频道@baipiaoeverything_5
-      - 🇯🇵_TG频道@baipiaoeverything_6
-      - 🇨🇳_TG频道@baipiaoeverything_7
-      - TG频道@baipiaoeverything_8
+      - TG频道@baipiaoeverything_2
+      - 🇺🇸_TG频道@baipiaoeverything_3
+      - 🇱🇺_TG频道@baipiaoeverything_4
+      - 🇨🇦_TG频道@baipiaoeverything_5
+      - 🇨🇳_TG频道@baipiaoeverything_6
+      - 🇺🇸_TG频道@baipiaoeverything_7
+      - 🇺🇸_TG频道@baipiaoeverything_8
       - 🇨🇳_TG频道@baipiaoeverything_9
-      - 🇺🇸_TG频道@baipiaoeverything_10
-      - 🇷🇺_TG频道@baipiaoeverything_11
-      - TG频道@baipiaoeverything_12
-      - 🇮🇩_TG频道@baipiaoeverything_13
-      - 🇬🇧_TG频道@baipiaoeverything_14
-      - 🇭🇰_TG频道@baipiaoeverything_15
-      - 🇨🇳_TG频道@baipiaoeverything_16
+      - 🇨🇳_TG频道@baipiaoeverything_10
+      - TG频道@baipiaoeverything_11
+      - 🇨🇳_TG频道@baipiaoeverything_12
+      - 🇨🇳_TG频道@baipiaoeverything_13
+      - 🇨🇳_TG频道@baipiaoeverything_14
+      - 🇺🇸_TG频道@baipiaoeverything_15
+      - TG频道@baipiaoeverything_16
       - 🇺🇸_TG频道@baipiaoeverything_17
-      - 🇹🇼_TG频道@baipiaoeverything_18
-      - 🇨🇳_TG频道@baipiaoeverything_19
-      - TG频道@baipiaoeverything_20
-      - 🇰🇷_TG频道@baipiaoeverything_21
-      - 🇨🇳_TG频道@baipiaoeverything_22
-      - 🇨🇳_TG频道@baipiaoeverything_23
-      - TG频道@baipiaoeverything_24
-      - TG频道@baipiaoeverything_25
-      - 🇭🇰_TG频道@baipiaoeverything_26
-      - 🇸🇬_TG频道@baipiaoeverything_27
-      - 🇸🇬_TG频道@baipiaoeverything_28
-      - TG频道@baipiaoeverything_29
-      - TG频道@baipiaoeverything_30
-      - 🇭🇰_TG频道@baipiaoeverything_31
-      - 🇺🇸_TG频道@baipiaoeverything_32
+      - 🇨🇳_TG频道@baipiaoeverything_18
+      - 🇭🇰_TG频道@baipiaoeverything_19
+      - 🇭🇰_TG频道@baipiaoeverything_20
+      - 🇨🇳_TG频道@baipiaoeverything_21
+      - 🇺🇸_TG频道@baipiaoeverything_22
+      - 🇺🇸_TG频道@baipiaoeverything_23
+      - 🇹🇼_TG频道@baipiaoeverything_24
+      - 🇨🇳_TG频道@baipiaoeverything_25
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 🇨🇳_TG频道@baipiaoeverything_1
-      - 🇹🇼_TG频道@baipiaoeverything_2
-      - 🇨🇳_TG频道@baipiaoeverything_3
-      - 🇭🇰_TG频道@baipiaoeverything_4
-      - 🇧🇬_TG频道@baipiaoeverything_5
-      - 🇯🇵_TG频道@baipiaoeverything_6
-      - 🇨🇳_TG频道@baipiaoeverything_7
-      - TG频道@baipiaoeverything_8
+      - TG频道@baipiaoeverything_2
+      - 🇺🇸_TG频道@baipiaoeverything_3
+      - 🇱🇺_TG频道@baipiaoeverything_4
+      - 🇨🇦_TG频道@baipiaoeverything_5
+      - 🇨🇳_TG频道@baipiaoeverything_6
+      - 🇺🇸_TG频道@baipiaoeverything_7
+      - 🇺🇸_TG频道@baipiaoeverything_8
       - 🇨🇳_TG频道@baipiaoeverything_9
-      - 🇺🇸_TG频道@baipiaoeverything_10
-      - 🇷🇺_TG频道@baipiaoeverything_11
-      - TG频道@baipiaoeverything_12
-      - 🇮🇩_TG频道@baipiaoeverything_13
-      - 🇬🇧_TG频道@baipiaoeverything_14
-      - 🇭🇰_TG频道@baipiaoeverything_15
-      - 🇨🇳_TG频道@baipiaoeverything_16
+      - 🇨🇳_TG频道@baipiaoeverything_10
+      - TG频道@baipiaoeverything_11
+      - 🇨🇳_TG频道@baipiaoeverything_12
+      - 🇨🇳_TG频道@baipiaoeverything_13
+      - 🇨🇳_TG频道@baipiaoeverything_14
+      - 🇺🇸_TG频道@baipiaoeverything_15
+      - TG频道@baipiaoeverything_16
       - 🇺🇸_TG频道@baipiaoeverything_17
-      - 🇹🇼_TG频道@baipiaoeverything_18
-      - 🇨🇳_TG频道@baipiaoeverything_19
-      - TG频道@baipiaoeverything_20
-      - 🇰🇷_TG频道@baipiaoeverything_21
-      - 🇨🇳_TG频道@baipiaoeverything_22
-      - 🇨🇳_TG频道@baipiaoeverything_23
-      - TG频道@baipiaoeverything_24
-      - TG频道@baipiaoeverything_25
-      - 🇭🇰_TG频道@baipiaoeverything_26
-      - 🇸🇬_TG频道@baipiaoeverything_27
-      - 🇸🇬_TG频道@baipiaoeverything_28
-      - TG频道@baipiaoeverything_29
-      - TG频道@baipiaoeverything_30
-      - 🇭🇰_TG频道@baipiaoeverything_31
-      - 🇺🇸_TG频道@baipiaoeverything_32
+      - 🇨🇳_TG频道@baipiaoeverything_18
+      - 🇭🇰_TG频道@baipiaoeverything_19
+      - 🇭🇰_TG频道@baipiaoeverything_20
+      - 🇨🇳_TG频道@baipiaoeverything_21
+      - 🇺🇸_TG频道@baipiaoeverything_22
+      - 🇺🇸_TG频道@baipiaoeverything_23
+      - 🇹🇼_TG频道@baipiaoeverything_24
+      - 🇨🇳_TG频道@baipiaoeverything_25
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - 🇨🇳_TG频道@baipiaoeverything_1
-      - 🇹🇼_TG频道@baipiaoeverything_2
-      - 🇨🇳_TG频道@baipiaoeverything_3
-      - 🇭🇰_TG频道@baipiaoeverything_4
-      - 🇧🇬_TG频道@baipiaoeverything_5
-      - 🇯🇵_TG频道@baipiaoeverything_6
-      - 🇨🇳_TG频道@baipiaoeverything_7
-      - TG频道@baipiaoeverything_8
+      - TG频道@baipiaoeverything_2
+      - 🇺🇸_TG频道@baipiaoeverything_3
+      - 🇱🇺_TG频道@baipiaoeverything_4
+      - 🇨🇦_TG频道@baipiaoeverything_5
+      - 🇨🇳_TG频道@baipiaoeverything_6
+      - 🇺🇸_TG频道@baipiaoeverything_7
+      - 🇺🇸_TG频道@baipiaoeverything_8
       - 🇨🇳_TG频道@baipiaoeverything_9
-      - 🇺🇸_TG频道@baipiaoeverything_10
-      - 🇷🇺_TG频道@baipiaoeverything_11
-      - TG频道@baipiaoeverything_12
-      - 🇮🇩_TG频道@baipiaoeverything_13
-      - 🇬🇧_TG频道@baipiaoeverything_14
-      - 🇭🇰_TG频道@baipiaoeverything_15
-      - 🇨🇳_TG频道@baipiaoeverything_16
+      - 🇨🇳_TG频道@baipiaoeverything_10
+      - TG频道@baipiaoeverything_11
+      - 🇨🇳_TG频道@baipiaoeverything_12
+      - 🇨🇳_TG频道@baipiaoeverything_13
+      - 🇨🇳_TG频道@baipiaoeverything_14
+      - 🇺🇸_TG频道@baipiaoeverything_15
+      - TG频道@baipiaoeverything_16
       - 🇺🇸_TG频道@baipiaoeverything_17
-      - 🇹🇼_TG频道@baipiaoeverything_18
-      - 🇨🇳_TG频道@baipiaoeverything_19
-      - TG频道@baipiaoeverything_20
-      - 🇰🇷_TG频道@baipiaoeverything_21
-      - 🇨🇳_TG频道@baipiaoeverything_22
-      - 🇨🇳_TG频道@baipiaoeverything_23
-      - TG频道@baipiaoeverything_24
-      - TG频道@baipiaoeverything_25
-      - 🇭🇰_TG频道@baipiaoeverything_26
-      - 🇸🇬_TG频道@baipiaoeverything_27
-      - 🇸🇬_TG频道@baipiaoeverything_28
-      - TG频道@baipiaoeverything_29
-      - TG频道@baipiaoeverything_30
-      - 🇭🇰_TG频道@baipiaoeverything_31
-      - 🇺🇸_TG频道@baipiaoeverything_32
+      - 🇨🇳_TG频道@baipiaoeverything_18
+      - 🇭🇰_TG频道@baipiaoeverything_19
+      - 🇭🇰_TG频道@baipiaoeverything_20
+      - 🇨🇳_TG频道@baipiaoeverything_21
+      - 🇺🇸_TG频道@baipiaoeverything_22
+      - 🇺🇸_TG频道@baipiaoeverything_23
+      - 🇹🇼_TG频道@baipiaoeverything_24
+      - 🇨🇳_TG频道@baipiaoeverything_25
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 🇨🇳_TG频道@baipiaoeverything_1
-      - 🇹🇼_TG频道@baipiaoeverything_2
-      - 🇨🇳_TG频道@baipiaoeverything_3
-      - 🇭🇰_TG频道@baipiaoeverything_4
-      - 🇧🇬_TG频道@baipiaoeverything_5
-      - 🇯🇵_TG频道@baipiaoeverything_6
-      - 🇨🇳_TG频道@baipiaoeverything_7
-      - TG频道@baipiaoeverything_8
+      - TG频道@baipiaoeverything_2
+      - 🇺🇸_TG频道@baipiaoeverything_3
+      - 🇱🇺_TG频道@baipiaoeverything_4
+      - 🇨🇦_TG频道@baipiaoeverything_5
+      - 🇨🇳_TG频道@baipiaoeverything_6
+      - 🇺🇸_TG频道@baipiaoeverything_7
+      - 🇺🇸_TG频道@baipiaoeverything_8
       - 🇨🇳_TG频道@baipiaoeverything_9
-      - 🇺🇸_TG频道@baipiaoeverything_10
-      - 🇷🇺_TG频道@baipiaoeverything_11
-      - TG频道@baipiaoeverything_12
-      - 🇮🇩_TG频道@baipiaoeverything_13
-      - 🇬🇧_TG频道@baipiaoeverything_14
-      - 🇭🇰_TG频道@baipiaoeverything_15
-      - 🇨🇳_TG频道@baipiaoeverything_16
+      - 🇨🇳_TG频道@baipiaoeverything_10
+      - TG频道@baipiaoeverything_11
+      - 🇨🇳_TG频道@baipiaoeverything_12
+      - 🇨🇳_TG频道@baipiaoeverything_13
+      - 🇨🇳_TG频道@baipiaoeverything_14
+      - 🇺🇸_TG频道@baipiaoeverything_15
+      - TG频道@baipiaoeverything_16
       - 🇺🇸_TG频道@baipiaoeverything_17
-      - 🇹🇼_TG频道@baipiaoeverything_18
-      - 🇨🇳_TG频道@baipiaoeverything_19
-      - TG频道@baipiaoeverything_20
-      - 🇰🇷_TG频道@baipiaoeverything_21
-      - 🇨🇳_TG频道@baipiaoeverything_22
-      - 🇨🇳_TG频道@baipiaoeverything_23
-      - TG频道@baipiaoeverything_24
-      - TG频道@baipiaoeverything_25
-      - 🇭🇰_TG频道@baipiaoeverything_26
-      - 🇸🇬_TG频道@baipiaoeverything_27
-      - 🇸🇬_TG频道@baipiaoeverything_28
-      - TG频道@baipiaoeverything_29
-      - TG频道@baipiaoeverything_30
-      - 🇭🇰_TG频道@baipiaoeverything_31
-      - 🇺🇸_TG频道@baipiaoeverything_32
+      - 🇨🇳_TG频道@baipiaoeverything_18
+      - 🇭🇰_TG频道@baipiaoeverything_19
+      - 🇭🇰_TG频道@baipiaoeverything_20
+      - 🇨🇳_TG频道@baipiaoeverything_21
+      - 🇺🇸_TG频道@baipiaoeverything_22
+      - 🇺🇸_TG频道@baipiaoeverything_23
+      - 🇹🇼_TG频道@baipiaoeverything_24
+      - 🇨🇳_TG频道@baipiaoeverything_25
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -285,37 +236,30 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🇨🇳_TG频道@baipiaoeverything_1
-      - 🇹🇼_TG频道@baipiaoeverything_2
-      - 🇨🇳_TG频道@baipiaoeverything_3
-      - 🇭🇰_TG频道@baipiaoeverything_4
-      - 🇧🇬_TG频道@baipiaoeverything_5
-      - 🇯🇵_TG频道@baipiaoeverything_6
-      - 🇨🇳_TG频道@baipiaoeverything_7
-      - TG频道@baipiaoeverything_8
+      - TG频道@baipiaoeverything_2
+      - 🇺🇸_TG频道@baipiaoeverything_3
+      - 🇱🇺_TG频道@baipiaoeverything_4
+      - 🇨🇦_TG频道@baipiaoeverything_5
+      - 🇨🇳_TG频道@baipiaoeverything_6
+      - 🇺🇸_TG频道@baipiaoeverything_7
+      - 🇺🇸_TG频道@baipiaoeverything_8
       - 🇨🇳_TG频道@baipiaoeverything_9
-      - 🇺🇸_TG频道@baipiaoeverything_10
-      - 🇷🇺_TG频道@baipiaoeverything_11
-      - TG频道@baipiaoeverything_12
-      - 🇮🇩_TG频道@baipiaoeverything_13
-      - 🇬🇧_TG频道@baipiaoeverything_14
-      - 🇭🇰_TG频道@baipiaoeverything_15
-      - 🇨🇳_TG频道@baipiaoeverything_16
+      - 🇨🇳_TG频道@baipiaoeverything_10
+      - TG频道@baipiaoeverything_11
+      - 🇨🇳_TG频道@baipiaoeverything_12
+      - 🇨🇳_TG频道@baipiaoeverything_13
+      - 🇨🇳_TG频道@baipiaoeverything_14
+      - 🇺🇸_TG频道@baipiaoeverything_15
+      - TG频道@baipiaoeverything_16
       - 🇺🇸_TG频道@baipiaoeverything_17
-      - 🇹🇼_TG频道@baipiaoeverything_18
-      - 🇨🇳_TG频道@baipiaoeverything_19
-      - TG频道@baipiaoeverything_20
-      - 🇰🇷_TG频道@baipiaoeverything_21
-      - 🇨🇳_TG频道@baipiaoeverything_22
-      - 🇨🇳_TG频道@baipiaoeverything_23
-      - TG频道@baipiaoeverything_24
-      - TG频道@baipiaoeverything_25
-      - 🇭🇰_TG频道@baipiaoeverything_26
-      - 🇸🇬_TG频道@baipiaoeverything_27
-      - 🇸🇬_TG频道@baipiaoeverything_28
-      - TG频道@baipiaoeverything_29
-      - TG频道@baipiaoeverything_30
-      - 🇭🇰_TG频道@baipiaoeverything_31
-      - 🇺🇸_TG频道@baipiaoeverything_32
+      - 🇨🇳_TG频道@baipiaoeverything_18
+      - 🇭🇰_TG频道@baipiaoeverything_19
+      - 🇭🇰_TG频道@baipiaoeverything_20
+      - 🇨🇳_TG频道@baipiaoeverything_21
+      - 🇺🇸_TG频道@baipiaoeverything_22
+      - 🇺🇸_TG频道@baipiaoeverything_23
+      - 🇹🇼_TG频道@baipiaoeverything_24
+      - 🇨🇳_TG频道@baipiaoeverything_25
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
