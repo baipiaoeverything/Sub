@@ -11,17 +11,17 @@ server=1.0.0.1
 server=8.8.8.8
 
 [policy]
-static=🚀 节点选择, ♻️ 自动选择, DIRECT, TG频道@baipiaoeverything_1, TG频道@baipiaoeverything_2, TG频道@baipiaoeverything_3, TG频道@baipiaoeverything_4, TG频道@baipiaoeverything_5, TG频道@baipiaoeverything_6, TG频道@baipiaoeverything_7
-url-latency-benchmark=♻️ 自动选择, TG频道@baipiaoeverything_1, TG频道@baipiaoeverything_2, TG频道@baipiaoeverything_3, TG频道@baipiaoeverything_4, TG频道@baipiaoeverything_5, TG频道@baipiaoeverything_6, TG频道@baipiaoeverything_7, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Auto.png
-static=🌍 国外媒体, 🚀 节点选择, ♻️ 自动选择, 🎯 全球直连, TG频道@baipiaoeverything_1, TG频道@baipiaoeverything_2, TG频道@baipiaoeverything_3, TG频道@baipiaoeverything_4, TG频道@baipiaoeverything_5, TG频道@baipiaoeverything_6, TG频道@baipiaoeverything_7, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/GlobalMedia.png
-static=📲 电报信息, 🚀 节点选择, 🎯 全球直连, TG频道@baipiaoeverything_1, TG频道@baipiaoeverything_2, TG频道@baipiaoeverything_3, TG频道@baipiaoeverything_4, TG频道@baipiaoeverything_5, TG频道@baipiaoeverything_6, TG频道@baipiaoeverything_7, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Telegram.png
-static=Ⓜ️ 微软服务, 🎯 全球直连, 🚀 节点选择, TG频道@baipiaoeverything_1, TG频道@baipiaoeverything_2, TG频道@baipiaoeverything_3, TG频道@baipiaoeverything_4, TG频道@baipiaoeverything_5, TG频道@baipiaoeverything_6, TG频道@baipiaoeverything_7, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Microsoft.png
-static=🍎 苹果服务, 🚀 节点选择, 🎯 全球直连, TG频道@baipiaoeverything_1, TG频道@baipiaoeverything_2, TG频道@baipiaoeverything_3, TG频道@baipiaoeverything_4, TG频道@baipiaoeverything_5, TG频道@baipiaoeverything_6, TG频道@baipiaoeverything_7, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Apple.png
-static=📢 谷歌FCM, 🚀 节点选择, 🎯 全球直连, ♻️ 自动选择, TG频道@baipiaoeverything_1, TG频道@baipiaoeverything_2, TG频道@baipiaoeverything_3, TG频道@baipiaoeverything_4, TG频道@baipiaoeverything_5, TG频道@baipiaoeverything_6, TG频道@baipiaoeverything_7
+static=🚀 节点选择, ♻️ 自动选择, DIRECT, TG频道@baipiaoeverything_1, TG频道@baipiaoeverything_2, TG频道@baipiaoeverything_3, TG频道@baipiaoeverything_4, TG频道@baipiaoeverything_5, TG频道@baipiaoeverything_6
+url-latency-benchmark=♻️ 自动选择, TG频道@baipiaoeverything_1, TG频道@baipiaoeverything_2, TG频道@baipiaoeverything_3, TG频道@baipiaoeverything_4, TG频道@baipiaoeverything_5, TG频道@baipiaoeverything_6, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Auto.png
+static=🌍 国外媒体, 🚀 节点选择, ♻️ 自动选择, 🎯 全球直连, TG频道@baipiaoeverything_1, TG频道@baipiaoeverything_2, TG频道@baipiaoeverything_3, TG频道@baipiaoeverything_4, TG频道@baipiaoeverything_5, TG频道@baipiaoeverything_6, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/GlobalMedia.png
+static=📲 电报信息, 🚀 节点选择, 🎯 全球直连, TG频道@baipiaoeverything_1, TG频道@baipiaoeverything_2, TG频道@baipiaoeverything_3, TG频道@baipiaoeverything_4, TG频道@baipiaoeverything_5, TG频道@baipiaoeverything_6, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Telegram.png
+static=Ⓜ️ 微软服务, 🎯 全球直连, 🚀 节点选择, TG频道@baipiaoeverything_1, TG频道@baipiaoeverything_2, TG频道@baipiaoeverything_3, TG频道@baipiaoeverything_4, TG频道@baipiaoeverything_5, TG频道@baipiaoeverything_6, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Microsoft.png
+static=🍎 苹果服务, 🚀 节点选择, 🎯 全球直连, TG频道@baipiaoeverything_1, TG频道@baipiaoeverything_2, TG频道@baipiaoeverything_3, TG频道@baipiaoeverything_4, TG频道@baipiaoeverything_5, TG频道@baipiaoeverything_6, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Apple.png
+static=📢 谷歌FCM, 🚀 节点选择, 🎯 全球直连, ♻️ 自动选择, TG频道@baipiaoeverything_1, TG频道@baipiaoeverything_2, TG频道@baipiaoeverything_3, TG频道@baipiaoeverything_4, TG频道@baipiaoeverything_5, TG频道@baipiaoeverything_6
 static=🎯 全球直连, DIRECT, 🚀 节点选择, ♻️ 自动选择, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Direct.png
 static=🛑 全球拦截, REJECT, DIRECT, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Advertising.png
 static=🍃 应用净化, REJECT, DIRECT
-static=🐟 漏网之鱼, 🚀 节点选择, 🎯 全球直连, ♻️ 自动选择, TG频道@baipiaoeverything_1, TG频道@baipiaoeverything_2, TG频道@baipiaoeverything_3, TG频道@baipiaoeverything_4, TG频道@baipiaoeverything_5, TG频道@baipiaoeverything_6, TG频道@baipiaoeverything_7, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Final.png
+static=🐟 漏网之鱼, 🚀 节点选择, 🎯 全球直连, ♻️ 自动选择, TG频道@baipiaoeverything_1, TG频道@baipiaoeverything_2, TG频道@baipiaoeverything_3, TG频道@baipiaoeverything_4, TG频道@baipiaoeverything_5, TG频道@baipiaoeverything_6, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Final.png
 
 [server_remote]
 
@@ -30,13 +30,12 @@ static=🐟 漏网之鱼, 🚀 节点选择, 🎯 全球直连, ♻️ 自动选
 [rewrite_remote]
 
 [server_local]
-trojan = 121.78.213.3:443, password=ZRYSly2IRuFlgpZCaep3Ey3DDXqTDczO04aeC8F36OjaYSCABnA573wN8xxK9S, over-tls=true, tls-host=httah.freetrade.link, tls13=false, fast-open=false, udp-relay=false, tls-verification=true, tag=TG频道@baipiaoeverything_1
-shadowsocks = iepl3.dcnode.me:10043, method=aes-128-gcm, password=2daf156a-b9ee-4671-913a-4339ddd39021, fast-open=false, udp-relay=false, tag=TG频道@baipiaoeverything_2
-shadowsocks = iepl10.dcnode.me:10050, method=aes-128-gcm, password=2daf156a-b9ee-4671-913a-4339ddd39021, fast-open=false, udp-relay=false, tag=TG频道@baipiaoeverything_3
-vmess = sg1.sanfen001.pics:443, method=chacha20-ietf-poly1305, password=3a9a4584-b778-45d2-b4b9-fe84c4e93266, aead=true, obfs=ws, obfs-host=%7B%22Host%22:%22www.microsoft.com%22%7D, obfs-uri=/zh-cn, fast-open=false, udp-relay=false, tag=TG频道@baipiaoeverything_4
-vmess = li.big234.com:8443, method=chacha20-ietf-poly1305, password=213e783a-2074-4aef-b6d9-2ac6d4d0dc04, aead=true, fast-open=false, udp-relay=false, tag=TG频道@baipiaoeverything_5
-trojan = 110.80.3.48:61001, password=da9b5805-3d06-40b5-819e-873350d50508, over-tls=true, tls-host=65-108-102-32.nhost.00cdn.com, tls13=false, fast-open=false, udp-relay=false, tls-verification=true, tag=TG频道@baipiaoeverything_6
-vmess = jp2.sanfen001.pics:443, method=chacha20-ietf-poly1305, password=3a9a4584-b778-45d2-b4b9-fe84c4e93266, aead=true, obfs=ws, obfs-host=%7B%22Host%22:%22www.microsoft.com%22%7D, obfs-uri=/zh-cn, fast-open=false, udp-relay=false, tag=TG频道@baipiaoeverything_7
+shadowsocks = iepl10.dcnode.me:10050, method=aes-128-gcm, password=2daf156a-b9ee-4671-913a-4339ddd39021, fast-open=false, udp-relay=false, tag=TG频道@baipiaoeverything_1
+vmess = li.big234.com:8443, method=chacha20-ietf-poly1305, password=213e783a-2074-4aef-b6d9-2ac6d4d0dc04, aead=true, fast-open=false, udp-relay=false, tag=TG频道@baipiaoeverything_2
+shadowsocks = sg-am3.eqsunshine.com:32001, method=aes-256-cfb, password=3g0dHlKME, ssr-protocol=origin, obfs=tls1.2_ticket_auth, fast-open=false, udp-relay=false, tag=TG频道@baipiaoeverything_3
+vmess = 155.248.176.211:443, method=chacha20-ietf-poly1305, password=84e46faf-7d89-43af-8bd9-01b41fc1ddce, aead=true, obfs=ws, obfs-host=155.248.176.211, obfs-uri=/0cc651aee76c7/, fast-open=false, udp-relay=false, tag=TG频道@baipiaoeverything_4
+shadowsocks = iepl3.dcnode.me:10043, method=aes-128-gcm, password=2daf156a-b9ee-4671-913a-4339ddd39021, fast-open=false, udp-relay=false, tag=TG频道@baipiaoeverything_5
+vmess = jp2.sanfen001.pics:443, method=chacha20-ietf-poly1305, password=3a9a4584-b778-45d2-b4b9-fe84c4e93266, aead=true, obfs=ws, obfs-host=%7B%22Host%22:%22www.microsoft.com%22%7D, obfs-uri=/zh-cn, fast-open=false, udp-relay=false, tag=TG频道@baipiaoeverything_6
 
 [filter_local]
 DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连

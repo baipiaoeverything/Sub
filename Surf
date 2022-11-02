@@ -11,26 +11,24 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-TG频道@baipiaoeverything_1 = trojan, 121.78.213.3, 443, password=ZRYSly2IRuFlgpZCaep3Ey3DDXqTDczO04aeC8F36OjaYSCABnA573wN8xxK9S, sni=httah.freetrade.link, skip-cert-verify=false, tfo=false, udp-relay=false
-TG频道@baipiaoeverything_2 = ss, iepl3.dcnode.me, 10043, encrypt-method=aes-128-gcm, password=2daf156a-b9ee-4671-913a-4339ddd39021, tfo=false, udp-relay=false
-TG频道@baipiaoeverything_3 = ss, iepl10.dcnode.me, 10050, encrypt-method=aes-128-gcm, password=2daf156a-b9ee-4671-913a-4339ddd39021, tfo=false, udp-relay=false
-TG频道@baipiaoeverything_4 = vmess, sg1.sanfen001.pics, 443, username=3a9a4584-b778-45d2-b4b9-fe84c4e93266, tls=false, vmess-aead=true, ws=true, ws-path=/zh-cn, sni=sg1.sanfen001.pics, ws-headers=Host:%7B%22Host%22:%22www.microsoft.com%22%7D, skip-cert-verify=false, tfo=false, udp-relay=false
-TG频道@baipiaoeverything_5 = vmess, li.big234.com, 8443, username=213e783a-2074-4aef-b6d9-2ac6d4d0dc04, tls=false, vmess-aead=true, skip-cert-verify=false, tfo=false, udp-relay=false
-TG频道@baipiaoeverything_6 = trojan, 110.80.3.48, 61001, password=da9b5805-3d06-40b5-819e-873350d50508, sni=65-108-102-32.nhost.00cdn.com, skip-cert-verify=false, tfo=false, udp-relay=false
-TG频道@baipiaoeverything_7 = vmess, jp2.sanfen001.pics, 443, username=3a9a4584-b778-45d2-b4b9-fe84c4e93266, tls=false, vmess-aead=true, ws=true, ws-path=/zh-cn, sni=jp2.sanfen001.pics, ws-headers=Host:%7B%22Host%22:%22www.microsoft.com%22%7D, skip-cert-verify=false, tfo=false, udp-relay=false
+TG频道@baipiaoeverything_1 = ss, iepl10.dcnode.me, 10050, encrypt-method=aes-128-gcm, password=2daf156a-b9ee-4671-913a-4339ddd39021, tfo=false, udp-relay=false
+TG频道@baipiaoeverything_2 = vmess, li.big234.com, 8443, username=213e783a-2074-4aef-b6d9-2ac6d4d0dc04, tls=false, vmess-aead=true, skip-cert-verify=false, tfo=false, udp-relay=false
+TG频道@baipiaoeverything_4 = vmess, 155.248.176.211, 443, username=84e46faf-7d89-43af-8bd9-01b41fc1ddce, tls=false, vmess-aead=true, ws=true, ws-path=/0cc651aee76c7/, sni=155.248.176.211, ws-headers=Host:155.248.176.211, skip-cert-verify=false, tfo=false, udp-relay=false
+TG频道@baipiaoeverything_5 = ss, iepl3.dcnode.me, 10043, encrypt-method=aes-128-gcm, password=2daf156a-b9ee-4671-913a-4339ddd39021, tfo=false, udp-relay=false
+TG频道@baipiaoeverything_6 = vmess, jp2.sanfen001.pics, 443, username=3a9a4584-b778-45d2-b4b9-fe84c4e93266, tls=false, vmess-aead=true, ws=true, ws-path=/zh-cn, sni=jp2.sanfen001.pics, ws-headers=Host:%7B%22Host%22:%22www.microsoft.com%22%7D, skip-cert-verify=false, tfo=false, udp-relay=false
 
 [Proxy Group]
-🚀 节点选择 = select,♻️ 自动选择,DIRECT,TG频道@baipiaoeverything_1,TG频道@baipiaoeverything_2,TG频道@baipiaoeverything_3,TG频道@baipiaoeverything_4,TG频道@baipiaoeverything_5,TG频道@baipiaoeverything_6,TG频道@baipiaoeverything_7
-♻️ 自动选择 = url-test,TG频道@baipiaoeverything_1,TG频道@baipiaoeverything_2,TG频道@baipiaoeverything_3,TG频道@baipiaoeverything_4,TG频道@baipiaoeverything_5,TG频道@baipiaoeverything_6,TG频道@baipiaoeverything_7,url=http://www.gstatic.com/generate_204,interval=300,tolerance=50
-🌍 国外媒体 = select,🚀 节点选择,♻️ 自动选择,🎯 全球直连,TG频道@baipiaoeverything_1,TG频道@baipiaoeverything_2,TG频道@baipiaoeverything_3,TG频道@baipiaoeverything_4,TG频道@baipiaoeverything_5,TG频道@baipiaoeverything_6,TG频道@baipiaoeverything_7
-📲 电报信息 = select,🚀 节点选择,🎯 全球直连,TG频道@baipiaoeverything_1,TG频道@baipiaoeverything_2,TG频道@baipiaoeverything_3,TG频道@baipiaoeverything_4,TG频道@baipiaoeverything_5,TG频道@baipiaoeverything_6,TG频道@baipiaoeverything_7
-Ⓜ️ 微软服务 = select,🎯 全球直连,🚀 节点选择,TG频道@baipiaoeverything_1,TG频道@baipiaoeverything_2,TG频道@baipiaoeverything_3,TG频道@baipiaoeverything_4,TG频道@baipiaoeverything_5,TG频道@baipiaoeverything_6,TG频道@baipiaoeverything_7
-🍎 苹果服务 = select,🚀 节点选择,🎯 全球直连,TG频道@baipiaoeverything_1,TG频道@baipiaoeverything_2,TG频道@baipiaoeverything_3,TG频道@baipiaoeverything_4,TG频道@baipiaoeverything_5,TG频道@baipiaoeverything_6,TG频道@baipiaoeverything_7
-📢 谷歌FCM = select,🚀 节点选择,🎯 全球直连,♻️ 自动选择,TG频道@baipiaoeverything_1,TG频道@baipiaoeverything_2,TG频道@baipiaoeverything_3,TG频道@baipiaoeverything_4,TG频道@baipiaoeverything_5,TG频道@baipiaoeverything_6,TG频道@baipiaoeverything_7
+🚀 节点选择 = select,♻️ 自动选择,DIRECT,TG频道@baipiaoeverything_1,TG频道@baipiaoeverything_2,TG频道@baipiaoeverything_4,TG频道@baipiaoeverything_5,TG频道@baipiaoeverything_6
+♻️ 自动选择 = url-test,TG频道@baipiaoeverything_1,TG频道@baipiaoeverything_2,TG频道@baipiaoeverything_4,TG频道@baipiaoeverything_5,TG频道@baipiaoeverything_6,url=http://www.gstatic.com/generate_204,interval=300,tolerance=50
+🌍 国外媒体 = select,🚀 节点选择,♻️ 自动选择,🎯 全球直连,TG频道@baipiaoeverything_1,TG频道@baipiaoeverything_2,TG频道@baipiaoeverything_4,TG频道@baipiaoeverything_5,TG频道@baipiaoeverything_6
+📲 电报信息 = select,🚀 节点选择,🎯 全球直连,TG频道@baipiaoeverything_1,TG频道@baipiaoeverything_2,TG频道@baipiaoeverything_4,TG频道@baipiaoeverything_5,TG频道@baipiaoeverything_6
+Ⓜ️ 微软服务 = select,🎯 全球直连,🚀 节点选择,TG频道@baipiaoeverything_1,TG频道@baipiaoeverything_2,TG频道@baipiaoeverything_4,TG频道@baipiaoeverything_5,TG频道@baipiaoeverything_6
+🍎 苹果服务 = select,🚀 节点选择,🎯 全球直连,TG频道@baipiaoeverything_1,TG频道@baipiaoeverything_2,TG频道@baipiaoeverything_4,TG频道@baipiaoeverything_5,TG频道@baipiaoeverything_6
+📢 谷歌FCM = select,🚀 节点选择,🎯 全球直连,♻️ 自动选择,TG频道@baipiaoeverything_1,TG频道@baipiaoeverything_2,TG频道@baipiaoeverything_4,TG频道@baipiaoeverything_5,TG频道@baipiaoeverything_6
 🎯 全球直连 = select,DIRECT,🚀 节点选择,♻️ 自动选择
 🛑 全球拦截 = select,REJECT,DIRECT
 🍃 应用净化 = select,REJECT,DIRECT
-🐟 漏网之鱼 = select,🚀 节点选择,🎯 全球直连,♻️ 自动选择,TG频道@baipiaoeverything_1,TG频道@baipiaoeverything_2,TG频道@baipiaoeverything_3,TG频道@baipiaoeverything_4,TG频道@baipiaoeverything_5,TG频道@baipiaoeverything_6,TG频道@baipiaoeverything_7
+🐟 漏网之鱼 = select,🚀 节点选择,🎯 全球直连,♻️ 自动选择,TG频道@baipiaoeverything_1,TG频道@baipiaoeverything_2,TG频道@baipiaoeverything_4,TG频道@baipiaoeverything_5,TG频道@baipiaoeverything_6
 
 [Rule]
 DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
