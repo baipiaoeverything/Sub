@@ -4,27 +4,278 @@ mode: rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-- type: trojan
-  name: 🇸🇬TG频道@baipiaoeverything_1
-  server: sgmax06.170203.xyz
-  port: '10000'
-  password: 9e8045d5-a92b-4041-ae12-7f6bb13a1857
-  sni: sgmax06.170203.xyz
-  skip-cert-verify: true
 - type: vmess
-  name: 🇭🇰TG频道@baipiaoeverything_2
-  http-opts:
-    path:
-    - /
-  server: 47.242.243.218
-  port: '48471'
-  uuid: 7daf0d3d-8c74-4f46-8912-fbf59be05e39
+  name: 🇦🇶TG频道@baipiaoeverything_1
+  server: 198.41.212.122
+  port: 443
+  uuid: fcfaec91-6096-44d8-956c-7868d9e874b1
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: ws
+  tls: true
+  ws-opts:
+    path: /ray
+    headers:
+      Host: lg1.cfcdn1.xyz
+- type: vmess
+  name: 🇦🇶TG频道@baipiaoeverything_2
+  ws-opts:
+    path: /dongtaiwang.com
+    headers:
+      host: clash6.ssr-free.xyz
+  server: 141.101.115.140
+  port: '443'
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
   alterId: '0'
   cipher: auto
-  network: http
+  network: ws
+  tls: true
+- type: trojan
+  name: 🇨🇳TG频道@baipiaoeverything_3
+  server: client.asucaeva.net
+  port: '31003'
+  password: 3a06a53d-9969-4490-b34b-9d6c56a1b3e2
+  sni: colagzcm.jumpwallsocks.online
+  skip-cert-verify: true
 - type: vmess
-  name: 🇭🇰TG频道@baipiaoeverything_3
-  server: 8.218.68.183
+  name: 🇦🇶TG频道@baipiaoeverything_4
+  server: 141.101.114.133
+  port: 443
+  uuid: fcfaec91-6096-44d8-956c-7868d9e874b1
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: ws
+  tls: true
+  ws-opts:
+    path: /ray
+    headers:
+      Host: lg1.cfcdn1.xyz
+- type: vmess
+  name: 🇦🇶TG频道@baipiaoeverything_5
+  server: 198.41.212.150
+  port: 443
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: ws
+  tls: true
+  ws-opts:
+    path: /dongtaiwang.com
+    headers:
+      Host: clash6.ssr-free.xyz
+- type: vmess
+  name: 🇺🇸TG频道@baipiaoeverything_6
+  server: 46.72img.xyz
+  port: 443
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: ws
+  tls: true
+  ws-opts:
+    path: /
+    headers:
+      Host: 46.72img.xyz
+- type: vmess
+  name: 🇰🇷TG频道@baipiaoeverything_7
+  server: 146.56.149.205
+  port: 443
+  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: ws
+  tls: true
+  ws-opts:
+    path: /ray
+    headers:
+      Host: lg30.cfcdn3.xyz
+- name: 🇨🇳TG频道@baipiaoeverything_8
+  server: official.taipeicitygovernment.dp.ua
+  type: trojan
+  country: 🇨🇳CN
+  port: 8443
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  skip-cert-verify: true
+  udp: true
+- name: 🇯🇵TG频道@baipiaoeverything_9
+  server: jp-am48-6.eqnode.net
+  port: 8081
+  type: ssr
+  password: eAokbaDN6
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: tls1.2_ticket_auth
+- type: trojan
+  name: 🇨🇳TG频道@baipiaoeverything_10
+  server: official.taipeicitygovernment.co.ua
+  port: '8443'
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  sni: 207.148.100.75
+  skip-cert-verify: true
+- type: vmess
+  name: 🇺🇸TG频道@baipiaoeverything_11
+  server: mgny2.xbywwcp.us
+  port: 80
+  uuid: 5455ca11-c8d3-3231-b0c6-45c739786b2a
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /by.xbygood.xyz
+    headers:
+      Host: a.189.cn
+- type: vmess
+  name: 🇭🇰TG频道@baipiaoeverything_12
+  server: 47.242.61.125
+  port: 51784
+  uuid: 431c4c01-b596-4d12-a9e6-4f7f21fe82ba
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: http
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: 47.242.61.125
+- type: ss
+  name: 🇫🇮TG频道@baipiaoeverything_13
+  server: 135.181.114.242
+  port: '8478'
+  cipher: chacha20-ietf-poly1305
+  password: siF98xBL2v1i
+- type: trojan
+  name: 🇨🇳TG频道@baipiaoeverything_14
+  server: official.taipeicitygovernment.biz.ua
+  port: '8443'
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  sni: 45.32.28.232
+  skip-cert-verify: true
+- type: vmess
+  name: 🇮🇳TG频道@baipiaoeverything_15
+  server: 144.24.147.51
+  port: 443
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: ws
+  tls: true
+  ws-opts:
+    path: /
+    headers:
+      Host: 144.24.147.51
+- type: vmess
+  name: 🇮🇳TG频道@baipiaoeverything_16
+  server: 140.238.249.80
+  port: 443
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: ws
+  tls: true
+  ws-opts:
+    path: /
+    headers:
+      Host: 140.238.249.80
+- type: vmess
+  name: 🇱🇦TG频道@baipiaoeverything_17
+  server: 8.218.83.148
+  port: 63239
+  uuid: bc035c93-4a47-4f06-8833-fadc03527539
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: http
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: 8.218.83.148
+- type: vmess
+  name: 🇺🇸TG频道@baipiaoeverything_18
+  server: 30.72img.xyz
+  port: 443
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: ws
+  tls: true
+  ws-opts:
+    path: /
+    headers:
+      Host: 30.72img.xyz
+- name: 🇨🇳TG频道@baipiaoeverything_19
+  server: 183.245.7.164
+  port: 15101
+  type: ssr
+  cipher: chacha20-ietf
+  password: NaikoCloud
+  protocol: auth_aes128_md5
+  obfs: http_simple
+  protocol-param: 192:OJEfxaXO8eV6CmUr
+  obfs-param: f97a2192.microsoft.com
+- type: vmess
+  name: 🇩🇪TG频道@baipiaoeverything_20
+  server: 130.162.42.184
+  port: 443
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: ws
+  tls: true
+  ws-opts:
+    path: /
+    headers:
+      Host: 130.162.42.184
+- type: trojan
+  name: 🇺🇸TG频道@baipiaoeverything_21
+  server: 23-175-144-141.nhost.00cdn.com
+  port: '8443'
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  sni: government.kbservice.club
+  skip-cert-verify: true
+- type: vmess
+  name: 🇺🇸TG频道@baipiaoeverything_22
+  server: cf.fovi.tk
+  port: 2053
+  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: ws
+  tls: true
+  ws-opts:
+    path: /eisasqa
+    headers:
+      Host: foxuk.fovi.tk
+- type: vmess
+  name: 🇷🇺TG频道@baipiaoeverything_23
+  server: 51.75.70.34
+  port: 443
+  uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: ws
+  tls: true
+  ws-opts:
+    path: /dongtaiwang.com
+    headers:
+      Host: clash1.trump2023.net
+- type: vmess
+  name: 🇭🇰TG频道@baipiaoeverything_24
+  server: 167.179.32.53
   port: 443
   uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
   alterId: 0
@@ -37,33 +288,143 @@ proxies:
     headers:
       Host: lg30.cfcdn3.xyz
 - type: vmess
-  name: 🇦🇶TG频道@baipiaoeverything_4
-  ws-opts:
-    path: /dongtaiwang.com
-    headers:
-      host: clash6.ssr-free.xyz
-  server: 141.101.114.102
-  port: '443'
-  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
-  alterId: '0'
-  cipher: auto
-  network: ws
-  tls: true
-- type: vmess
-  name: 🇺🇸TG频道@baipiaoeverything_5
-  server: 66.212.20.3
+  name: 🇦🇶TG频道@baipiaoeverything_25
+  server: 198.41.203.6
   port: 443
-  uuid: 0479eb9d-999d-4bff-ae3f-4f7cc440ce46
+  uuid: f33957e8-372e-4fba-99ed-f4db32cce9e5
   alterId: 0
   cipher: auto
   skip-cert-verify: true
   network: ws
   tls: true
   ws-opts:
+    path: /ray
+    headers:
+      Host: fr2.cfcdn4.xyz
+- name: 🇭🇰TG频道@baipiaoeverything_26
+  server: 8.218.86.250
+  type: vmess
+  country: 🇸🇬SG
+  port: 22362
+  uuid: 72356bf7-487b-42c0-a7f2-845136b33503
+  alterId: 0
+  cipher: auto
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - /
+  h2-opts: {}
+  skip-cert-verify: true
+- type: vmess
+  name: 🇮🇳TG频道@baipiaoeverything_27
+  server: 155.248.241.52
+  port: 443
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: ws
+  tls: true
+  ws-opts:
+    path: /
+    headers:
+      Host: 155.248.241.52
+- type: vmess
+  name: 🇹🇼TG频道@baipiaoeverything_28
+  server: 211.72.35.110
+  port: 443
+  uuid: 541ca026-58d3-48f1-d6ef-3a05543ddcb7
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: ws
+  tls: true
+  ws-opts:
+    path: /
+    headers:
+      Host: ru.tzccifq.ga
+- type: vmess
+  name: 🇦🇶TG频道@baipiaoeverything_29
+  server: 141.101.115.111
+  port: 443
+  uuid: f33957e8-372e-4fba-99ed-f4db32cce9e5
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: ws
+  tls: true
+  ws-opts:
+    path: /ray
+    headers:
+      Host: fr2.cfcdn4.xyz
+- type: ss
+  name: 🇨🇳TG频道@baipiaoeverything_30
+  server: clientss.asucaeva.net
+  port: '42002'
+  cipher: chacha20-ietf-poly1305
+  password: 3a06a53d-9969-4490-b34b-9d6c56a1b3e2
+- name: 🇭🇰TG频道@baipiaoeverything_31
+  server: 8.218.63.184
+  type: vmess
+  country: 🇸🇬SG
+  port: 20113
+  uuid: cdc72c7d-6ab8-4cb4-a0f7-18b0ec7bfbfa
+  alterId: 0
+  cipher: auto
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - /
+  h2-opts: {}
+  skip-cert-verify: true
+- type: trojan
+  name: 🇨🇳TG频道@baipiaoeverything_32
+  server: official.taipeicitygovernment.cn.ua
+  port: '8443'
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  sni: 202.182.124.121
+  skip-cert-verify: true
+- type: vmess
+  name: 🇻🇳TG频道@baipiaoeverything_33
+  server: 103.153.64.8
+  port: 80
+  uuid: 3102c0c7-ef08-442f-aa5e-220dacad1038
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /vpngiare.net
+    headers:
+      Host: 103.153.64.8
+- type: vmess
+  name: 🇦🇶TG频道@baipiaoeverything_34
+  ws-opts:
     path: /dongtaiwang.com
     headers:
-      Host: v2ray2.ssr-free2.xyz
-- name: 🇭🇰TG频道@baipiaoeverything_6
+      host: lg1.cfcdn3.xyz
+  server: 198.41.203.3
+  port: '443'
+  uuid: 33aa57df-1c93-4318-9fce-e850437ee781
+  alterId: '0'
+  cipher: auto
+  network: ws
+  tls: true
+- type: vmess
+  name: 🇭🇰TG频道@baipiaoeverything_35
+  http-opts:
+    path:
+    - /
+  server: 47.243.36.34
+  port: '55986'
+  uuid: 87ed289f-cae3-49b4-bbe3-23da298c0e81
+  alterId: '0'
+  cipher: auto
+  network: http
+- name: 🇭🇰TG频道@baipiaoeverything_36
   server: 47.242.205.255
   type: vmess
   country: 🇺🇸US
@@ -79,37 +440,8 @@ proxies:
   h2-opts: {}
   skip-cert-verify: true
 - type: vmess
-  name: 🇺🇸TG频道@baipiaoeverything_7
-  server: 70.34.252.176
-  port: 8081
-  uuid: 984ff24e-2bbb-4461-a761-bf8ccb77b80d
-  alterId: 0
-  cipher: auto
-  skip-cert-verify: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: 70.34.252.176
-- name: 🇭🇰TG频道@baipiaoeverything_8
-  server: 8.218.73.227
-  type: vmess
-  country: 🇸🇬SG
-  port: 58641
-  uuid: 4821f5d8-dc31-4bb4-811c-8babcb8aec1a
-  alterId: 0
-  cipher: auto
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /
-  h2-opts: {}
-  skip-cert-verify: true
-- type: vmess
-  name: 🇩🇪TG频道@baipiaoeverything_9
-  server: 130.162.42.184
+  name: 🇺🇸TG频道@baipiaoeverything_37
+  server: 34.72img.xyz
   port: 443
   uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
   alterId: 0
@@ -120,23 +452,65 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: 130.162.42.184
+      Host: 34.72img.xyz
+- type: trojan
+  name: 🇨🇳TG频道@baipiaoeverything_38
+  server: oss-cn-shanghai.westdatacloud.xyz
+  port: 20048
+  password: 30030B00-A596-87B4-965A-511CD7E05351
+  udp: true
+  skip-cert-verify: true
 - type: vmess
-  name: 🇺🇸TG频道@baipiaoeverything_10
-  server: webz.kandimiz.online
-  port: 2095
-  uuid: 69609339-6b9b-4f82-ef47-eab72af6b34b
+  name: 🇦🇶TG频道@baipiaoeverything_39
+  server: uicdn.cf
+  port: 80
+  uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
   alterId: 0
   cipher: auto
   skip-cert-verify: true
   network: ws
   tls: false
   ws-opts:
-    path: webz.kandimiz.online
+    path: /sshkit/1736960111/635cb6dd4206c/
     headers:
-      Host: webz.kandimiz.online
-- name: 🇺🇸TG频道@baipiaoeverything_11
-  server: 30.72img.xyz
+      Host: sg3-v2ray.sshkit.org
+- type: vmess
+  name: 🇺🇸TG频道@baipiaoeverything_40
+  server: 100.42.78.170
+  port: 443
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: ws
+  tls: true
+  ws-opts:
+    path: /
+    headers:
+      Host: 100.42.78.170
+- type: trojan
+  name: 🇨🇳TG频道@baipiaoeverything_41
+  server: official.taipeicitygovernment.kiev.ua
+  port: '8443'
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  sni: 66.42.40.132
+  skip-cert-verify: true
+- type: vmess
+  name: 🇺🇸TG频道@baipiaoeverything_42
+  server: 172.64.152.150
+  port: 443
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: ws
+  tls: true
+  ws-opts:
+    path: /dongtaiwang.com
+    headers:
+      Host: clash6.ssr-free.xyz
+- name: 🇺🇸TG频道@baipiaoeverything_43
+  server: 14.72img.xyz
   type: vmess
   country: 🇺🇸US
   port: 443
@@ -150,8 +524,152 @@ proxies:
   tls: true
   skip-cert-verify: true
 - type: vmess
-  name: 🇬🇧TG频道@baipiaoeverything_12
-  server: 198.244.148.214
+  name: 🇦🇶TG频道@baipiaoeverything_44
+  server: 141.101.114.102
+  port: 443
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: ws
+  tls: true
+  ws-opts:
+    path: /dongtaiwang.com
+    headers:
+      Host: clash6.ssr-free.xyz
+- type: vmess
+  name: 🇦🇶TG频道@baipiaoeverything_45
+  server: 198.41.212.144
+  port: 443
+  uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: ws
+  tls: true
+  ws-opts:
+    path: /dongtaiwang.com
+    headers:
+      Host: clash1.trump2023.net
+- name: 🇭🇰TG频道@baipiaoeverything_46
+  server: hk-02.proxyvip.top
+  type: trojan
+  country: 🇭🇰HK
+  port: 23002
+  password: 66ab1fb2-48c4-4587-978f-a44d1cfd68de
+  skip-cert-verify: true
+  udp: true
+- type: trojan
+  name: 🇺🇸TG频道@baipiaoeverything_47
+  server: 23-175-144-246.nhost.00cdn.com
+  port: '8443'
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  sni: government.kbservice.club
+  skip-cert-verify: true
+- type: vmess
+  name: 🇰🇷TG频道@baipiaoeverything_48
+  server: 43.200.181.74
+  port: 42517
+  uuid: b5b5209f-bcbd-4bac-b044-0d179698c62d
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: 43.200.181.74
+- name: 🇨🇳TG频道@baipiaoeverything_49
+  server: 183.245.7.163
+  port: 12005
+  type: ssr
+  cipher: chacha20-ietf
+  password: HuTaoCloud
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 23462:xx1LFxmqcjHSNPQn
+  obfs-param: 64ec923462.jd.hk
+- name: 🇭🇰TG频道@baipiaoeverything_50
+  server: 47.242.56.3
+  type: vmess
+  country: 🇺🇸US
+  port: 37064
+  uuid: d2a10a17-6191-472c-896b-782331f49fb9
+  alterId: 0
+  cipher: auto
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - /
+  h2-opts: {}
+  skip-cert-verify: true
+- type: vmess
+  name: 🇭🇰TG频道@baipiaoeverything_51
+  server: 8.210.1.44
+  port: 63020
+  uuid: 2afd0c9f-57fa-4773-8686-b480e8be5814
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: http
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: 8.210.1.44
+- type: vmess
+  name: 🇦🇶TG频道@baipiaoeverything_52
+  server: 11.72img.xyz
+  port: 443
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: ws
+  tls: true
+  ws-opts:
+    path: /
+    headers:
+      Host: 11.72img.xyz
+- type: vmess
+  name: 🇭🇰TG频道@baipiaoeverything_53
+  server: 8.210.34.212
+  port: 51578
+  uuid: 24cfd28c-a3d7-4028-89e8-b25fdcb28bac
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: http
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: 8.210.34.212
+- type: ss
+  name: 🇸🇬TG频道@baipiaoeverything_54
+  server: 13.215.254.97
+  port: '443'
+  cipher: aes-256-cfb
+  password: amazonskr05
+- type: vmess
+  name: 🇺🇸TG频道@baipiaoeverything_55
+  server: node.xn--ces488atrj.eu.org
+  port: 80
+  uuid: 461aed20-0743-4f13-ee68-43394e875e43
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: h1.800876.xyz
+- type: vmess
+  name: 🇰🇷TG频道@baipiaoeverything_56
+  server: 138.2.122.225
   port: 443
   uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
   alterId: 0
@@ -163,24 +681,103 @@ proxies:
     path: /ray
     headers:
       Host: lg30.cfcdn3.xyz
-- name: 🇭🇰TG频道@baipiaoeverything_13
-  server: 8.210.1.44
-  type: vmess
-  country: 🇸🇬SG
-  port: 63020
-  uuid: 2afd0c9f-57fa-4773-8686-b480e8be5814
+- type: vmess
+  name: 🇦🇶TG频道@baipiaoeverything_57
+  server: 198.41.212.155
+  port: 443
+  uuid: 267a9f38-40d8-4ed6-ab58-cafc67e9c933
   alterId: 0
   cipher: auto
-  network: http
+  skip-cert-verify: true
+  network: ws
+  tls: true
+  ws-opts:
+    path: /VHONOFZ3
+    headers:
+      Host: lg1.cfcdn2.xyz
+- type: vmess
+  name: 🇰🇷TG频道@baipiaoeverything_58
+  server: 146.56.162.25
+  port: 443
+  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: ws
+  tls: true
+  ws-opts:
+    path: /ray
+    headers:
+      Host: lg30.cfcdn3.xyz
+- type: ss
+  name: 🇰🇷TG频道@baipiaoeverything_59
+  server: 43.201.50.149
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- type: vmess
+  name: 🇰🇷TG频道@baipiaoeverything_60
   http-opts:
-    method: GET
     path:
     - /
-  h2-opts: {}
+  server: 150.230.249.15
+  port: '46842'
+  uuid: 4530b5ee-ced4-4e64-9285-1867fc5df7f8
+  alterId: '0'
+  cipher: auto
+  network: http
+- type: trojan
+  name: 🇨🇳TG频道@baipiaoeverything_61
+  server: official.tokyometropolis.kiev.ua
+  port: '2053'
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  sni: 66.42.40.132
   skip-cert-verify: true
 - type: vmess
-  name: 🇮🇳TG频道@baipiaoeverything_14
-  server: 155.248.241.52
+  name: 🇭🇰TG频道@baipiaoeverything_62
+  server: 8.218.73.227
+  port: 58641
+  uuid: 4821f5d8-dc31-4bb4-811c-8babcb8aec1a
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: http
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: 8.218.73.227
+- type: vmess
+  name: 🇦🇶TG频道@baipiaoeverything_63
+  server: 198.41.203.4
+  port: 443
+  uuid: fcfaec91-6096-44d8-956c-7868d9e874b1
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: ws
+  tls: true
+  ws-opts:
+    path: /ray
+    headers:
+      Host: lg1.cfcdn1.xyz
+- type: vmess
+  name: 🇨🇳TG频道@baipiaoeverything_64
+  server: in-jp-1.iivvppnn.info
+  port: 38301
+  uuid: 79386685-16da-327c-9e14-aa6d702d86bc
+  alterId: 1
+  cipher: auto
+  skip-cert-verify: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: www.ivpnpro.net
+- type: vmess
+  name: 🇺🇸TG频道@baipiaoeverything_65
+  server: 45.72img.xyz
   port: 443
   uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
   alterId: 0
@@ -191,33 +788,35 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: 155.248.241.52
-- name: 🇹🇼TG频道@baipiaoeverything_15
-  server: TW.xibai6.top
-  type: trojan
-  country: 🇹🇼TW
-  port: 31007
-  password: e0ef6178-23ad-3385-9e72-b93820a847da
-  skip-cert-verify: true
-  udp: true
-- name: 🇭🇰TG频道@baipiaoeverything_16
-  server: 47.243.36.34
-  type: vmess
-  country: 🇺🇸US
-  port: 55986
-  uuid: 87ed289f-cae3-49b4-bbe3-23da298c0e81
-  alterId: 0
-  cipher: auto
-  network: http
+      Host: 45.72img.xyz
+- type: vmess
+  name: 🇭🇰TG频道@baipiaoeverything_66
   http-opts:
-    method: GET
     path:
     - /
+  server: 47.242.243.218
+  port: '48471'
+  uuid: 7daf0d3d-8c74-4f46-8912-fbf59be05e39
+  alterId: '0'
+  cipher: auto
+  network: http
+- name: 🇺🇸TG频道@baipiaoeverything_67
+  server: 38.72img.xyz
+  type: vmess
+  country: 🇺🇸US
+  port: 443
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /
+  http-opts: {}
   h2-opts: {}
+  tls: true
   skip-cert-verify: true
 - type: vmess
-  name: 🇦🇶TG频道@baipiaoeverything_17
-  server: 198.41.212.150
+  name: 🇦🇶TG频道@baipiaoeverything_68
+  server: 141.101.115.155
   port: 443
   uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
   alterId: 0
@@ -229,116 +828,113 @@ proxies:
     path: /dongtaiwang.com
     headers:
       Host: clash6.ssr-free.xyz
-- type: vmess
-  name: 🇦🇶TG频道@baipiaoeverything_18
-  server: 141.101.114.100
-  port: 443
-  uuid: 4679f00e-90ce-430d-9714-6a19367ba112
-  alterId: 0
-  cipher: auto
-  skip-cert-verify: true
-  network: ws
-  tls: true
-  ws-opts:
-    path: /dongtaiwang.com
-    headers:
-      Host: v2ray1.zhujicn2.org
-- name: 🇰🇷TG频道@baipiaoeverything_19
-  server: 150.230.249.15
-  type: vmess
-  country: 🇺🇸US
-  port: 46842
-  uuid: 4530b5ee-ced4-4e64-9285-1867fc5df7f8
-  alterId: 0
-  cipher: auto
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /
-  h2-opts: {}
-  skip-cert-verify: true
-- type: vmess
-  name: 🇯🇵TG频道@baipiaoeverything_20
-  server: 172.104.125.96
-  port: 2053
-  uuid: 1d0863ae-9cbf-4db1-a7b1-f82d35013eff
-  alterId: 0
-  cipher: auto
-  skip-cert-verify: true
-  network: tcp
-  tls: true
-  ws-opts:
-    path: /
-    headers:
-      Host: 172.104.125.96
-- type: vmess
-  name: 🇫🇷TG频道@baipiaoeverything_21
-  server: 141.94.59.200
-  port: 8080
-  uuid: 2f685138-93b0-453f-d683-9398b3a3b8a0
-  alterId: 0
-  cipher: auto
-  skip-cert-verify: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: 141.94.59.200
-- type: vmess
-  name: 🇦🇶TG频道@baipiaoeverything_22
-  server: 141.101.114.150
-  port: 443
-  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
-  alterId: 0
-  cipher: auto
-  skip-cert-verify: true
-  network: ws
-  tls: true
-  ws-opts:
-    path: /dongtaiwang.com
-    headers:
-      Host: clash6.ssr-free.xyz
-- name: 🇨🇳TG频道@baipiaoeverything_23
-  server: t1.583181.xyz
-  type: trojan
-  port: 80
-  password: d53c1b44-915a-413c-b1a5-3877df394a5a
-  sni: www.baidu.com
-  skip-cert-verify: true
-  udp: true
 - type: trojan
-  name: 🇸🇬TG频道@baipiaoeverything_24
-  server: 13.215.179.213
-  port: '443'
-  password: 34fd55aa-a8a2-4af8-8012-247487fc5e8a
+  name: 🇺🇸TG频道@baipiaoeverything_69
+  server: 23-175-144-181.nhost.00cdn.com
+  port: '8443'
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  sni: government.kbservice.club
   skip-cert-verify: true
-- name: 🇱🇦TG频道@baipiaoeverything_25
-  server: 8.218.83.148
-  type: vmess
-  country: 🇱🇦LA
-  port: 63239
-  uuid: bc035c93-4a47-4f06-8833-fadc03527539
+- type: vmess
+  name: 🇬🇧TG频道@baipiaoeverything_70
+  server: univstar1.198.244.148.214.sslip.io
+  port: 443
+  uuid: 572126f8-5301-83c2-0a26-c30ced3db7c4
   alterId: 0
   cipher: auto
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /
-  h2-opts: {}
   skip-cert-verify: true
+  network: ws
+  tls: true
+  ws-opts:
+    path: /wmzmvws
+    headers:
+      Host: goodfamily19.site
+- name: 🇨🇳TG频道@baipiaoeverything_71
+  server: 14.18.122.138
+  port: 7700
+  type: ssr
+  cipher: chacha20-ietf
+  password: jFa4F1
+  protocol: auth_aes128_sha1
+  obfs: plain
+  protocol-param: 44654:262E1006ja
+  obfs-param: 0532a44654.microsoft.com
 - type: trojan
-  name: 🇨🇳TG频道@baipiaoeverything_26
-  server: hnct.daodecloud.com
-  port: 19917
-  password: d09b7466-1b08-4d5b-809e-ee3675534cb9
-  udp: true
+  name: 🇨🇳TG频道@baipiaoeverything_72
+  server: official.tokyometropolis.chernigov.ua
+  port: '2053'
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  sni: 45.32.28.232
   skip-cert-verify: true
-  sni: hkmax05.170203.xyz
 - type: vmess
-  name: 🇮🇳TG频道@baipiaoeverything_27
+  name: 🇭🇰TG频道@baipiaoeverything_73
+  server: hk-04.proxyvip.top
+  port: 22004
+  uuid: 85a1ef8f-7f03-4386-9269-9f3c88855f3b
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: ws
+  tls: true
+  ws-opts:
+    path: /download
+    headers:
+      Host: hk-04.proxyvip.top
+- name: 🇰🇷TG频道@baipiaoeverything_74
+  server: 13.125.5.159
+  port: 43417
+  type: vmess
+  uuid: b5b5209f-bcbd-4bac-b044-0d179698c62d
+  alterId: 0
+  cipher: auto
+  network: ws
+  http-opts: {}
+  ws-path: /
+  skip-cert-verify: true
+- type: vmess
+  name: 🇦🇶TG频道@baipiaoeverything_75
+  server: 198.41.212.100
+  port: 443
+  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: ws
+  tls: true
+  ws-opts:
+    path: /ray
+    headers:
+      Host: lg30.cfcdn3.xyz
+- type: vmess
+  name: 🇦🇶TG频道@baipiaoeverything_76
+  server: 141.101.114.111
+  port: 443
+  uuid: f33957e8-372e-4fba-99ed-f4db32cce9e5
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: ws
+  tls: true
+  ws-opts:
+    path: /ray
+    headers:
+      Host: fr2.cfcdn4.xyz
+- type: vmess
+  name: 🇺🇸TG频道@baipiaoeverything_77
+  server: 172.64.148.111
+  port: 443
+  uuid: f33957e8-372e-4fba-99ed-f4db32cce9e5
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: ws
+  tls: true
+  ws-opts:
+    path: /ray
+    headers:
+      Host: fr2.cfcdn4.xyz
+- type: vmess
+  name: 🇮🇳TG频道@baipiaoeverything_78
   server: 129.154.37.199
   port: 443
   uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
@@ -352,394 +948,674 @@ proxies:
     headers:
       Host: 129.154.37.199
 - type: trojan
-  name: 🇨🇳TG频道@baipiaoeverything_28
-  server: baying.xibai6.top
-  port: '961'
-  password: e0ef6178-23ad-3385-9e72-b93820a847da
-  sni: ssl.ssl12.xyz
+  name: 🇨🇳TG频道@baipiaoeverything_79
+  server: official.taipeicitygovernment.if.ua
+  port: '8443'
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  sni: 167.179.96.100
   skip-cert-verify: true
 - type: trojan
-  name: 🇸🇬TG频道@baipiaoeverything_29
-  server: 13.213.50.61
-  port: '443'
-  password: 34fd55aa-a8a2-4af8-8012-247487fc5e8a
+  name: 🇺🇸TG频道@baipiaoeverything_80
+  server: 23-175-144-140.nhost.00cdn.com
+  port: '8443'
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  sni: government.kbservice.club
   skip-cert-verify: true
-- name: 🇸🇬TG频道@baipiaoeverything_30
-  server: sg.securevpn.cc
-  type: ss
-  country: 🇸🇬SG
-  port: 1020
-  password: '202211000000000000000020'
-  cipher: aes-128-gcm
-  plugin: obfs
-  plugin-opts:
-    host: securevpn.cc
-    mode: http
 - type: trojan
-  name: 🇨🇳TG频道@baipiaoeverything_31
-  server: cm.henet.top
-  port: '20007'
-  password: f1963001-20c7-464b-8a66-c15ba6f798d0
+  name: 🇨🇳TG频道@baipiaoeverything_81
+  server: official.taipeicitygovernment.kyiv.ua
+  port: '8443'
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  sni: 108.61.223.167
   skip-cert-verify: true
-- name: 🇯🇵TG频道@baipiaoeverything_32
-  server: trs01.bolab.net
-  type: trojan
-  port: 443
-  password: 14bdba6dede262387ebdebaa706e1c90
-  sni: trs01.bolab.net
-  skip-cert-verify: true
-  udp: true
 - type: vmess
-  name: 🇦🇶TG频道@baipiaoeverything_33
-  server: 198.41.212.122
+  name: 🇦🇶TG频道@baipiaoeverything_82
+  ws-opts:
+    path: /dongtaiwang.com
+    headers:
+      host: clash1.trump2023.net
+  server: 198.41.203.2
+  port: '443'
+  uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a
+  alterId: '0'
+  cipher: auto
+  network: ws
+  tls: true
+- type: vmess
+  name: 🇦🇶TG频道@baipiaoeverything_83
+  server: 141.101.114.150
   port: 443
-  uuid: fcfaec91-6096-44d8-956c-7868d9e874b1
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
   alterId: 0
   cipher: auto
   skip-cert-verify: true
   network: ws
   tls: true
+  ws-opts:
+    path: /dongtaiwang.com
+    headers:
+      Host: clash6.ssr-free.xyz
+- type: vmess
+  name: 🇺🇸TG频道@baipiaoeverything_84
+  server: vus4.0bad.com
+  port: 443
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: ws
+  tls: true
+  ws-opts:
+    path: /chat
+    headers:
+      Host: vus4.0bad.com
+- type: vmess
+  name: 🇭🇰TG频道@baipiaoeverything_85
+  http-opts:
+    path:
+    - /
+  server: 8.218.85.43
+  port: '43645'
+  uuid: 0cd2e2c0-ef4f-4a49-a89f-ee2552aed247
+  alterId: '0'
+  cipher: auto
+  network: http
+- type: trojan
+  name: 🇯🇵TG频道@baipiaoeverything_86
+  server: trs12.bolab.net
+  port: 443
+  password: 14bdba6dede262387ebdebaa706e1c90
+  udp: true
+  skip-cert-verify: true
+  sni: trs12.bolab.net
+- type: vmess
+  name: 🇺🇸TG频道@baipiaoeverything_87
   ws-opts:
     path: /ray
     headers:
-      Host: lg1.cfcdn1.xyz
-- name: 🇺🇸TG频道@baipiaoeverything_34
-  server: 4.72img.xyz
-  type: vmess
-  country: 🇺🇸US
-  port: 443
-  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- type: vmess
-  name: 🇨🇳TG频道@baipiaoeverything_35
-  server: blx-unicom.gatknqh.cn
-  port: 14015
-  uuid: 1dc0d040-fbdc-3108-902b-df83d8d69c9c
-  alterId: 0
-  cipher: auto
-  skip-cert-verify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: blx-unicom.gatknqh.cn
-- type: vmess
-  name: 🇺🇸TG频道@baipiaoeverything_36
-  server: us-lb.sshkit.org
-  port: 80
-  uuid: 6fea1649-425b-4092-bf53-29792152c925
-  alterId: 0
-  cipher: auto
-  skip-cert-verify: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /sshkit/Variu88/634dab7abadf1/
-    headers:
-      Host: zoom.us
-- type: trojan
-  name: 🇨🇳TG频道@baipiaoeverything_37
-  server: oss-cn-shanghai.westdatacloud.xyz
-  port: 20048
-  password: 30030B00-A596-87B4-965A-511CD7E05351
-  udp: true
-  skip-cert-verify: true
-  sni: oss-cn-shanghai.westdatacloud.xyz
-- type: trojan
-  name: 🇫🇷TG频道@baipiaoeverything_38
-  server: 51.75.144.149
+      host: lg1.cfcdn1.xyz
+  server: 172.64.154.222
   port: '443'
-  password: 34fd55aa-a8a2-4af8-8012-247487fc5e8a
-  skip-cert-verify: true
+  uuid: fcfaec91-6096-44d8-956c-7868d9e874b1
+  alterId: '0'
+  cipher: auto
+  network: ws
+  tls: true
 - type: vmess
-  name: 🇺🇸TG频道@baipiaoeverything_39
-  server: 100.42.78.170
-  port: 443
-  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  name: 🇦🇶TG频道@baipiaoeverything_88
+  server: ip.skk.moe
+  port: 2086
+  uuid: e91c45c9-2c0f-46a9-c56d-21663b9e2c18
   alterId: 0
   cipher: auto
   skip-cert-verify: true
   network: ws
-  tls: true
+  tls: false
   ws-opts:
-    path: /
+    path: /aries
     headers:
-      Host: 100.42.78.170
+      Host: buyvm.cloudflare.quest
 proxy-groups:
 - name: 🚀 节点选择
   type: select
   proxies:
   - ♻️ 自动选择
   - DIRECT
-  - 🇸🇬TG频道@baipiaoeverything_1
-  - 🇭🇰TG频道@baipiaoeverything_2
-  - 🇭🇰TG频道@baipiaoeverything_3
+  - 🇦🇶TG频道@baipiaoeverything_1
+  - 🇦🇶TG频道@baipiaoeverything_2
+  - 🇨🇳TG频道@baipiaoeverything_3
   - 🇦🇶TG频道@baipiaoeverything_4
-  - 🇺🇸TG频道@baipiaoeverything_5
-  - 🇭🇰TG频道@baipiaoeverything_6
-  - 🇺🇸TG频道@baipiaoeverything_7
-  - 🇭🇰TG频道@baipiaoeverything_8
-  - 🇩🇪TG频道@baipiaoeverything_9
-  - 🇺🇸TG频道@baipiaoeverything_10
+  - 🇦🇶TG频道@baipiaoeverything_5
+  - 🇺🇸TG频道@baipiaoeverything_6
+  - 🇰🇷TG频道@baipiaoeverything_7
+  - 🇨🇳TG频道@baipiaoeverything_8
+  - 🇯🇵TG频道@baipiaoeverything_9
+  - 🇨🇳TG频道@baipiaoeverything_10
   - 🇺🇸TG频道@baipiaoeverything_11
-  - 🇬🇧TG频道@baipiaoeverything_12
-  - 🇭🇰TG频道@baipiaoeverything_13
-  - 🇮🇳TG频道@baipiaoeverything_14
-  - 🇹🇼TG频道@baipiaoeverything_15
-  - 🇭🇰TG频道@baipiaoeverything_16
-  - 🇦🇶TG频道@baipiaoeverything_17
-  - 🇦🇶TG频道@baipiaoeverything_18
-  - 🇰🇷TG频道@baipiaoeverything_19
-  - 🇯🇵TG频道@baipiaoeverything_20
-  - 🇫🇷TG频道@baipiaoeverything_21
-  - 🇦🇶TG频道@baipiaoeverything_22
-  - 🇨🇳TG频道@baipiaoeverything_23
-  - 🇸🇬TG频道@baipiaoeverything_24
-  - 🇱🇦TG频道@baipiaoeverything_25
-  - 🇨🇳TG频道@baipiaoeverything_26
+  - 🇭🇰TG频道@baipiaoeverything_12
+  - 🇫🇮TG频道@baipiaoeverything_13
+  - 🇨🇳TG频道@baipiaoeverything_14
+  - 🇮🇳TG频道@baipiaoeverything_15
+  - 🇮🇳TG频道@baipiaoeverything_16
+  - 🇱🇦TG频道@baipiaoeverything_17
+  - 🇺🇸TG频道@baipiaoeverything_18
+  - 🇨🇳TG频道@baipiaoeverything_19
+  - 🇩🇪TG频道@baipiaoeverything_20
+  - 🇺🇸TG频道@baipiaoeverything_21
+  - 🇺🇸TG频道@baipiaoeverything_22
+  - 🇷🇺TG频道@baipiaoeverything_23
+  - 🇭🇰TG频道@baipiaoeverything_24
+  - 🇦🇶TG频道@baipiaoeverything_25
+  - 🇭🇰TG频道@baipiaoeverything_26
   - 🇮🇳TG频道@baipiaoeverything_27
-  - 🇨🇳TG频道@baipiaoeverything_28
-  - 🇸🇬TG频道@baipiaoeverything_29
-  - 🇸🇬TG频道@baipiaoeverything_30
-  - 🇨🇳TG频道@baipiaoeverything_31
-  - 🇯🇵TG频道@baipiaoeverything_32
-  - 🇦🇶TG频道@baipiaoeverything_33
-  - 🇺🇸TG频道@baipiaoeverything_34
-  - 🇨🇳TG频道@baipiaoeverything_35
-  - 🇺🇸TG频道@baipiaoeverything_36
-  - 🇨🇳TG频道@baipiaoeverything_37
-  - 🇫🇷TG频道@baipiaoeverything_38
-  - 🇺🇸TG频道@baipiaoeverything_39
+  - 🇹🇼TG频道@baipiaoeverything_28
+  - 🇦🇶TG频道@baipiaoeverything_29
+  - 🇨🇳TG频道@baipiaoeverything_30
+  - 🇭🇰TG频道@baipiaoeverything_31
+  - 🇨🇳TG频道@baipiaoeverything_32
+  - 🇻🇳TG频道@baipiaoeverything_33
+  - 🇦🇶TG频道@baipiaoeverything_34
+  - 🇭🇰TG频道@baipiaoeverything_35
+  - 🇭🇰TG频道@baipiaoeverything_36
+  - 🇺🇸TG频道@baipiaoeverything_37
+  - 🇨🇳TG频道@baipiaoeverything_38
+  - 🇦🇶TG频道@baipiaoeverything_39
+  - 🇺🇸TG频道@baipiaoeverything_40
+  - 🇨🇳TG频道@baipiaoeverything_41
+  - 🇺🇸TG频道@baipiaoeverything_42
+  - 🇺🇸TG频道@baipiaoeverything_43
+  - 🇦🇶TG频道@baipiaoeverything_44
+  - 🇦🇶TG频道@baipiaoeverything_45
+  - 🇭🇰TG频道@baipiaoeverything_46
+  - 🇺🇸TG频道@baipiaoeverything_47
+  - 🇰🇷TG频道@baipiaoeverything_48
+  - 🇨🇳TG频道@baipiaoeverything_49
+  - 🇭🇰TG频道@baipiaoeverything_50
+  - 🇭🇰TG频道@baipiaoeverything_51
+  - 🇦🇶TG频道@baipiaoeverything_52
+  - 🇭🇰TG频道@baipiaoeverything_53
+  - 🇸🇬TG频道@baipiaoeverything_54
+  - 🇺🇸TG频道@baipiaoeverything_55
+  - 🇰🇷TG频道@baipiaoeverything_56
+  - 🇦🇶TG频道@baipiaoeverything_57
+  - 🇰🇷TG频道@baipiaoeverything_58
+  - 🇰🇷TG频道@baipiaoeverything_59
+  - 🇰🇷TG频道@baipiaoeverything_60
+  - 🇨🇳TG频道@baipiaoeverything_61
+  - 🇭🇰TG频道@baipiaoeverything_62
+  - 🇦🇶TG频道@baipiaoeverything_63
+  - 🇨🇳TG频道@baipiaoeverything_64
+  - 🇺🇸TG频道@baipiaoeverything_65
+  - 🇭🇰TG频道@baipiaoeverything_66
+  - 🇺🇸TG频道@baipiaoeverything_67
+  - 🇦🇶TG频道@baipiaoeverything_68
+  - 🇺🇸TG频道@baipiaoeverything_69
+  - 🇬🇧TG频道@baipiaoeverything_70
+  - 🇨🇳TG频道@baipiaoeverything_71
+  - 🇨🇳TG频道@baipiaoeverything_72
+  - 🇭🇰TG频道@baipiaoeverything_73
+  - 🇰🇷TG频道@baipiaoeverything_74
+  - 🇦🇶TG频道@baipiaoeverything_75
+  - 🇦🇶TG频道@baipiaoeverything_76
+  - 🇺🇸TG频道@baipiaoeverything_77
+  - 🇮🇳TG频道@baipiaoeverything_78
+  - 🇨🇳TG频道@baipiaoeverything_79
+  - 🇺🇸TG频道@baipiaoeverything_80
+  - 🇨🇳TG频道@baipiaoeverything_81
+  - 🇦🇶TG频道@baipiaoeverything_82
+  - 🇦🇶TG频道@baipiaoeverything_83
+  - 🇺🇸TG频道@baipiaoeverything_84
+  - 🇭🇰TG频道@baipiaoeverything_85
+  - 🇯🇵TG频道@baipiaoeverything_86
+  - 🇺🇸TG频道@baipiaoeverything_87
+  - 🇦🇶TG频道@baipiaoeverything_88
 - name: ♻️ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
   proxies:
-  - 🇸🇬TG频道@baipiaoeverything_1
-  - 🇭🇰TG频道@baipiaoeverything_2
-  - 🇭🇰TG频道@baipiaoeverything_3
+  - 🇦🇶TG频道@baipiaoeverything_1
+  - 🇦🇶TG频道@baipiaoeverything_2
+  - 🇨🇳TG频道@baipiaoeverything_3
   - 🇦🇶TG频道@baipiaoeverything_4
-  - 🇺🇸TG频道@baipiaoeverything_5
-  - 🇭🇰TG频道@baipiaoeverything_6
-  - 🇺🇸TG频道@baipiaoeverything_7
-  - 🇭🇰TG频道@baipiaoeverything_8
-  - 🇩🇪TG频道@baipiaoeverything_9
-  - 🇺🇸TG频道@baipiaoeverything_10
+  - 🇦🇶TG频道@baipiaoeverything_5
+  - 🇺🇸TG频道@baipiaoeverything_6
+  - 🇰🇷TG频道@baipiaoeverything_7
+  - 🇨🇳TG频道@baipiaoeverything_8
+  - 🇯🇵TG频道@baipiaoeverything_9
+  - 🇨🇳TG频道@baipiaoeverything_10
   - 🇺🇸TG频道@baipiaoeverything_11
-  - 🇬🇧TG频道@baipiaoeverything_12
-  - 🇭🇰TG频道@baipiaoeverything_13
-  - 🇮🇳TG频道@baipiaoeverything_14
-  - 🇹🇼TG频道@baipiaoeverything_15
-  - 🇭🇰TG频道@baipiaoeverything_16
-  - 🇦🇶TG频道@baipiaoeverything_17
-  - 🇦🇶TG频道@baipiaoeverything_18
-  - 🇰🇷TG频道@baipiaoeverything_19
-  - 🇯🇵TG频道@baipiaoeverything_20
-  - 🇫🇷TG频道@baipiaoeverything_21
-  - 🇦🇶TG频道@baipiaoeverything_22
-  - 🇨🇳TG频道@baipiaoeverything_23
-  - 🇸🇬TG频道@baipiaoeverything_24
-  - 🇱🇦TG频道@baipiaoeverything_25
-  - 🇨🇳TG频道@baipiaoeverything_26
+  - 🇭🇰TG频道@baipiaoeverything_12
+  - 🇫🇮TG频道@baipiaoeverything_13
+  - 🇨🇳TG频道@baipiaoeverything_14
+  - 🇮🇳TG频道@baipiaoeverything_15
+  - 🇮🇳TG频道@baipiaoeverything_16
+  - 🇱🇦TG频道@baipiaoeverything_17
+  - 🇺🇸TG频道@baipiaoeverything_18
+  - 🇨🇳TG频道@baipiaoeverything_19
+  - 🇩🇪TG频道@baipiaoeverything_20
+  - 🇺🇸TG频道@baipiaoeverything_21
+  - 🇺🇸TG频道@baipiaoeverything_22
+  - 🇷🇺TG频道@baipiaoeverything_23
+  - 🇭🇰TG频道@baipiaoeverything_24
+  - 🇦🇶TG频道@baipiaoeverything_25
+  - 🇭🇰TG频道@baipiaoeverything_26
   - 🇮🇳TG频道@baipiaoeverything_27
-  - 🇨🇳TG频道@baipiaoeverything_28
-  - 🇸🇬TG频道@baipiaoeverything_29
-  - 🇸🇬TG频道@baipiaoeverything_30
-  - 🇨🇳TG频道@baipiaoeverything_31
-  - 🇯🇵TG频道@baipiaoeverything_32
-  - 🇦🇶TG频道@baipiaoeverything_33
-  - 🇺🇸TG频道@baipiaoeverything_34
-  - 🇨🇳TG频道@baipiaoeverything_35
-  - 🇺🇸TG频道@baipiaoeverything_36
-  - 🇨🇳TG频道@baipiaoeverything_37
-  - 🇫🇷TG频道@baipiaoeverything_38
-  - 🇺🇸TG频道@baipiaoeverything_39
+  - 🇹🇼TG频道@baipiaoeverything_28
+  - 🇦🇶TG频道@baipiaoeverything_29
+  - 🇨🇳TG频道@baipiaoeverything_30
+  - 🇭🇰TG频道@baipiaoeverything_31
+  - 🇨🇳TG频道@baipiaoeverything_32
+  - 🇻🇳TG频道@baipiaoeverything_33
+  - 🇦🇶TG频道@baipiaoeverything_34
+  - 🇭🇰TG频道@baipiaoeverything_35
+  - 🇭🇰TG频道@baipiaoeverything_36
+  - 🇺🇸TG频道@baipiaoeverything_37
+  - 🇨🇳TG频道@baipiaoeverything_38
+  - 🇦🇶TG频道@baipiaoeverything_39
+  - 🇺🇸TG频道@baipiaoeverything_40
+  - 🇨🇳TG频道@baipiaoeverything_41
+  - 🇺🇸TG频道@baipiaoeverything_42
+  - 🇺🇸TG频道@baipiaoeverything_43
+  - 🇦🇶TG频道@baipiaoeverything_44
+  - 🇦🇶TG频道@baipiaoeverything_45
+  - 🇭🇰TG频道@baipiaoeverything_46
+  - 🇺🇸TG频道@baipiaoeverything_47
+  - 🇰🇷TG频道@baipiaoeverything_48
+  - 🇨🇳TG频道@baipiaoeverything_49
+  - 🇭🇰TG频道@baipiaoeverything_50
+  - 🇭🇰TG频道@baipiaoeverything_51
+  - 🇦🇶TG频道@baipiaoeverything_52
+  - 🇭🇰TG频道@baipiaoeverything_53
+  - 🇸🇬TG频道@baipiaoeverything_54
+  - 🇺🇸TG频道@baipiaoeverything_55
+  - 🇰🇷TG频道@baipiaoeverything_56
+  - 🇦🇶TG频道@baipiaoeverything_57
+  - 🇰🇷TG频道@baipiaoeverything_58
+  - 🇰🇷TG频道@baipiaoeverything_59
+  - 🇰🇷TG频道@baipiaoeverything_60
+  - 🇨🇳TG频道@baipiaoeverything_61
+  - 🇭🇰TG频道@baipiaoeverything_62
+  - 🇦🇶TG频道@baipiaoeverything_63
+  - 🇨🇳TG频道@baipiaoeverything_64
+  - 🇺🇸TG频道@baipiaoeverything_65
+  - 🇭🇰TG频道@baipiaoeverything_66
+  - 🇺🇸TG频道@baipiaoeverything_67
+  - 🇦🇶TG频道@baipiaoeverything_68
+  - 🇺🇸TG频道@baipiaoeverything_69
+  - 🇬🇧TG频道@baipiaoeverything_70
+  - 🇨🇳TG频道@baipiaoeverything_71
+  - 🇨🇳TG频道@baipiaoeverything_72
+  - 🇭🇰TG频道@baipiaoeverything_73
+  - 🇰🇷TG频道@baipiaoeverything_74
+  - 🇦🇶TG频道@baipiaoeverything_75
+  - 🇦🇶TG频道@baipiaoeverything_76
+  - 🇺🇸TG频道@baipiaoeverything_77
+  - 🇮🇳TG频道@baipiaoeverything_78
+  - 🇨🇳TG频道@baipiaoeverything_79
+  - 🇺🇸TG频道@baipiaoeverything_80
+  - 🇨🇳TG频道@baipiaoeverything_81
+  - 🇦🇶TG频道@baipiaoeverything_82
+  - 🇦🇶TG频道@baipiaoeverything_83
+  - 🇺🇸TG频道@baipiaoeverything_84
+  - 🇭🇰TG频道@baipiaoeverything_85
+  - 🇯🇵TG频道@baipiaoeverything_86
+  - 🇺🇸TG频道@baipiaoeverything_87
+  - 🇦🇶TG频道@baipiaoeverything_88
 - name: 🌍 国外媒体
   type: select
   proxies:
   - 🚀 节点选择
   - ♻️ 自动选择
   - 🎯 全球直连
-  - 🇸🇬TG频道@baipiaoeverything_1
-  - 🇭🇰TG频道@baipiaoeverything_2
-  - 🇭🇰TG频道@baipiaoeverything_3
+  - 🇦🇶TG频道@baipiaoeverything_1
+  - 🇦🇶TG频道@baipiaoeverything_2
+  - 🇨🇳TG频道@baipiaoeverything_3
   - 🇦🇶TG频道@baipiaoeverything_4
-  - 🇺🇸TG频道@baipiaoeverything_5
-  - 🇭🇰TG频道@baipiaoeverything_6
-  - 🇺🇸TG频道@baipiaoeverything_7
-  - 🇭🇰TG频道@baipiaoeverything_8
-  - 🇩🇪TG频道@baipiaoeverything_9
-  - 🇺🇸TG频道@baipiaoeverything_10
+  - 🇦🇶TG频道@baipiaoeverything_5
+  - 🇺🇸TG频道@baipiaoeverything_6
+  - 🇰🇷TG频道@baipiaoeverything_7
+  - 🇨🇳TG频道@baipiaoeverything_8
+  - 🇯🇵TG频道@baipiaoeverything_9
+  - 🇨🇳TG频道@baipiaoeverything_10
   - 🇺🇸TG频道@baipiaoeverything_11
-  - 🇬🇧TG频道@baipiaoeverything_12
-  - 🇭🇰TG频道@baipiaoeverything_13
-  - 🇮🇳TG频道@baipiaoeverything_14
-  - 🇹🇼TG频道@baipiaoeverything_15
-  - 🇭🇰TG频道@baipiaoeverything_16
-  - 🇦🇶TG频道@baipiaoeverything_17
-  - 🇦🇶TG频道@baipiaoeverything_18
-  - 🇰🇷TG频道@baipiaoeverything_19
-  - 🇯🇵TG频道@baipiaoeverything_20
-  - 🇫🇷TG频道@baipiaoeverything_21
-  - 🇦🇶TG频道@baipiaoeverything_22
-  - 🇨🇳TG频道@baipiaoeverything_23
-  - 🇸🇬TG频道@baipiaoeverything_24
-  - 🇱🇦TG频道@baipiaoeverything_25
-  - 🇨🇳TG频道@baipiaoeverything_26
+  - 🇭🇰TG频道@baipiaoeverything_12
+  - 🇫🇮TG频道@baipiaoeverything_13
+  - 🇨🇳TG频道@baipiaoeverything_14
+  - 🇮🇳TG频道@baipiaoeverything_15
+  - 🇮🇳TG频道@baipiaoeverything_16
+  - 🇱🇦TG频道@baipiaoeverything_17
+  - 🇺🇸TG频道@baipiaoeverything_18
+  - 🇨🇳TG频道@baipiaoeverything_19
+  - 🇩🇪TG频道@baipiaoeverything_20
+  - 🇺🇸TG频道@baipiaoeverything_21
+  - 🇺🇸TG频道@baipiaoeverything_22
+  - 🇷🇺TG频道@baipiaoeverything_23
+  - 🇭🇰TG频道@baipiaoeverything_24
+  - 🇦🇶TG频道@baipiaoeverything_25
+  - 🇭🇰TG频道@baipiaoeverything_26
   - 🇮🇳TG频道@baipiaoeverything_27
-  - 🇨🇳TG频道@baipiaoeverything_28
-  - 🇸🇬TG频道@baipiaoeverything_29
-  - 🇸🇬TG频道@baipiaoeverything_30
-  - 🇨🇳TG频道@baipiaoeverything_31
-  - 🇯🇵TG频道@baipiaoeverything_32
-  - 🇦🇶TG频道@baipiaoeverything_33
-  - 🇺🇸TG频道@baipiaoeverything_34
-  - 🇨🇳TG频道@baipiaoeverything_35
-  - 🇺🇸TG频道@baipiaoeverything_36
-  - 🇨🇳TG频道@baipiaoeverything_37
-  - 🇫🇷TG频道@baipiaoeverything_38
-  - 🇺🇸TG频道@baipiaoeverything_39
+  - 🇹🇼TG频道@baipiaoeverything_28
+  - 🇦🇶TG频道@baipiaoeverything_29
+  - 🇨🇳TG频道@baipiaoeverything_30
+  - 🇭🇰TG频道@baipiaoeverything_31
+  - 🇨🇳TG频道@baipiaoeverything_32
+  - 🇻🇳TG频道@baipiaoeverything_33
+  - 🇦🇶TG频道@baipiaoeverything_34
+  - 🇭🇰TG频道@baipiaoeverything_35
+  - 🇭🇰TG频道@baipiaoeverything_36
+  - 🇺🇸TG频道@baipiaoeverything_37
+  - 🇨🇳TG频道@baipiaoeverything_38
+  - 🇦🇶TG频道@baipiaoeverything_39
+  - 🇺🇸TG频道@baipiaoeverything_40
+  - 🇨🇳TG频道@baipiaoeverything_41
+  - 🇺🇸TG频道@baipiaoeverything_42
+  - 🇺🇸TG频道@baipiaoeverything_43
+  - 🇦🇶TG频道@baipiaoeverything_44
+  - 🇦🇶TG频道@baipiaoeverything_45
+  - 🇭🇰TG频道@baipiaoeverything_46
+  - 🇺🇸TG频道@baipiaoeverything_47
+  - 🇰🇷TG频道@baipiaoeverything_48
+  - 🇨🇳TG频道@baipiaoeverything_49
+  - 🇭🇰TG频道@baipiaoeverything_50
+  - 🇭🇰TG频道@baipiaoeverything_51
+  - 🇦🇶TG频道@baipiaoeverything_52
+  - 🇭🇰TG频道@baipiaoeverything_53
+  - 🇸🇬TG频道@baipiaoeverything_54
+  - 🇺🇸TG频道@baipiaoeverything_55
+  - 🇰🇷TG频道@baipiaoeverything_56
+  - 🇦🇶TG频道@baipiaoeverything_57
+  - 🇰🇷TG频道@baipiaoeverything_58
+  - 🇰🇷TG频道@baipiaoeverything_59
+  - 🇰🇷TG频道@baipiaoeverything_60
+  - 🇨🇳TG频道@baipiaoeverything_61
+  - 🇭🇰TG频道@baipiaoeverything_62
+  - 🇦🇶TG频道@baipiaoeverything_63
+  - 🇨🇳TG频道@baipiaoeverything_64
+  - 🇺🇸TG频道@baipiaoeverything_65
+  - 🇭🇰TG频道@baipiaoeverything_66
+  - 🇺🇸TG频道@baipiaoeverything_67
+  - 🇦🇶TG频道@baipiaoeverything_68
+  - 🇺🇸TG频道@baipiaoeverything_69
+  - 🇬🇧TG频道@baipiaoeverything_70
+  - 🇨🇳TG频道@baipiaoeverything_71
+  - 🇨🇳TG频道@baipiaoeverything_72
+  - 🇭🇰TG频道@baipiaoeverything_73
+  - 🇰🇷TG频道@baipiaoeverything_74
+  - 🇦🇶TG频道@baipiaoeverything_75
+  - 🇦🇶TG频道@baipiaoeverything_76
+  - 🇺🇸TG频道@baipiaoeverything_77
+  - 🇮🇳TG频道@baipiaoeverything_78
+  - 🇨🇳TG频道@baipiaoeverything_79
+  - 🇺🇸TG频道@baipiaoeverything_80
+  - 🇨🇳TG频道@baipiaoeverything_81
+  - 🇦🇶TG频道@baipiaoeverything_82
+  - 🇦🇶TG频道@baipiaoeverything_83
+  - 🇺🇸TG频道@baipiaoeverything_84
+  - 🇭🇰TG频道@baipiaoeverything_85
+  - 🇯🇵TG频道@baipiaoeverything_86
+  - 🇺🇸TG频道@baipiaoeverything_87
+  - 🇦🇶TG频道@baipiaoeverything_88
 - name: 📲 电报信息
   type: select
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇸🇬TG频道@baipiaoeverything_1
-  - 🇭🇰TG频道@baipiaoeverything_2
-  - 🇭🇰TG频道@baipiaoeverything_3
+  - 🇦🇶TG频道@baipiaoeverything_1
+  - 🇦🇶TG频道@baipiaoeverything_2
+  - 🇨🇳TG频道@baipiaoeverything_3
   - 🇦🇶TG频道@baipiaoeverything_4
-  - 🇺🇸TG频道@baipiaoeverything_5
-  - 🇭🇰TG频道@baipiaoeverything_6
-  - 🇺🇸TG频道@baipiaoeverything_7
-  - 🇭🇰TG频道@baipiaoeverything_8
-  - 🇩🇪TG频道@baipiaoeverything_9
-  - 🇺🇸TG频道@baipiaoeverything_10
+  - 🇦🇶TG频道@baipiaoeverything_5
+  - 🇺🇸TG频道@baipiaoeverything_6
+  - 🇰🇷TG频道@baipiaoeverything_7
+  - 🇨🇳TG频道@baipiaoeverything_8
+  - 🇯🇵TG频道@baipiaoeverything_9
+  - 🇨🇳TG频道@baipiaoeverything_10
   - 🇺🇸TG频道@baipiaoeverything_11
-  - 🇬🇧TG频道@baipiaoeverything_12
-  - 🇭🇰TG频道@baipiaoeverything_13
-  - 🇮🇳TG频道@baipiaoeverything_14
-  - 🇹🇼TG频道@baipiaoeverything_15
-  - 🇭🇰TG频道@baipiaoeverything_16
-  - 🇦🇶TG频道@baipiaoeverything_17
-  - 🇦🇶TG频道@baipiaoeverything_18
-  - 🇰🇷TG频道@baipiaoeverything_19
-  - 🇯🇵TG频道@baipiaoeverything_20
-  - 🇫🇷TG频道@baipiaoeverything_21
-  - 🇦🇶TG频道@baipiaoeverything_22
-  - 🇨🇳TG频道@baipiaoeverything_23
-  - 🇸🇬TG频道@baipiaoeverything_24
-  - 🇱🇦TG频道@baipiaoeverything_25
-  - 🇨🇳TG频道@baipiaoeverything_26
+  - 🇭🇰TG频道@baipiaoeverything_12
+  - 🇫🇮TG频道@baipiaoeverything_13
+  - 🇨🇳TG频道@baipiaoeverything_14
+  - 🇮🇳TG频道@baipiaoeverything_15
+  - 🇮🇳TG频道@baipiaoeverything_16
+  - 🇱🇦TG频道@baipiaoeverything_17
+  - 🇺🇸TG频道@baipiaoeverything_18
+  - 🇨🇳TG频道@baipiaoeverything_19
+  - 🇩🇪TG频道@baipiaoeverything_20
+  - 🇺🇸TG频道@baipiaoeverything_21
+  - 🇺🇸TG频道@baipiaoeverything_22
+  - 🇷🇺TG频道@baipiaoeverything_23
+  - 🇭🇰TG频道@baipiaoeverything_24
+  - 🇦🇶TG频道@baipiaoeverything_25
+  - 🇭🇰TG频道@baipiaoeverything_26
   - 🇮🇳TG频道@baipiaoeverything_27
-  - 🇨🇳TG频道@baipiaoeverything_28
-  - 🇸🇬TG频道@baipiaoeverything_29
-  - 🇸🇬TG频道@baipiaoeverything_30
-  - 🇨🇳TG频道@baipiaoeverything_31
-  - 🇯🇵TG频道@baipiaoeverything_32
-  - 🇦🇶TG频道@baipiaoeverything_33
-  - 🇺🇸TG频道@baipiaoeverything_34
-  - 🇨🇳TG频道@baipiaoeverything_35
-  - 🇺🇸TG频道@baipiaoeverything_36
-  - 🇨🇳TG频道@baipiaoeverything_37
-  - 🇫🇷TG频道@baipiaoeverything_38
-  - 🇺🇸TG频道@baipiaoeverything_39
+  - 🇹🇼TG频道@baipiaoeverything_28
+  - 🇦🇶TG频道@baipiaoeverything_29
+  - 🇨🇳TG频道@baipiaoeverything_30
+  - 🇭🇰TG频道@baipiaoeverything_31
+  - 🇨🇳TG频道@baipiaoeverything_32
+  - 🇻🇳TG频道@baipiaoeverything_33
+  - 🇦🇶TG频道@baipiaoeverything_34
+  - 🇭🇰TG频道@baipiaoeverything_35
+  - 🇭🇰TG频道@baipiaoeverything_36
+  - 🇺🇸TG频道@baipiaoeverything_37
+  - 🇨🇳TG频道@baipiaoeverything_38
+  - 🇦🇶TG频道@baipiaoeverything_39
+  - 🇺🇸TG频道@baipiaoeverything_40
+  - 🇨🇳TG频道@baipiaoeverything_41
+  - 🇺🇸TG频道@baipiaoeverything_42
+  - 🇺🇸TG频道@baipiaoeverything_43
+  - 🇦🇶TG频道@baipiaoeverything_44
+  - 🇦🇶TG频道@baipiaoeverything_45
+  - 🇭🇰TG频道@baipiaoeverything_46
+  - 🇺🇸TG频道@baipiaoeverything_47
+  - 🇰🇷TG频道@baipiaoeverything_48
+  - 🇨🇳TG频道@baipiaoeverything_49
+  - 🇭🇰TG频道@baipiaoeverything_50
+  - 🇭🇰TG频道@baipiaoeverything_51
+  - 🇦🇶TG频道@baipiaoeverything_52
+  - 🇭🇰TG频道@baipiaoeverything_53
+  - 🇸🇬TG频道@baipiaoeverything_54
+  - 🇺🇸TG频道@baipiaoeverything_55
+  - 🇰🇷TG频道@baipiaoeverything_56
+  - 🇦🇶TG频道@baipiaoeverything_57
+  - 🇰🇷TG频道@baipiaoeverything_58
+  - 🇰🇷TG频道@baipiaoeverything_59
+  - 🇰🇷TG频道@baipiaoeverything_60
+  - 🇨🇳TG频道@baipiaoeverything_61
+  - 🇭🇰TG频道@baipiaoeverything_62
+  - 🇦🇶TG频道@baipiaoeverything_63
+  - 🇨🇳TG频道@baipiaoeverything_64
+  - 🇺🇸TG频道@baipiaoeverything_65
+  - 🇭🇰TG频道@baipiaoeverything_66
+  - 🇺🇸TG频道@baipiaoeverything_67
+  - 🇦🇶TG频道@baipiaoeverything_68
+  - 🇺🇸TG频道@baipiaoeverything_69
+  - 🇬🇧TG频道@baipiaoeverything_70
+  - 🇨🇳TG频道@baipiaoeverything_71
+  - 🇨🇳TG频道@baipiaoeverything_72
+  - 🇭🇰TG频道@baipiaoeverything_73
+  - 🇰🇷TG频道@baipiaoeverything_74
+  - 🇦🇶TG频道@baipiaoeverything_75
+  - 🇦🇶TG频道@baipiaoeverything_76
+  - 🇺🇸TG频道@baipiaoeverything_77
+  - 🇮🇳TG频道@baipiaoeverything_78
+  - 🇨🇳TG频道@baipiaoeverything_79
+  - 🇺🇸TG频道@baipiaoeverything_80
+  - 🇨🇳TG频道@baipiaoeverything_81
+  - 🇦🇶TG频道@baipiaoeverything_82
+  - 🇦🇶TG频道@baipiaoeverything_83
+  - 🇺🇸TG频道@baipiaoeverything_84
+  - 🇭🇰TG频道@baipiaoeverything_85
+  - 🇯🇵TG频道@baipiaoeverything_86
+  - 🇺🇸TG频道@baipiaoeverything_87
+  - 🇦🇶TG频道@baipiaoeverything_88
 - name: Ⓜ️ 微软服务
   type: select
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
-  - 🇸🇬TG频道@baipiaoeverything_1
-  - 🇭🇰TG频道@baipiaoeverything_2
-  - 🇭🇰TG频道@baipiaoeverything_3
+  - 🇦🇶TG频道@baipiaoeverything_1
+  - 🇦🇶TG频道@baipiaoeverything_2
+  - 🇨🇳TG频道@baipiaoeverything_3
   - 🇦🇶TG频道@baipiaoeverything_4
-  - 🇺🇸TG频道@baipiaoeverything_5
-  - 🇭🇰TG频道@baipiaoeverything_6
-  - 🇺🇸TG频道@baipiaoeverything_7
-  - 🇭🇰TG频道@baipiaoeverything_8
-  - 🇩🇪TG频道@baipiaoeverything_9
-  - 🇺🇸TG频道@baipiaoeverything_10
+  - 🇦🇶TG频道@baipiaoeverything_5
+  - 🇺🇸TG频道@baipiaoeverything_6
+  - 🇰🇷TG频道@baipiaoeverything_7
+  - 🇨🇳TG频道@baipiaoeverything_8
+  - 🇯🇵TG频道@baipiaoeverything_9
+  - 🇨🇳TG频道@baipiaoeverything_10
   - 🇺🇸TG频道@baipiaoeverything_11
-  - 🇬🇧TG频道@baipiaoeverything_12
-  - 🇭🇰TG频道@baipiaoeverything_13
-  - 🇮🇳TG频道@baipiaoeverything_14
-  - 🇹🇼TG频道@baipiaoeverything_15
-  - 🇭🇰TG频道@baipiaoeverything_16
-  - 🇦🇶TG频道@baipiaoeverything_17
-  - 🇦🇶TG频道@baipiaoeverything_18
-  - 🇰🇷TG频道@baipiaoeverything_19
-  - 🇯🇵TG频道@baipiaoeverything_20
-  - 🇫🇷TG频道@baipiaoeverything_21
-  - 🇦🇶TG频道@baipiaoeverything_22
-  - 🇨🇳TG频道@baipiaoeverything_23
-  - 🇸🇬TG频道@baipiaoeverything_24
-  - 🇱🇦TG频道@baipiaoeverything_25
-  - 🇨🇳TG频道@baipiaoeverything_26
+  - 🇭🇰TG频道@baipiaoeverything_12
+  - 🇫🇮TG频道@baipiaoeverything_13
+  - 🇨🇳TG频道@baipiaoeverything_14
+  - 🇮🇳TG频道@baipiaoeverything_15
+  - 🇮🇳TG频道@baipiaoeverything_16
+  - 🇱🇦TG频道@baipiaoeverything_17
+  - 🇺🇸TG频道@baipiaoeverything_18
+  - 🇨🇳TG频道@baipiaoeverything_19
+  - 🇩🇪TG频道@baipiaoeverything_20
+  - 🇺🇸TG频道@baipiaoeverything_21
+  - 🇺🇸TG频道@baipiaoeverything_22
+  - 🇷🇺TG频道@baipiaoeverything_23
+  - 🇭🇰TG频道@baipiaoeverything_24
+  - 🇦🇶TG频道@baipiaoeverything_25
+  - 🇭🇰TG频道@baipiaoeverything_26
   - 🇮🇳TG频道@baipiaoeverything_27
-  - 🇨🇳TG频道@baipiaoeverything_28
-  - 🇸🇬TG频道@baipiaoeverything_29
-  - 🇸🇬TG频道@baipiaoeverything_30
-  - 🇨🇳TG频道@baipiaoeverything_31
-  - 🇯🇵TG频道@baipiaoeverything_32
-  - 🇦🇶TG频道@baipiaoeverything_33
-  - 🇺🇸TG频道@baipiaoeverything_34
-  - 🇨🇳TG频道@baipiaoeverything_35
-  - 🇺🇸TG频道@baipiaoeverything_36
-  - 🇨🇳TG频道@baipiaoeverything_37
-  - 🇫🇷TG频道@baipiaoeverything_38
-  - 🇺🇸TG频道@baipiaoeverything_39
+  - 🇹🇼TG频道@baipiaoeverything_28
+  - 🇦🇶TG频道@baipiaoeverything_29
+  - 🇨🇳TG频道@baipiaoeverything_30
+  - 🇭🇰TG频道@baipiaoeverything_31
+  - 🇨🇳TG频道@baipiaoeverything_32
+  - 🇻🇳TG频道@baipiaoeverything_33
+  - 🇦🇶TG频道@baipiaoeverything_34
+  - 🇭🇰TG频道@baipiaoeverything_35
+  - 🇭🇰TG频道@baipiaoeverything_36
+  - 🇺🇸TG频道@baipiaoeverything_37
+  - 🇨🇳TG频道@baipiaoeverything_38
+  - 🇦🇶TG频道@baipiaoeverything_39
+  - 🇺🇸TG频道@baipiaoeverything_40
+  - 🇨🇳TG频道@baipiaoeverything_41
+  - 🇺🇸TG频道@baipiaoeverything_42
+  - 🇺🇸TG频道@baipiaoeverything_43
+  - 🇦🇶TG频道@baipiaoeverything_44
+  - 🇦🇶TG频道@baipiaoeverything_45
+  - 🇭🇰TG频道@baipiaoeverything_46
+  - 🇺🇸TG频道@baipiaoeverything_47
+  - 🇰🇷TG频道@baipiaoeverything_48
+  - 🇨🇳TG频道@baipiaoeverything_49
+  - 🇭🇰TG频道@baipiaoeverything_50
+  - 🇭🇰TG频道@baipiaoeverything_51
+  - 🇦🇶TG频道@baipiaoeverything_52
+  - 🇭🇰TG频道@baipiaoeverything_53
+  - 🇸🇬TG频道@baipiaoeverything_54
+  - 🇺🇸TG频道@baipiaoeverything_55
+  - 🇰🇷TG频道@baipiaoeverything_56
+  - 🇦🇶TG频道@baipiaoeverything_57
+  - 🇰🇷TG频道@baipiaoeverything_58
+  - 🇰🇷TG频道@baipiaoeverything_59
+  - 🇰🇷TG频道@baipiaoeverything_60
+  - 🇨🇳TG频道@baipiaoeverything_61
+  - 🇭🇰TG频道@baipiaoeverything_62
+  - 🇦🇶TG频道@baipiaoeverything_63
+  - 🇨🇳TG频道@baipiaoeverything_64
+  - 🇺🇸TG频道@baipiaoeverything_65
+  - 🇭🇰TG频道@baipiaoeverything_66
+  - 🇺🇸TG频道@baipiaoeverything_67
+  - 🇦🇶TG频道@baipiaoeverything_68
+  - 🇺🇸TG频道@baipiaoeverything_69
+  - 🇬🇧TG频道@baipiaoeverything_70
+  - 🇨🇳TG频道@baipiaoeverything_71
+  - 🇨🇳TG频道@baipiaoeverything_72
+  - 🇭🇰TG频道@baipiaoeverything_73
+  - 🇰🇷TG频道@baipiaoeverything_74
+  - 🇦🇶TG频道@baipiaoeverything_75
+  - 🇦🇶TG频道@baipiaoeverything_76
+  - 🇺🇸TG频道@baipiaoeverything_77
+  - 🇮🇳TG频道@baipiaoeverything_78
+  - 🇨🇳TG频道@baipiaoeverything_79
+  - 🇺🇸TG频道@baipiaoeverything_80
+  - 🇨🇳TG频道@baipiaoeverything_81
+  - 🇦🇶TG频道@baipiaoeverything_82
+  - 🇦🇶TG频道@baipiaoeverything_83
+  - 🇺🇸TG频道@baipiaoeverything_84
+  - 🇭🇰TG频道@baipiaoeverything_85
+  - 🇯🇵TG频道@baipiaoeverything_86
+  - 🇺🇸TG频道@baipiaoeverything_87
+  - 🇦🇶TG频道@baipiaoeverything_88
 - name: 🍎 苹果服务
   type: select
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇸🇬TG频道@baipiaoeverything_1
-  - 🇭🇰TG频道@baipiaoeverything_2
-  - 🇭🇰TG频道@baipiaoeverything_3
+  - 🇦🇶TG频道@baipiaoeverything_1
+  - 🇦🇶TG频道@baipiaoeverything_2
+  - 🇨🇳TG频道@baipiaoeverything_3
   - 🇦🇶TG频道@baipiaoeverything_4
-  - 🇺🇸TG频道@baipiaoeverything_5
-  - 🇭🇰TG频道@baipiaoeverything_6
-  - 🇺🇸TG频道@baipiaoeverything_7
-  - 🇭🇰TG频道@baipiaoeverything_8
-  - 🇩🇪TG频道@baipiaoeverything_9
-  - 🇺🇸TG频道@baipiaoeverything_10
+  - 🇦🇶TG频道@baipiaoeverything_5
+  - 🇺🇸TG频道@baipiaoeverything_6
+  - 🇰🇷TG频道@baipiaoeverything_7
+  - 🇨🇳TG频道@baipiaoeverything_8
+  - 🇯🇵TG频道@baipiaoeverything_9
+  - 🇨🇳TG频道@baipiaoeverything_10
   - 🇺🇸TG频道@baipiaoeverything_11
-  - 🇬🇧TG频道@baipiaoeverything_12
-  - 🇭🇰TG频道@baipiaoeverything_13
-  - 🇮🇳TG频道@baipiaoeverything_14
-  - 🇹🇼TG频道@baipiaoeverything_15
-  - 🇭🇰TG频道@baipiaoeverything_16
-  - 🇦🇶TG频道@baipiaoeverything_17
-  - 🇦🇶TG频道@baipiaoeverything_18
-  - 🇰🇷TG频道@baipiaoeverything_19
-  - 🇯🇵TG频道@baipiaoeverything_20
-  - 🇫🇷TG频道@baipiaoeverything_21
-  - 🇦🇶TG频道@baipiaoeverything_22
-  - 🇨🇳TG频道@baipiaoeverything_23
-  - 🇸🇬TG频道@baipiaoeverything_24
-  - 🇱🇦TG频道@baipiaoeverything_25
-  - 🇨🇳TG频道@baipiaoeverything_26
+  - 🇭🇰TG频道@baipiaoeverything_12
+  - 🇫🇮TG频道@baipiaoeverything_13
+  - 🇨🇳TG频道@baipiaoeverything_14
+  - 🇮🇳TG频道@baipiaoeverything_15
+  - 🇮🇳TG频道@baipiaoeverything_16
+  - 🇱🇦TG频道@baipiaoeverything_17
+  - 🇺🇸TG频道@baipiaoeverything_18
+  - 🇨🇳TG频道@baipiaoeverything_19
+  - 🇩🇪TG频道@baipiaoeverything_20
+  - 🇺🇸TG频道@baipiaoeverything_21
+  - 🇺🇸TG频道@baipiaoeverything_22
+  - 🇷🇺TG频道@baipiaoeverything_23
+  - 🇭🇰TG频道@baipiaoeverything_24
+  - 🇦🇶TG频道@baipiaoeverything_25
+  - 🇭🇰TG频道@baipiaoeverything_26
   - 🇮🇳TG频道@baipiaoeverything_27
-  - 🇨🇳TG频道@baipiaoeverything_28
-  - 🇸🇬TG频道@baipiaoeverything_29
-  - 🇸🇬TG频道@baipiaoeverything_30
-  - 🇨🇳TG频道@baipiaoeverything_31
-  - 🇯🇵TG频道@baipiaoeverything_32
-  - 🇦🇶TG频道@baipiaoeverything_33
-  - 🇺🇸TG频道@baipiaoeverything_34
-  - 🇨🇳TG频道@baipiaoeverything_35
-  - 🇺🇸TG频道@baipiaoeverything_36
-  - 🇨🇳TG频道@baipiaoeverything_37
-  - 🇫🇷TG频道@baipiaoeverything_38
-  - 🇺🇸TG频道@baipiaoeverything_39
+  - 🇹🇼TG频道@baipiaoeverything_28
+  - 🇦🇶TG频道@baipiaoeverything_29
+  - 🇨🇳TG频道@baipiaoeverything_30
+  - 🇭🇰TG频道@baipiaoeverything_31
+  - 🇨🇳TG频道@baipiaoeverything_32
+  - 🇻🇳TG频道@baipiaoeverything_33
+  - 🇦🇶TG频道@baipiaoeverything_34
+  - 🇭🇰TG频道@baipiaoeverything_35
+  - 🇭🇰TG频道@baipiaoeverything_36
+  - 🇺🇸TG频道@baipiaoeverything_37
+  - 🇨🇳TG频道@baipiaoeverything_38
+  - 🇦🇶TG频道@baipiaoeverything_39
+  - 🇺🇸TG频道@baipiaoeverything_40
+  - 🇨🇳TG频道@baipiaoeverything_41
+  - 🇺🇸TG频道@baipiaoeverything_42
+  - 🇺🇸TG频道@baipiaoeverything_43
+  - 🇦🇶TG频道@baipiaoeverything_44
+  - 🇦🇶TG频道@baipiaoeverything_45
+  - 🇭🇰TG频道@baipiaoeverything_46
+  - 🇺🇸TG频道@baipiaoeverything_47
+  - 🇰🇷TG频道@baipiaoeverything_48
+  - 🇨🇳TG频道@baipiaoeverything_49
+  - 🇭🇰TG频道@baipiaoeverything_50
+  - 🇭🇰TG频道@baipiaoeverything_51
+  - 🇦🇶TG频道@baipiaoeverything_52
+  - 🇭🇰TG频道@baipiaoeverything_53
+  - 🇸🇬TG频道@baipiaoeverything_54
+  - 🇺🇸TG频道@baipiaoeverything_55
+  - 🇰🇷TG频道@baipiaoeverything_56
+  - 🇦🇶TG频道@baipiaoeverything_57
+  - 🇰🇷TG频道@baipiaoeverything_58
+  - 🇰🇷TG频道@baipiaoeverything_59
+  - 🇰🇷TG频道@baipiaoeverything_60
+  - 🇨🇳TG频道@baipiaoeverything_61
+  - 🇭🇰TG频道@baipiaoeverything_62
+  - 🇦🇶TG频道@baipiaoeverything_63
+  - 🇨🇳TG频道@baipiaoeverything_64
+  - 🇺🇸TG频道@baipiaoeverything_65
+  - 🇭🇰TG频道@baipiaoeverything_66
+  - 🇺🇸TG频道@baipiaoeverything_67
+  - 🇦🇶TG频道@baipiaoeverything_68
+  - 🇺🇸TG频道@baipiaoeverything_69
+  - 🇬🇧TG频道@baipiaoeverything_70
+  - 🇨🇳TG频道@baipiaoeverything_71
+  - 🇨🇳TG频道@baipiaoeverything_72
+  - 🇭🇰TG频道@baipiaoeverything_73
+  - 🇰🇷TG频道@baipiaoeverything_74
+  - 🇦🇶TG频道@baipiaoeverything_75
+  - 🇦🇶TG频道@baipiaoeverything_76
+  - 🇺🇸TG频道@baipiaoeverything_77
+  - 🇮🇳TG频道@baipiaoeverything_78
+  - 🇨🇳TG频道@baipiaoeverything_79
+  - 🇺🇸TG频道@baipiaoeverything_80
+  - 🇨🇳TG频道@baipiaoeverything_81
+  - 🇦🇶TG频道@baipiaoeverything_82
+  - 🇦🇶TG频道@baipiaoeverything_83
+  - 🇺🇸TG频道@baipiaoeverything_84
+  - 🇭🇰TG频道@baipiaoeverything_85
+  - 🇯🇵TG频道@baipiaoeverything_86
+  - 🇺🇸TG频道@baipiaoeverything_87
+  - 🇦🇶TG频道@baipiaoeverything_88
 - name: 🎯 全球直连
   type: select
   proxies:
@@ -762,45 +1638,94 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
-  - 🇸🇬TG频道@baipiaoeverything_1
-  - 🇭🇰TG频道@baipiaoeverything_2
-  - 🇭🇰TG频道@baipiaoeverything_3
+  - 🇦🇶TG频道@baipiaoeverything_1
+  - 🇦🇶TG频道@baipiaoeverything_2
+  - 🇨🇳TG频道@baipiaoeverything_3
   - 🇦🇶TG频道@baipiaoeverything_4
-  - 🇺🇸TG频道@baipiaoeverything_5
-  - 🇭🇰TG频道@baipiaoeverything_6
-  - 🇺🇸TG频道@baipiaoeverything_7
-  - 🇭🇰TG频道@baipiaoeverything_8
-  - 🇩🇪TG频道@baipiaoeverything_9
-  - 🇺🇸TG频道@baipiaoeverything_10
+  - 🇦🇶TG频道@baipiaoeverything_5
+  - 🇺🇸TG频道@baipiaoeverything_6
+  - 🇰🇷TG频道@baipiaoeverything_7
+  - 🇨🇳TG频道@baipiaoeverything_8
+  - 🇯🇵TG频道@baipiaoeverything_9
+  - 🇨🇳TG频道@baipiaoeverything_10
   - 🇺🇸TG频道@baipiaoeverything_11
-  - 🇬🇧TG频道@baipiaoeverything_12
-  - 🇭🇰TG频道@baipiaoeverything_13
-  - 🇮🇳TG频道@baipiaoeverything_14
-  - 🇹🇼TG频道@baipiaoeverything_15
-  - 🇭🇰TG频道@baipiaoeverything_16
-  - 🇦🇶TG频道@baipiaoeverything_17
-  - 🇦🇶TG频道@baipiaoeverything_18
-  - 🇰🇷TG频道@baipiaoeverything_19
-  - 🇯🇵TG频道@baipiaoeverything_20
-  - 🇫🇷TG频道@baipiaoeverything_21
-  - 🇦🇶TG频道@baipiaoeverything_22
-  - 🇨🇳TG频道@baipiaoeverything_23
-  - 🇸🇬TG频道@baipiaoeverything_24
-  - 🇱🇦TG频道@baipiaoeverything_25
-  - 🇨🇳TG频道@baipiaoeverything_26
+  - 🇭🇰TG频道@baipiaoeverything_12
+  - 🇫🇮TG频道@baipiaoeverything_13
+  - 🇨🇳TG频道@baipiaoeverything_14
+  - 🇮🇳TG频道@baipiaoeverything_15
+  - 🇮🇳TG频道@baipiaoeverything_16
+  - 🇱🇦TG频道@baipiaoeverything_17
+  - 🇺🇸TG频道@baipiaoeverything_18
+  - 🇨🇳TG频道@baipiaoeverything_19
+  - 🇩🇪TG频道@baipiaoeverything_20
+  - 🇺🇸TG频道@baipiaoeverything_21
+  - 🇺🇸TG频道@baipiaoeverything_22
+  - 🇷🇺TG频道@baipiaoeverything_23
+  - 🇭🇰TG频道@baipiaoeverything_24
+  - 🇦🇶TG频道@baipiaoeverything_25
+  - 🇭🇰TG频道@baipiaoeverything_26
   - 🇮🇳TG频道@baipiaoeverything_27
-  - 🇨🇳TG频道@baipiaoeverything_28
-  - 🇸🇬TG频道@baipiaoeverything_29
-  - 🇸🇬TG频道@baipiaoeverything_30
-  - 🇨🇳TG频道@baipiaoeverything_31
-  - 🇯🇵TG频道@baipiaoeverything_32
-  - 🇦🇶TG频道@baipiaoeverything_33
-  - 🇺🇸TG频道@baipiaoeverything_34
-  - 🇨🇳TG频道@baipiaoeverything_35
-  - 🇺🇸TG频道@baipiaoeverything_36
-  - 🇨🇳TG频道@baipiaoeverything_37
-  - 🇫🇷TG频道@baipiaoeverything_38
-  - 🇺🇸TG频道@baipiaoeverything_39
+  - 🇹🇼TG频道@baipiaoeverything_28
+  - 🇦🇶TG频道@baipiaoeverything_29
+  - 🇨🇳TG频道@baipiaoeverything_30
+  - 🇭🇰TG频道@baipiaoeverything_31
+  - 🇨🇳TG频道@baipiaoeverything_32
+  - 🇻🇳TG频道@baipiaoeverything_33
+  - 🇦🇶TG频道@baipiaoeverything_34
+  - 🇭🇰TG频道@baipiaoeverything_35
+  - 🇭🇰TG频道@baipiaoeverything_36
+  - 🇺🇸TG频道@baipiaoeverything_37
+  - 🇨🇳TG频道@baipiaoeverything_38
+  - 🇦🇶TG频道@baipiaoeverything_39
+  - 🇺🇸TG频道@baipiaoeverything_40
+  - 🇨🇳TG频道@baipiaoeverything_41
+  - 🇺🇸TG频道@baipiaoeverything_42
+  - 🇺🇸TG频道@baipiaoeverything_43
+  - 🇦🇶TG频道@baipiaoeverything_44
+  - 🇦🇶TG频道@baipiaoeverything_45
+  - 🇭🇰TG频道@baipiaoeverything_46
+  - 🇺🇸TG频道@baipiaoeverything_47
+  - 🇰🇷TG频道@baipiaoeverything_48
+  - 🇨🇳TG频道@baipiaoeverything_49
+  - 🇭🇰TG频道@baipiaoeverything_50
+  - 🇭🇰TG频道@baipiaoeverything_51
+  - 🇦🇶TG频道@baipiaoeverything_52
+  - 🇭🇰TG频道@baipiaoeverything_53
+  - 🇸🇬TG频道@baipiaoeverything_54
+  - 🇺🇸TG频道@baipiaoeverything_55
+  - 🇰🇷TG频道@baipiaoeverything_56
+  - 🇦🇶TG频道@baipiaoeverything_57
+  - 🇰🇷TG频道@baipiaoeverything_58
+  - 🇰🇷TG频道@baipiaoeverything_59
+  - 🇰🇷TG频道@baipiaoeverything_60
+  - 🇨🇳TG频道@baipiaoeverything_61
+  - 🇭🇰TG频道@baipiaoeverything_62
+  - 🇦🇶TG频道@baipiaoeverything_63
+  - 🇨🇳TG频道@baipiaoeverything_64
+  - 🇺🇸TG频道@baipiaoeverything_65
+  - 🇭🇰TG频道@baipiaoeverything_66
+  - 🇺🇸TG频道@baipiaoeverything_67
+  - 🇦🇶TG频道@baipiaoeverything_68
+  - 🇺🇸TG频道@baipiaoeverything_69
+  - 🇬🇧TG频道@baipiaoeverything_70
+  - 🇨🇳TG频道@baipiaoeverything_71
+  - 🇨🇳TG频道@baipiaoeverything_72
+  - 🇭🇰TG频道@baipiaoeverything_73
+  - 🇰🇷TG频道@baipiaoeverything_74
+  - 🇦🇶TG频道@baipiaoeverything_75
+  - 🇦🇶TG频道@baipiaoeverything_76
+  - 🇺🇸TG频道@baipiaoeverything_77
+  - 🇮🇳TG频道@baipiaoeverything_78
+  - 🇨🇳TG频道@baipiaoeverything_79
+  - 🇺🇸TG频道@baipiaoeverything_80
+  - 🇨🇳TG频道@baipiaoeverything_81
+  - 🇦🇶TG频道@baipiaoeverything_82
+  - 🇦🇶TG频道@baipiaoeverything_83
+  - 🇺🇸TG频道@baipiaoeverything_84
+  - 🇭🇰TG频道@baipiaoeverything_85
+  - 🇯🇵TG频道@baipiaoeverything_86
+  - 🇺🇸TG频道@baipiaoeverything_87
+  - 🇦🇶TG频道@baipiaoeverything_88
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
 - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
