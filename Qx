@@ -30,32 +30,32 @@ static=🐟 漏网之鱼, 🚀 节点选择, 🎯 全球直连, ♻️ 自动选
 [rewrite_remote]
 
 [server_local]
-vmess = xg1.xbywwcp.us:15025, method=chacha20-ietf-poly1305, password=678c9fa3-9e93-4e66-90ab-e584eff9f25a, aead=true, obfs=ws, obfs-host=a.189.cn, obfs-uri=/qingzhuanduoyun, fast-open=false, udp-relay=false, tag=TG频道@baipiaoeverything_1
-trojan = t-wn02.niuniucloud.xyz:53054, password=86bbd104-738d-4d9d-8122-c31d9bb837b6, over-tls=false, fast-open=false, udp-relay=false, tag=TG频道@baipiaoeverything_2
-trojan = j-p02.niuniucloud.xyz:53046, password=86bbd104-738d-4d9d-8122-c31d9bb837b6, over-tls=false, fast-open=false, udp-relay=false, tag=TG频道@baipiaoeverything_3
-trojan = h-k03.niuniucloud.xyz:53016, password=86bbd104-738d-4d9d-8122-c31d9bb837b6, over-tls=false, fast-open=false, udp-relay=false, tag=TG频道@baipiaoeverything_4
-shadowsocks = initest08.initcloud.pro:562, method=chacha20-ietf, password=mblank1port, ssr-protocol=auth_aes128_md5, obfs=plain, fast-open=false, udp-relay=false, tag=TG频道@baipiaoeverything_5
-shadowsocks = gzyd.120.817777.xyz:11000, method=aes-256-cfb, password=zxOmdD, ssr-protocol=auth_aes128_sha1, obfs=tls1.2_ticket_auth, fast-open=false, udp-relay=false, tag=TG频道@baipiaoeverything_6
-shadowsocks = 1cnrelay.initcloud.pro:560, method=chacha20-ietf, password=mblank1port, ssr-protocol=auth_aes128_md5, obfs=plain, fast-open=false, udp-relay=false, tag=TG频道@baipiaoeverything_7
-trojan = u-s01.niuniucloud.xyz:53028, password=86bbd104-738d-4d9d-8122-c31d9bb837b6, over-tls=false, fast-open=false, udp-relay=false, tag=TG频道@baipiaoeverything_8
-vmess = hk2.gmlovebaipiao.tech:16404, method=chacha20-ietf-poly1305, password=9783528f-cb13-46dc-893d-35467a23446f, aead=true, obfs=ws, obfs-host=hk2.gmlovebaipiao.tech, obfs-uri=/GENSHINMINECRAFT, fast-open=false, udp-relay=false, tag=TG频道@baipiaoeverything_9
-shadowsocks = bs2.jymzffbquawl.com:3502, method=chacha20-ietf, password=renzhecloud, ssr-protocol=auth_aes128_sha1, obfs=plain, fast-open=false, udp-relay=false, tag=TG频道@baipiaoeverything_10
-trojan = k-r04.niuniucloud.xyz:53026, password=25fcf9a0-f564-4ccc-bf3f-7edf1a9f3c66, over-tls=false, fast-open=false, udp-relay=false, tag=TG频道@baipiaoeverything_11
-shadowsocks = pr2.jymzffbquawl.com:3506, method=chacha20-ietf, password=renzhecloud, ssr-protocol=auth_aes128_sha1, obfs=plain, fast-open=false, udp-relay=false, tag=TG频道@baipiaoeverything_12
-trojan = h-k02.niuniucloud.xyz:53014, password=058dfe61-942d-40f7-a9d4-4a37f7cf306a, over-tls=false, fast-open=false, udp-relay=false, tag=TG频道@baipiaoeverything_13
-vmess = 34.wgong1.top:52234, method=chacha20-ietf-poly1305, password=9fee262e-87e1-312a-8d8e-cbb9e01a5657, aead=false, fast-open=false, udp-relay=false, tag=TG频道@baipiaoeverything_14
-trojan = t-wn03.niuniucloud.xyz:53056, password=86bbd104-738d-4d9d-8122-c31d9bb837b6, over-tls=false, fast-open=false, udp-relay=false, tag=TG频道@baipiaoeverything_15
-vmess = 152.69.230.170:80, method=chacha20-ietf-poly1305, password=6aa24ded-5f15-48c7-8cba-3e2a159d6b77, aead=true, obfs=ws, obfs-host=152.69.230.170, obfs-uri=/, fast-open=false, udp-relay=false, tag=TG频道@baipiaoeverything_16
-vmess = f1f3227.v3.glados-config.net:3331, method=chacha20-ietf-poly1305, password=57e0cb4d-eae5-48ec-8091-149dc2b309e0, aead=true, obfs=ws, obfs-host=api.skype.com, obfs-uri=/s/f1f3227.fm.apple.com:111548, fast-open=false, udp-relay=false, tag=TG频道@baipiaoeverything_17
-vmess = azjp.xbywwcp.us:80, method=chacha20-ietf-poly1305, password=678c9fa3-9e93-4e66-90ab-e584eff9f25a, aead=true, obfs=ws, obfs-host=a.189.cn, obfs-uri=/qingzhuanduoyun, fast-open=false, udp-relay=false, tag=TG频道@baipiaoeverything_18
-trojan = gonggao03.niuniucloud.xyz:53004, password=86bbd104-738d-4d9d-8122-c31d9bb837b6, over-tls=false, fast-open=false, udp-relay=false, tag=TG频道@baipiaoeverything_19
-trojan = u-s02.niuniucloud.xyz:53030, password=86bbd104-738d-4d9d-8122-c31d9bb837b6, over-tls=false, fast-open=false, udp-relay=false, tag=TG频道@baipiaoeverything_20
-trojan = s-g02.niuniucloud.xyz:53038, password=86bbd104-738d-4d9d-8122-c31d9bb837b6, over-tls=false, fast-open=false, udp-relay=false, tag=TG频道@baipiaoeverything_21
-vmess = xg.xbywwcp.us:15025, method=chacha20-ietf-poly1305, password=678c9fa3-9e93-4e66-90ab-e584eff9f25a, aead=true, obfs=ws, obfs-host=a.189.cn, obfs-uri=/qingzhuanduoyun, fast-open=false, udp-relay=false, tag=TG频道@baipiaoeverything_22
-trojan = 19231tj.matrixxx888.com:19231, password=7c9244a7-1f52-352c-8f02-f5f0f5e694b6, over-tls=false, fast-open=false, udp-relay=false, tag=TG频道@baipiaoeverything_23
-trojan = cm1.henet.top:30002, password=f522480e-f7e9-4db9-bc4f-d0bd59ebd000, over-tls=false, fast-open=false, udp-relay=false, tag=TG频道@baipiaoeverything_24
-trojan = gonggao04.niuniucloud.xyz:53006, password=86bbd104-738d-4d9d-8122-c31d9bb837b6, over-tls=false, fast-open=false, udp-relay=false, tag=TG频道@baipiaoeverything_25
-vmess = 47.243.104.195:58944, method=chacha20-ietf-poly1305, password=a0f25e25-9c5d-4d96-9051-5481c46e277d, aead=true, fast-open=false, udp-relay=false, tag=TG频道@baipiaoeverything_26
+shadowsocks = v1.ahlt.kiki789.com:31562, method=chacha20-ietf, password=yT6Am5, ssr-protocol=auth_aes128_md5, obfs=tls1.2_ticket_auth, obfs-host=cafb0316922.microsoft.com, fast-open=false, udp-relay=false, tag=TG频道@baipiaoeverything_1
+vmess = us1.sanfen001.pics:2001, method=chacha20-ietf-poly1305, password=e5651d7c-a169-4774-b976-e4aac07dbf93, aead=true, obfs=ws, obfs-host=www.microsoft.com, obfs-uri=/zh-cn, fast-open=false, udp-relay=false, tag=TG频道@baipiaoeverything_2
+vmess = 47.243.29.114:25167, method=chacha20-ietf-poly1305, password=3e870054-fc9c-4937-a7d9-f5878296da4d, aead=true, fast-open=false, udp-relay=false, tag=TG频道@baipiaoeverything_3
+shadowsocks = 116.129.254.51:51002, method=chacha20-ietf-poly1305, password=17a3ea1d-f40d-4315-9996-b0597d7744ce, fast-open=false, udp-relay=false, tag=TG频道@baipiaoeverything_4
+shadowsocks = j.v4.1.kiki789.com:31720, method=chacha20-ietf, password=yT6Am5, ssr-protocol=auth_aes128_md5, obfs=tls1.2_ticket_auth, obfs-host=cafb0316922.microsoft.com, fast-open=false, udp-relay=false, tag=TG频道@baipiaoeverything_5
+shadowsocks = jp.j.v4.2.kiki789.com:31400, method=chacha20-ietf, password=yT6Am5, ssr-protocol=auth_aes128_md5, obfs=tls1.2_ticket_auth, obfs-host=cafb0316922.microsoft.com, fast-open=false, udp-relay=false, tag=TG频道@baipiaoeverything_6
+vmess = in02.my1188.org:63086, method=chacha20-ietf-poly1305, password=c1517df4-6454-39ce-9037-d5eccfc703b7, aead=true, obfs=ws, obfs-host=jp-balancer.myn1des.com, obfs-uri=/mugua, fast-open=false, udp-relay=false, tag=TG频道@baipiaoeverything_7
+shadowsocks = ovhsg.v4.kiki789.com:31852, method=chacha20-ietf, password=yT6Am5, ssr-protocol=auth_aes128_md5, obfs=tls1.2_ticket_auth, obfs-host=cafb0316922.microsoft.com, fast-open=false, udp-relay=false, tag=TG频道@baipiaoeverything_8
+shadowsocks = j.v3.1.kiki789.com:21710, method=chacha20-ietf, password=yT6Am5, ssr-protocol=auth_aes128_md5, obfs=tls1.2_ticket_auth, obfs-host=cafb0316922.microsoft.com, fast-open=false, udp-relay=false, tag=TG频道@baipiaoeverything_9
+vmess = 8.210.226.71:35756, method=chacha20-ietf-poly1305, password=42b9acac-66ac-4f48-9e43-ce54ebd4778f, aead=true, fast-open=false, udp-relay=false, tag=TG频道@baipiaoeverything_10
+vmess = 162.159.160.104:8080, method=chacha20-ietf-poly1305, password=e3dba91f-b31c-473a-8f17-92e1dedda38f, aead=true, obfs=ws, obfs-host=v6nt.gongyiyun.cf, obfs-uri=/, fast-open=false, udp-relay=false, tag=TG频道@baipiaoeverything_11
+shadowsocks = j.v2.2.kiki789.com:22716, method=chacha20-ietf, password=yT6Am5, ssr-protocol=auth_aes128_md5, obfs=tls1.2_ticket_auth, obfs-host=cafb0316922.microsoft.com, fast-open=false, udp-relay=false, tag=TG频道@baipiaoeverything_12
+vmess = hk2.sanfen001.pics:443, method=chacha20-ietf-poly1305, password=e5651d7c-a169-4774-b976-e4aac07dbf93, aead=true, obfs=ws, obfs-host=www.microsoft.com, obfs-uri=/zh-cn, fast-open=false, udp-relay=false, tag=TG频道@baipiaoeverything_13
+vmess = us2.sanfen001.pics:2001, method=chacha20-ietf-poly1305, password=e5651d7c-a169-4774-b976-e4aac07dbf93, aead=true, obfs=ws, obfs-host=www.microsoft.com, obfs-uri=/zh-cn, fast-open=false, udp-relay=false, tag=TG频道@baipiaoeverything_14
+shadowsocks = jp.v2.j.v4.2.kiki789.com:31404, method=chacha20-ietf, password=yT6Am5, ssr-protocol=auth_aes128_md5, obfs=tls1.2_ticket_auth, obfs-host=cafb0316922.microsoft.com, fast-open=false, udp-relay=false, tag=TG频道@baipiaoeverything_15
+vmess = doau.wyattoffice.ga:443, method=chacha20-ietf-poly1305, password=71f25663-8981-4567-e4d9-8b0f4c2329e8, aead=true, obfs=ws, obfs-host=doau.wyattoffice.ga, obfs-uri=/share, fast-open=false, udp-relay=false, tag=TG频道@baipiaoeverything_16
+shadowsocks = j.v3.2.kiki789.com:39306, method=chacha20-ietf, password=yT6Am5, ssr-protocol=auth_aes128_md5, obfs=tls1.2_ticket_auth, obfs-host=cafb0316922.microsoft.com, fast-open=false, udp-relay=false, tag=TG频道@baipiaoeverything_17
+shadowsocks = jp.j.v3.2.kiki789.com:31402, method=chacha20-ietf, password=yT6Am5, ssr-protocol=auth_aes128_md5, obfs=tls1.2_ticket_auth, obfs-host=cafb0316922.microsoft.com, fast-open=false, udp-relay=false, tag=TG频道@baipiaoeverything_18
+vmess = in06.my1188.org:63088, method=chacha20-ietf-poly1305, password=c1517df4-6454-39ce-9037-d5eccfc703b7, aead=true, obfs=ws, obfs-host=tw-load-balancer.myn1des.com, obfs-uri=/mugua, fast-open=false, udp-relay=false, tag=TG频道@baipiaoeverything_19
+vmess = in01.my1188.org:63078, method=chacha20-ietf-poly1305, password=c1517df4-6454-39ce-9037-d5eccfc703b7, aead=true, obfs=ws, obfs-host=hk-balancer.airport-v2.com, obfs-uri=/, fast-open=false, udp-relay=false, tag=TG频道@baipiaoeverything_20
+vmess = hk4.sanfen001.pics:443, method=chacha20-ietf-poly1305, password=e5651d7c-a169-4774-b976-e4aac07dbf93, aead=true, obfs=ws, obfs-host=www.microsoft.com, obfs-uri=/zh-cn, fast-open=false, udp-relay=false, tag=TG频道@baipiaoeverything_21
+shadowsocks = cc-iepl.244312.xyz:54509, method=aes-128-gcm, password=17a3ea1d-f40d-4315-9996-b0597d7744ce, fast-open=false, udp-relay=false, tag=TG频道@baipiaoeverything_22
+shadowsocks = j.v4.2.kiki789.com:31800, method=chacha20-ietf, password=yT6Am5, ssr-protocol=auth_aes128_md5, obfs=tls1.2_ticket_auth, obfs-host=cafb0316922.microsoft.com, fast-open=false, udp-relay=false, tag=TG频道@baipiaoeverything_23
+vmess = v.ovhsg.v4.kiki789.com:31871, method=chacha20-ietf-poly1305, password=37a6aede-091f-3d57-9ff0-7ed734204e82, aead=true, obfs=ws, obfs-host=jike1-sgovh01.bilibili.com, obfs-uri=/04235e8c-cea8-4f16-8934-b704a89b40cb.live238.m3u8, fast-open=false, udp-relay=false, tag=TG频道@baipiaoeverything_24
+vmess = pro01.my1188.org:3213, method=chacha20-ietf-poly1305, password=c1517df4-6454-39ce-9037-d5eccfc703b7, aead=true, obfs=ws, obfs-host=au01.iepl.nbsd.us, obfs-uri=/, fast-open=false, udp-relay=false, tag=TG频道@baipiaoeverything_25
+shadowsocks = jp.v1.j.v4.2.kiki789.com:31406, method=chacha20-ietf, password=yT6Am5, ssr-protocol=auth_aes128_md5, obfs=tls1.2_ticket_auth, obfs-host=cafb0316922.microsoft.com, fast-open=false, udp-relay=false, tag=TG频道@baipiaoeverything_26
 
 [filter_local]
 DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
