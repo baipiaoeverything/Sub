@@ -4,588 +4,15 @@ mode: rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-- name: 🇨🇳 TG频道@memotee | 1
-  server: sinagz.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com
-  port: 20227
-  type: trojan
-  password: e9a15c1d-2432-4825-9a51-3a13673ff662
-  sni: v2uk01.fuqiangren.com
-  skip-cert-verify: true
-- type: vmess
-  name: 🇺🇸 TG频道@memotee | 2
-  server: dl.cytw.tk
-  port: 54174
-  uuid: 2e77ee16-34b4-41c2-e788-f160f27e110a
-  alterId: 0
-  cipher: auto
-  skip-cert-verify: true
-  network: tcp
-  tls: true
-  ws-opts:
-    path: /
-    headers:
-      Host: dl.cytw.tk
-- name: 🇨🇳 TG频道@memotee | 3
-  server: sinash02.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com
-  port: 30007
-  type: vmess
-  uuid: e9a15c1d-2432-4825-9a51-3a13673ff662
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    path: /aceamedv
-    headers:
-      Host: sh02.fastcloud.club
-- type: vmess
-  name: 🇭🇰 TG频道@memotee | 4
-  server: hk11.sanfen001.pics
-  port: 2001
-  uuid: ba84b2f4-93b5-406c-a01e-e8e67cf7bf25
-  alterId: 0
-  cipher: auto
-  skip-cert-verify: true
-  network: ws
-  tls: true
-  ws-opts:
-    path: /zh-cn
-    headers:
-      Host: www.microsoft.com
-- name: 🇨🇳 TG频道@memotee | 5
-  server: sinagz01.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com
-  port: 30005
-  type: trojan
-  password: e9a15c1d-2432-4825-9a51-3a13673ff662
-  sni: v2hgc01.fuqiangren.com
-  skip-cert-verify: true
 - type: trojan
-  name: 🇨🇳 TG频道@memotee | 6
-  server: hk5.jstcx.com
+  name: 🇺🇸 TG频道@memotee | 1
+  server: trny.ballistics.top
   port: '443'
-  password: f7e6551b-0380-42e1-b0dd-59d003edd4d4
-  sni: tls.czs1000.com
+  password: 0c355515-b1e5-4c0a-b843-e1defbe7c0fa
+  sni: trny.ballistics.top
   skip-cert-verify: true
-- name: 🇨🇳 TG频道@memotee | 7
-  server: ct.yibao.io
-  port: 10004
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 2380f07e-e54c-4645-8abe-50575b31f45f
-- name: 🇨🇳 TG频道@memotee | 8
-  server: gzcm.xn--dlq110j6ul.cc
-  port: 58563
-  type: vmess
-  uuid: 42872e4b-f1ed-436b-b3b7-55cc6c5c854d
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: gzcm.xn--dlq110j6ul.cc
-- name: 🇨🇳 TG频道@memotee | 9
-  server: 2cnrelay2.initcloud.pro
-  port: 561
-  type: ssr
-  cipher: chacha20-ietf
-  password: mblank1port
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 34189:jsnzkpg
-  obfs-param: ''
 - type: vmess
-  name: 🇫🇷 TG频道@memotee | 10
-  server: 141.11.45.116
-  port: 54444
-  uuid: d87b07db-919e-44d8-eaf0-ee6148f6c871
-  alterId: 0
-  cipher: auto
-  skip-cert-verify: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: 141.11.45.116
-- type: vmess
-  name: 🇰🇷 TG频道@memotee | 11
-  server: kr1.sanfen001.pics
-  port: 443
-  uuid: ba84b2f4-93b5-406c-a01e-e8e67cf7bf25
-  alterId: 0
-  cipher: auto
-  skip-cert-verify: true
-  network: ws
-  tls: true
-  ws-opts:
-    path: /zh-cn
-    headers:
-      Host: www.microsoft.com
-- type: vmess
-  name: 🇺🇸 TG频道@memotee | 12
-  server: 212.90.103.177
-  port: 42322
-  uuid: 0450258b-468f-4872-e0a9-c1463f397f72
-  alterId: 0
-  cipher: auto
-  skip-cert-verify: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: 212.90.103.177
-- type: vmess
-  name: 🇭🇰 TG频道@memotee | 13
-  server: 16.163.95.127
-  port: 32825
-  uuid: 4cd69f52-4441-44eb-d4f4-faa977d6d476
-  alterId: 0
-  cipher: auto
-  skip-cert-verify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: 16.163.95.127
-- type: trojan
-  name: 🇰🇷 TG频道@memotee | 14
-  server: kr.520748.xyz
-  port: '10011'
-  password: d7616325-e7cf-4901-b2b2-f1ea3669d022
-  sni: kr.520748.xyz
-  skip-cert-verify: true
-- name: 🇨🇳 TG频道@memotee | 15
-  type: ssr
-  server: zxl.defucloud.shop
-  port: 23018
-  cipher: chacha20-ietf
-  password: zztw9jk7gu
-  protocol: auth_aes128_sha1
-  protocol-param: 4021:yWHABv
-  obfs: http_simple
-  obfs-param: b9be14021.microsoft.com
-- name: 🇭🇰 TG频道@memotee | 16
-  server: n1671305784.sxhucjg.cn
-  port: 443
-  type: vmess
-  uuid: 1f3ca60e-fff2-41b7-91e5-216d1bf9526b
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: n1671305784.sxhucjg.cn
-  network: ws
-  ws-opts:
-    path: /YAZAawtk
-    headers:
-      Host: n1671305784.sxhucjg.cn
-- name: 🇯🇵 TG频道@memotee | 17
-  server: ccjp1.cutcloudjd.site
-  port: 453
-  type: vmess
-  uuid: 2380f07e-e54c-4645-8abe-50575b31f45f
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /jp1
-    headers:
-      Host: ccjp1.cutcloudjd.site
-- type: vmess
-  name: 🇨🇳 TG频道@memotee | 18
-  server: 111.45.22.239
-  port: 50002
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
-  skip-cert-verify: true
-  network: tcp
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: 111.45.22.239
-- name: 🇨🇳 TG频道@memotee | 19
-  server: shgez3.eucdurl.me
-  port: 568
-  type: ssr
-  cipher: chacha20-ietf
-  password: mblank1port
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 34189:jsnzkpg
-  obfs-param: ''
-- type: vmess
-  name: 🇦🇶 TG频道@memotee | 20
-  server: cdn.xia.me
-  port: 443
-  uuid: 68fe8d27-cbc8-4e72-90b7-70d3bb69dfd3
-  alterId: 0
-  cipher: auto
-  skip-cert-verify: true
-  network: ws
-  tls: true
-  ws-opts:
-    path: /api
-    headers:
-      Host: us12.cachexy.ga
-- type: trojan
-  name: 🇯🇵 TG频道@memotee | 21
-  server: jp1.v2pn.live
-  port: '443'
-  password: 7812e7af-a2de-49a1-a034-8bc23f3f3b62
-  sni: 139-177-186-17.nhost.00cdn.com
-  skip-cert-verify: true
-- name: 🇨🇳 TG频道@memotee | 22
-  server: gxct.xn--dlq110j6ul.cc
-  port: 27520
-  type: vmess
-  uuid: d12624a6-9744-404e-85d6-877742dded18
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    path: /fly
-    headers:
-      Host: gxct.xn--dlq110j6ul.cc
-- cipher: chacha20-ietf
-  name: 🇨🇳 TG频道@memotee | 23
-  obfs: http_simple
-  obfs-param: b9be14021.microsoft.com
-  password: zztw9jk7gu
-  port: 30985
-  protocol: auth_aes128_sha1
-  protocol-param: 4021:yWHABv
-  server: 42.237.112.208
-  type: ssr
-- type: trojan
-  name: 🇨🇳 TG频道@memotee | 24
-  server: proxy.02.onenovnode.org
-  port: '16224'
-  password: d056c07d-4770-4442-814f-4b2b6472332d
-  sni: nodeb.hkdt.onenovnode.org
-  skip-cert-verify: true
-- name: 🇬🇧 TG频道@memotee | 25
-  network: tcp
-  password: shefelnak
-  port: 443
-  server: 88.150.137.177
-  skip-cert-verify: true
-  sni: content-provider4.cdn-delivery.akamaicd.com
-  type: trojan
-  udp: true
-- type: vmess
-  name: 🇭🇰 TG频道@memotee | 26
-  server: 8.210.34.104
-  port: 28182
-  uuid: e3c074dc-bcbb-45c2-bf58-96310ea4b999
-  alterId: 0
-  cipher: auto
-  skip-cert-verify: true
-  network: http
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: 8.210.34.104
-- type: trojan
-  name: 🇷🇺 TG频道@memotee | 27
-  server: 51.75.76.22
-  port: '443'
-  password: edda8370-9513-11ed-b532-225401db9d57
-  sni: de.tjvpn.org
-  skip-cert-verify: true
-- type: trojan
-  name: 🇨🇳 TG频道@memotee | 28
-  server: xzf.shitoudata.top
-  port: '36826'
-  password: c0dce5a0-e981-3aaa-9550-58eff40b2dcc
-  sni: tw.shitoudata.top
-  skip-cert-verify: true
-- type: ss
-  name: 🇨🇳 TG频道@memotee | 29
-  server: proxy.04.onenovnode.org
-  port: '16214'
-  cipher: chacha20-ietf-poly1305
-  password: d056c07d-4770-4442-814f-4b2b6472332d
-- type: vmess
-  name: 🇭🇰 TG频道@memotee | 30
-  server: 47.243.30.150
-  port: 61338
-  uuid: 88db38e9-83c7-4bf1-af64-94830a62b205
-  alterId: 0
-  cipher: auto
-  skip-cert-verify: true
-  network: http
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: 47.243.30.150
-- name: 🇬🇧 TG频道@memotee | 31
-  server: content-provider4.cdn-delivery.akamaicd.com
-  type: trojan
-  country: 🇬🇧 GB
-  port: 443
-  password: shefelnak
-  skip-cert-verify: true
-  udp: true
-- name: 🇺🇸 TG频道@memotee | 32
-  server: 34.145.145.76
-  port: 443
-  type: vmess
-  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /dongtaiwang.com
-    headers:
-      Host: clash6.ssr-free.xyz
-- type: vmess
-  name: 🇩🇪 TG频道@memotee | 33
-  server: de-ls03.nb1.fr
-  port: 64443
-  uuid: cb7001c7-e495-41ac-b942-f25f60523414
-  alterId: 1
-  cipher: auto
-  skip-cert-verify: true
-  network: ws
-  tls: true
-  ws-opts:
-    path: /clientarea
-    headers:
-      Host: de-ls03.nb1.fr
-- name: 🇯🇵 TG频道@memotee | 34
-  server: zzjp01.fuqiangren.com
-  port: 20220
-  type: trojan
-  password: e9a15c1d-2432-4825-9a51-3a13673ff662
-  sni: zzjp01.fuqiangren.com
-  skip-cert-verify: true
-- name: 🇨🇳 TG频道@memotee | 35
-  server: sh.xiaohouzi.club
-  port: 12468
-  type: trojan
-  password: a3278882-3614-39cf-a3d6-faefa8c910ab
-  sni: hkt-cdnnew.xiaohouzi.club
-  skip-cert-verify: true
-- name: 🇨🇳 TG频道@memotee | 36
-  server: gzct.xn--dlq110j6ul.cc
-  port: 34099
-  type: vmess
-  uuid: 42872e4b-f1ed-436b-b3b7-55cc6c5c854d
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: gzct.xn--dlq110j6ul.cc
-- type: vmess
-  name: 🇭🇰 TG频道@memotee | 37
-  server: hk4.sanfen001.pics
-  port: 443
-  uuid: ba84b2f4-93b5-406c-a01e-e8e67cf7bf25
-  alterId: 0
-  cipher: auto
-  skip-cert-verify: true
-  network: ws
-  tls: true
-  ws-opts:
-    path: /zh-cn
-    headers:
-      Host: www.microsoft.com
-- type: vmess
-  name: 🇯🇵 TG频道@memotee | 38
-  server: 141.147.181.219
-  port: 443
-  uuid: 0b873cff-11ab-4716-c41a-04f886135091
-  alterId: 0
-  cipher: auto
-  skip-cert-verify: true
-  network: ws
-  tls: true
-  ws-opts:
-    path: /roewesu
-    headers:
-      Host: 141.147.181.219
-- name: 🇭🇰 TG频道@memotee | 39
-  server: project.mytargoocloud.live
-  port: 443
-  type: vmess
-  uuid: 03deb375-385e-4cdf-bf32-504523391e5d
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: hkm5.targoocloud.live
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: hkm5.targoocloud.live
-- name: 🇨🇳 TG频道@memotee | 40
-  type: ssr
-  server: ddns.defucloud.me
-  port: 32012
-  cipher: chacha20-ietf
-  password: zztw9jk7gu
-  protocol: auth_aes128_sha1
-  protocol-param: 4021:yWHABv
-  obfs: http_simple
-  obfs-param: b9be14021.microsoft.com
-- name: 🇨🇳 TG频道@memotee | 41
-  server: 8cdba5d8-7555-8c18-9808-2e907c1c5177.interface.buzz
-  port: 21565
-  type: ss
-  cipher: aes-256-gcm
-  password: 2f2a534d-5685-4319-bdaf-e2ee57f2c8a1
-- name: 🇨🇳 TG频道@memotee | 42
-  server: gz01.xiaohouzi.club
-  port: 37548
-  type: trojan
-  password: a3278882-3614-39cf-a3d6-faefa8c910ab
-  sni: aru01.xiaohouzi.club
-  skip-cert-verify: true
-- alterId: '0'
-  cipher: auto
-  name: 🇬🇧 TG频道@memotee | 43
-  network: ws
-  port: 64443
-  server: gb-ls03.nb1.fr
-  tls: true
-  type: vmess
-  uuid: cb7001c7-e495-41ac-b942-f25f60523414
-  ws-opts:
-    headers:
-      host: gb-ls03.nb1.fr
-    path: /clientarea
-- type: vmess
-  name: 🇯🇵 TG频道@memotee | 44
-  server: jp80-4.sanfen001.pics
-  port: 80
-  uuid: ba84b2f4-93b5-406c-a01e-e8e67cf7bf25
-  alterId: 0
-  cipher: auto
-  skip-cert-verify: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /zh-cn
-    headers:
-      Host: www.baidu.com
-- name: 🇭🇰 TG频道@memotee | 45
-  server: xtom.mytargoocloud.live
-  port: 443
-  type: vmess
-  uuid: 03deb375-385e-4cdf-bf32-504523391e5d
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: jpm2.targoocloud.live
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: jpm2.targoocloud.live
-- type: vmess
-  name: 🇨🇦 TG频道@memotee | 46
-  server: ca-ls03.nb1.fr
-  port: 64443
-  uuid: cb7001c7-e495-41ac-b942-f25f60523414
-  alterId: 1
-  cipher: auto
-  skip-cert-verify: true
-  network: ws
-  tls: true
-  ws-opts:
-    path: /clientarea
-    headers:
-      Host: ca-ls03.nb1.fr
-- name: 🇸🇪 TG频道@memotee | 47
-  server: se-ls03.nb1.fr
-  port: 64443
-  type: vmess
-  uuid: cb7001c7-e495-41ac-b942-f25f60523414
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /clientarea
-    headers:
-      Host: se-ls03.nb1.fr
-- name: 🇨🇳 TG频道@memotee | 48
-  server: cscu.xn--dlq110j6ul.cc
-  port: 33346
-  type: vmess
-  uuid: 42872e4b-f1ed-436b-b3b7-55cc6c5c854d
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: cscu.xn--dlq110j6ul.cc
-- type: ss
-  name: 🇨🇳 TG频道@memotee | 49
-  server: proxy.01.onenovnode.org
-  port: '26629'
-  cipher: chacha20-ietf-poly1305
-  password: d056c07d-4770-4442-814f-4b2b6472332d
-- type: vmess
-  name: 🇦🇺 TG频道@memotee | 50
-  server: 45.32.190.114
-  port: 443
-  uuid: 2ab56f70-39e3-4422-bb2e-dbfe59cb01f8
-  alterId: 0
-  cipher: auto
-  skip-cert-verify: true
-  network: ws
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: 45.32.190.114
-- name: 🇨🇳 TG频道@memotee | 51
-  server: sinash01.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com
-  port: 30052
-  type: trojan
-  password: e9a15c1d-2432-4825-9a51-3a13673ff662
-  sni: v2th01.fuqiangren.com
-  skip-cert-verify: true
-- name: 🇨🇳 TG频道@memotee | 52
-  type: ssr
-  server: adns.defucloud.shop
-  port: 32983
-  cipher: chacha20-ietf
-  password: zztw9jk7gu
-  protocol: auth_aes128_sha1
-  protocol-param: 4021:yWHABv
-  obfs: http_simple
-  obfs-param: b9be14021.microsoft.com
-- name: 🇨🇳 TG频道@memotee | 53
-  type: ssr
-  server: cdns.defucloud.shop
-  port: 30899
-  cipher: chacha20-ietf
-  password: zztw9jk7gu
-  protocol: auth_aes128_sha1
-  protocol-param: 4021:yWHABv
-  obfs: http_simple
-  obfs-param: b9be14021.microsoft.com
-- type: vmess
-  name: 🇦🇺 TG频道@memotee | 54
+  name: 🇦🇺 TG频道@memotee | 2
   server: au-ls03.nb1.fr
   port: 64443
   uuid: cb7001c7-e495-41ac-b942-f25f60523414
@@ -599,7 +26,357 @@ proxies:
     headers:
       Host: au-ls03.nb1.fr
 - type: vmess
-  name: 🇵🇦 TG频道@memotee | 55
+  name: 🇦🇺 TG频道@memotee | 3
+  server: 3.24.103.195
+  port: 80
+  uuid: aeaf057e-95d3-437a-ec94-307d1ad54c17
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /cek12
+    headers:
+      Host: 3.24.103.195
+- type: ss
+  name: 🇰🇷 TG频道@memotee | 4
+  server: 43.201.70.211
+  port: '443'
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇨🇳 TG频道@memotee | 5
+  server: 2e91fd03-8e75-4169-dae0-3379f3903080.interface.buzz
+  port: 52632
+  type: ss
+  cipher: aes-256-gcm
+  password: 2f2a534d-5685-4319-bdaf-e2ee57f2c8a1
+- type: vmess
+  name: 🇨🇦 TG频道@memotee | 6
+  server: 193.203.203.53
+  port: 28364
+  uuid: c14b9faa-b2ff-4f2b-80c5-499bbdb9b886
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: http
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: 193.203.203.53
+- cipher: aes-256-gcm
+  name: 🇩🇪 TG频道@memotee | 7
+  password: faBAoD54k87UJG7
+  port: 2375
+  server: ak1342.free.www.outline.network
+  type: ss
+- type: vmess
+  name: 🇩🇪 TG频道@memotee | 8
+  server: de-ls03.nb1.fr
+  port: 64443
+  uuid: cb7001c7-e495-41ac-b942-f25f60523414
+  alterId: 1
+  cipher: auto
+  skip-cert-verify: true
+  network: ws
+  tls: true
+  ws-opts:
+    path: /clientarea
+    headers:
+      Host: de-ls03.nb1.fr
+- type: vmess
+  name: 🇦🇶 TG频道@memotee | 9
+  server: 103.14.48.159
+  port: 80
+  uuid: 0f8dd795-7552-41e8-e7b7-faf6b54bc29a
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: 103.14.48.159
+- type: vmess
+  name: 🇯🇵 TG频道@memotee | 10
+  server: 138.2.35.81
+  port: 80
+  uuid: a0733fc9-457e-498d-c363-9ec774a74947
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /jun
+    headers:
+      Host: 138.2.35.81
+- name: 🇨🇳 TG频道@memotee | 11
+  type: ss
+  server: yd-02.paofunlink.com
+  port: 1173
+  cipher: rc4-md5
+  password: Paofu
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 37f7e180722.microsoft.com
+- type: vmess
+  name: 🇭🇰 TG频道@memotee | 12
+  server: hk4.sanfen001.pics
+  port: 443
+  uuid: ba84b2f4-93b5-406c-a01e-e8e67cf7bf25
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: ws
+  tls: true
+  ws-opts:
+    path: /zh-cn
+    headers:
+      Host: www.microsoft.com
+- type: vmess
+  name: 🇭🇰 TG频道@memotee | 13
+  server: 8.210.34.104
+  port: 28182
+  uuid: e3c074dc-bcbb-45c2-bf58-96310ea4b999
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: http
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: 8.210.34.104
+- type: vmess
+  name: 🇯🇵 TG频道@memotee | 14
+  server: 777.htvviru.top
+  port: 3544
+  uuid: 3d81e6fb-c7f0-4791-af2e-82c93d149483
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /cctv13/hd.m3u8
+    headers:
+      Host: 777.htvviru.top
+- name: 🇨🇳 TG频道@memotee | 15
+  server: sinagz01.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com
+  port: 30005
+  type: trojan
+  password: b0a9bfe9-7fa3-4b31-b407-51f652405b5f
+  sni: v2hgc01.fuqiangren.com
+  skip-cert-verify: true
+- name: 🇨🇳 TG频道@memotee | 16
+  server: sinash02.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com
+  port: 30048
+  type: vmess
+  uuid: b0a9bfe9-7fa3-4b31-b407-51f652405b5f
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /aceamedv
+    headers:
+      Host: sh02.fastcloud.club
+- name: 🇨🇳 TG频道@memotee | 17
+  server: ah.yd01.ssru7.casa
+  port: 10002
+  type: vmess
+  uuid: b683d335-67ec-3538-94d2-e6bf9a600823
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: hk04.ssru3.casa
+- type: vmess
+  name: 🇭🇰 TG频道@memotee | 18
+  server: 16.162.46.25
+  port: 80
+  uuid: ba84b2f4-93b5-406c-a01e-e8e67cf7bf25
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /zh-cn/
+    headers:
+      Host: 16.162.46.25
+- type: vmess
+  name: 🇭🇰 TG频道@memotee | 19
+  server: hk12.sanfen001.pics
+  port: 2001
+  uuid: ba84b2f4-93b5-406c-a01e-e8e67cf7bf25
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: ws
+  tls: true
+  ws-opts:
+    path: /zh-cn
+    headers:
+      Host: www.microsoft.com
+- name: 🇨🇳 TG频道@memotee | 20
+  server: sinagz.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com
+  port: 20227
+  type: trojan
+  password: b0a9bfe9-7fa3-4b31-b407-51f652405b5f
+  sni: v2uk01.fuqiangren.com
+  skip-cert-verify: true
+- type: vmess
+  name: 🇨🇳 TG频道@memotee | 21
+  server: shcn2-200m02.iplc188.com
+  port: 10001
+  uuid: cb7001c7-e495-41ac-b942-f25f60523414
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: tcp
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: shcn2-200m02.iplc188.com
+- type: vmess
+  name: 🇭🇰 TG频道@memotee | 22
+  server: hk3.sanfen001.pics
+  port: 443
+  uuid: ba84b2f4-93b5-406c-a01e-e8e67cf7bf25
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: ws
+  tls: true
+  ws-opts:
+    path: /zh-cn
+    headers:
+      Host: www.microsoft.com
+- name: 🇭🇰 TG频道@memotee | 23
+  server: hk80-2.sanfen001.pics
+  port: 80
+  type: vmess
+  uuid: ba84b2f4-93b5-406c-a01e-e8e67cf7bf25
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /zh-cn/
+    headers:
+      Host: www.baidu.com
+- name: 🇯🇵 TG频道@memotee | 24
+  server: zzjp01.fuqiangren.com
+  port: 20221
+  type: trojan
+  password: b0a9bfe9-7fa3-4b31-b407-51f652405b5f
+  sni: zzjp01.fuqiangren.com
+  skip-cert-verify: true
+- name: 🇨🇳 TG频道@memotee | 25
+  server: live15.suijiceshi.xyz
+  port: 2052
+  type: vmess
+  uuid: bfb32a33-cb31-4a10-ad54-b52da93d7173
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /xbov/6f42f0ef9d9257447d1f4d4391b4dd76e164c00fb47c0a318b3b1125e03f4d959921f11e97d0da21/media_0003.ts
+    headers:
+      Host: live15.hlzuifv.cn
+- name: 🇨🇳 TG频道@memotee | 26
+  type: ss
+  server: yd-01.paofunlink.com
+  port: 5980
+  cipher: rc4-md5
+  password: Paofu
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 37f7e180722.microsoft.com
+- name: 🇺🇸 TG频道@memotee | 27
+  server: 104.29.64.6
+  port: 443
+  type: vmess
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /AUIKN8AU
+    headers:
+      Host: oplg1.cfcdn2.xyz
+- type: vmess
+  name: 🇺🇸 TG频道@memotee | 28
+  server: 172.67.203.162
+  port: 443
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: ws
+  tls: true
+  ws-opts:
+    path: /AUIKN8AU
+    headers:
+      Host: oplg1.cfcdn2.xyz
+- name: 🇨🇳 TG频道@memotee | 29
+  type: ss
+  server: yd-07.paofunlink.com
+  port: 5986
+  cipher: rc4-md5
+  password: Paofu
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 37f7e180722.microsoft.com
+- type: vmess
+  name: 🇯🇵 TG频道@memotee | 30
+  server: jp0020jtlhroh.v2board.icu
+  port: 443
+  uuid: efd5c368-fe06-4a3f-939e-28c1bd5f7017
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: ws
+  tls: true
+  ws-opts:
+    path: /
+    headers:
+      Host: jp0020jtlhroh.v2board.icu
+- type: vmess
+  name: 🇭🇰 TG频道@memotee | 31
+  server: hk2.sanfen001.pics
+  port: 443
+  uuid: ba84b2f4-93b5-406c-a01e-e8e67cf7bf25
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: ws
+  tls: true
+  ws-opts:
+    path: /zh-cn
+    headers:
+      Host: www.microsoft.com
+- type: vmess
+  name: 🇵🇦 TG频道@memotee | 32
   server: 185.143.220.25
   port: 443
   uuid: f28e354e-c2d1-4983-9b07-5acaf1b3b3e5
@@ -612,389 +389,585 @@ proxies:
     path: /6e9EtZ2dL
     headers:
       Host: dengxin.one
+- name: 🇨🇳 TG频道@memotee | 33
+  type: ss
+  server: yd-06.paofunlink.com
+  port: 5983
+  cipher: rc4-md5
+  password: Paofu
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: http
+    host: 37f7e180722.microsoft.com
+- name: 🇨🇳 TG频道@memotee | 34
+  server: 120.241.229.74
+  port: 50067
+  type: ss
+  cipher: aes-256-gcm
+  password: 7c458210-86ba-4d86-85c8-1234cc935f5e
 - type: vmess
-  name: 🇨🇳 TG频道@memotee | 56
-  server: gy.xhowtogetit.xyz
-  port: 21897
-  uuid: 73dcc1f6-3b4d-36fe-932f-500f32793b3a
-  alterId: 2
+  name: 🇨🇦 TG频道@memotee | 35
+  server: 23.227.38.100
+  port: 443
+  uuid: 7b1b2fa3-e361-48cc-b73d-2c9636c76f4b
+  alterId: 0
   cipher: auto
   skip-cert-verify: true
   network: ws
   tls: true
   ws-opts:
-    path: /hls/cctv5phd.m3u8
+    path: /UMW36262
     headers:
-      Host: hk01.htgssl.xyz
+      Host: v2ray1.zhujicn2.org
+- type: vmess
+  name: 🇨🇦 TG频道@memotee | 36
+  server: SHOPIFY.COM
+  port: 80
+  uuid: eeb4d7f3-1f96-4d87-98d8-6f699aac5d8e
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /TxIq76mA/
+    headers:
+      Host: yl.cachexy.ga
+- type: vmess
+  name: 🇺🇸 TG频道@memotee | 37
+  server: dl.cytw.tk
+  port: 54174
+  uuid: 2e77ee16-34b4-41c2-e788-f160f27e110a
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: tcp
+  tls: true
+  ws-opts:
+    path: /
+    headers:
+      Host: dl.cytw.tk
+- type: vmess
+  name: 🇺🇸 TG频道@memotee | 38
+  server: 144.34.183.34
+  port: 35721
+  uuid: c6ea2338-509f-4034-af4f-7c23edb8a659
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: 144.34.183.34
+- type: vmess
+  name: 🇨🇳 TG频道@memotee | 39
+  server: 183.240.60.120
+  port: 10001
+  uuid: cb7001c7-e495-41ac-b942-f25f60523414
+  alterId: 1
+  cipher: auto
+  skip-cert-verify: true
+  network: tcp
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: 183.240.60.120
+- alterId: '0'
+  cipher: auto
+  name: 🇧🇬 TG频道@memotee | 40
+  network: ws
+  port: 443
+  server: www.rinyin.top
+  tls: true
+  type: vmess
+  uuid: 10706e0a-8251-4cfc-b211-b908b99dfd5f
+  ws-opts:
+    headers:
+      host: www.rinyin.top
+    path: /7a17336201?ed=2048
+- name: 🇨🇳 TG频道@memotee | 41
+  server: sinash01.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com
+  port: 30025
+  type: vmess
+  uuid: b0a9bfe9-7fa3-4b31-b407-51f652405b5f
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /aceamedv
+    headers:
+      Host: sh01.fastcloud.club
+- name: 🇨🇳 TG频道@memotee | 42
+  server: 8cdba5d8-7555-8c18-9808-2e907c1c5177.interface.buzz
+  port: 21565
+  type: ss
+  cipher: aes-256-gcm
+  password: 2f2a534d-5685-4319-bdaf-e2ee57f2c8a1
+- name: 🇺🇸 TG频道@memotee | 43
+  server: v2ray.online
+  port: 443
+  type: vmess
+  uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /speedtest
+    headers:
+      Host: Vienna.v2ray.online
+- name: 🇯🇵 TG频道@memotee | 44
+  server: 43.206.224.222
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- type: vmess
+  name: 🇨🇳 TG频道@memotee | 45
+  server: 111.45.22.239
+  port: 50002
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  skip-cert-verify: true
+  network: tcp
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: 111.45.22.239
+- type: ss
+  name: 🇰🇷 TG频道@memotee | 46
+  server: 43.201.59.23
+  port: '443'
+  cipher: aes-256-cfb
+  password: amazonskr05
+- type: vmess
+  name: 🇨🇳 TG频道@memotee | 47
+  server: 117.164.185.222
+  port: 16122
+  uuid: 8d8d6d3d-b9ef-30b7-9cc6-3ebf5e3d70f9
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: tcp
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: 117.164.185.222
+- type: vmess
+  name: 🇸🇬 TG频道@memotee | 48
+  server: sg001sf4w2.v2board.icu
+  port: 443
+  uuid: efd5c368-fe06-4a3f-939e-28c1bd5f7017
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: ws
+  tls: true
+  ws-opts:
+    path: /
+    headers:
+      Host: sg001sf4w2.v2board.icu
+- type: vmess
+  name: 🇨🇳 TG频道@memotee | 49
+  server: 183.240.60.119
+  port: 10001
+  uuid: cb7001c7-e495-41ac-b942-f25f60523414
+  alterId: 1
+  cipher: auto
+  skip-cert-verify: true
+  network: tcp
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: 183.240.60.119
+- name: 🇨🇳 TG频道@memotee | 50
+  server: gxct.xn--dlq110j6ul.cc
+  port: 17219
+  type: vmess
+  uuid: 3b797c05-61b5-4c8f-aaaf-988759fc8fad
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: gxct.xn--dlq110j6ul.cc
+- type: vmess
+  name: 🇦🇺 TG频道@memotee | 51
+  server: 45.76.114.115
+  port: 22199
+  uuid: 97f85dab-305c-4502-d084-63fc395172ae
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  network: ws
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: 45.76.114.115
+- name: 🇨🇳 TG频道@memotee | 52
+  server: 1482df26-e459-36f1-e7eb-038794d742d0.interface.buzz
+  port: 15021
+  type: ss
+  cipher: aes-256-gcm
+  password: 2f2a534d-5685-4319-bdaf-e2ee57f2c8a1
 proxy-groups:
 - name: 🚀 节点选择
   type: select
   proxies:
   - ♻️ 自动选择
   - DIRECT
-  - 🇨🇳 TG频道@memotee | 1
-  - 🇺🇸 TG频道@memotee | 2
-  - 🇨🇳 TG频道@memotee | 3
-  - 🇭🇰 TG频道@memotee | 4
+  - 🇺🇸 TG频道@memotee | 1
+  - 🇦🇺 TG频道@memotee | 2
+  - 🇦🇺 TG频道@memotee | 3
+  - 🇰🇷 TG频道@memotee | 4
   - 🇨🇳 TG频道@memotee | 5
-  - 🇨🇳 TG频道@memotee | 6
-  - 🇨🇳 TG频道@memotee | 7
-  - 🇨🇳 TG频道@memotee | 8
-  - 🇨🇳 TG频道@memotee | 9
-  - 🇫🇷 TG频道@memotee | 10
-  - 🇰🇷 TG频道@memotee | 11
-  - 🇺🇸 TG频道@memotee | 12
+  - 🇨🇦 TG频道@memotee | 6
+  - 🇩🇪 TG频道@memotee | 7
+  - 🇩🇪 TG频道@memotee | 8
+  - 🇦🇶 TG频道@memotee | 9
+  - 🇯🇵 TG频道@memotee | 10
+  - 🇨🇳 TG频道@memotee | 11
+  - 🇭🇰 TG频道@memotee | 12
   - 🇭🇰 TG频道@memotee | 13
-  - 🇰🇷 TG频道@memotee | 14
+  - 🇯🇵 TG频道@memotee | 14
   - 🇨🇳 TG频道@memotee | 15
-  - 🇭🇰 TG频道@memotee | 16
-  - 🇯🇵 TG频道@memotee | 17
-  - 🇨🇳 TG频道@memotee | 18
-  - 🇨🇳 TG频道@memotee | 19
-  - 🇦🇶 TG频道@memotee | 20
-  - 🇯🇵 TG频道@memotee | 21
-  - 🇨🇳 TG频道@memotee | 22
-  - 🇨🇳 TG频道@memotee | 23
-  - 🇨🇳 TG频道@memotee | 24
-  - 🇬🇧 TG频道@memotee | 25
-  - 🇭🇰 TG频道@memotee | 26
-  - 🇷🇺 TG频道@memotee | 27
-  - 🇨🇳 TG频道@memotee | 28
+  - 🇨🇳 TG频道@memotee | 16
+  - 🇨🇳 TG频道@memotee | 17
+  - 🇭🇰 TG频道@memotee | 18
+  - 🇭🇰 TG频道@memotee | 19
+  - 🇨🇳 TG频道@memotee | 20
+  - 🇨🇳 TG频道@memotee | 21
+  - 🇭🇰 TG频道@memotee | 22
+  - 🇭🇰 TG频道@memotee | 23
+  - 🇯🇵 TG频道@memotee | 24
+  - 🇨🇳 TG频道@memotee | 25
+  - 🇨🇳 TG频道@memotee | 26
+  - 🇺🇸 TG频道@memotee | 27
+  - 🇺🇸 TG频道@memotee | 28
   - 🇨🇳 TG频道@memotee | 29
-  - 🇭🇰 TG频道@memotee | 30
-  - 🇬🇧 TG频道@memotee | 31
-  - 🇺🇸 TG频道@memotee | 32
-  - 🇩🇪 TG频道@memotee | 33
-  - 🇯🇵 TG频道@memotee | 34
-  - 🇨🇳 TG频道@memotee | 35
-  - 🇨🇳 TG频道@memotee | 36
-  - 🇭🇰 TG频道@memotee | 37
-  - 🇯🇵 TG频道@memotee | 38
-  - 🇭🇰 TG频道@memotee | 39
-  - 🇨🇳 TG频道@memotee | 40
+  - 🇯🇵 TG频道@memotee | 30
+  - 🇭🇰 TG频道@memotee | 31
+  - 🇵🇦 TG频道@memotee | 32
+  - 🇨🇳 TG频道@memotee | 33
+  - 🇨🇳 TG频道@memotee | 34
+  - 🇨🇦 TG频道@memotee | 35
+  - 🇨🇦 TG频道@memotee | 36
+  - 🇺🇸 TG频道@memotee | 37
+  - 🇺🇸 TG频道@memotee | 38
+  - 🇨🇳 TG频道@memotee | 39
+  - 🇧🇬 TG频道@memotee | 40
   - 🇨🇳 TG频道@memotee | 41
   - 🇨🇳 TG频道@memotee | 42
-  - 🇬🇧 TG频道@memotee | 43
+  - 🇺🇸 TG频道@memotee | 43
   - 🇯🇵 TG频道@memotee | 44
-  - 🇭🇰 TG频道@memotee | 45
-  - 🇨🇦 TG频道@memotee | 46
-  - 🇸🇪 TG频道@memotee | 47
-  - 🇨🇳 TG频道@memotee | 48
+  - 🇨🇳 TG频道@memotee | 45
+  - 🇰🇷 TG频道@memotee | 46
+  - 🇨🇳 TG频道@memotee | 47
+  - 🇸🇬 TG频道@memotee | 48
   - 🇨🇳 TG频道@memotee | 49
-  - 🇦🇺 TG频道@memotee | 50
-  - 🇨🇳 TG频道@memotee | 51
+  - 🇨🇳 TG频道@memotee | 50
+  - 🇦🇺 TG频道@memotee | 51
   - 🇨🇳 TG频道@memotee | 52
-  - 🇨🇳 TG频道@memotee | 53
-  - 🇦🇺 TG频道@memotee | 54
-  - 🇵🇦 TG频道@memotee | 55
-  - 🇨🇳 TG频道@memotee | 56
 - name: ♻️ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
   proxies:
-  - 🇨🇳 TG频道@memotee | 1
-  - 🇺🇸 TG频道@memotee | 2
-  - 🇨🇳 TG频道@memotee | 3
-  - 🇭🇰 TG频道@memotee | 4
+  - 🇺🇸 TG频道@memotee | 1
+  - 🇦🇺 TG频道@memotee | 2
+  - 🇦🇺 TG频道@memotee | 3
+  - 🇰🇷 TG频道@memotee | 4
   - 🇨🇳 TG频道@memotee | 5
-  - 🇨🇳 TG频道@memotee | 6
-  - 🇨🇳 TG频道@memotee | 7
-  - 🇨🇳 TG频道@memotee | 8
-  - 🇨🇳 TG频道@memotee | 9
-  - 🇫🇷 TG频道@memotee | 10
-  - 🇰🇷 TG频道@memotee | 11
-  - 🇺🇸 TG频道@memotee | 12
+  - 🇨🇦 TG频道@memotee | 6
+  - 🇩🇪 TG频道@memotee | 7
+  - 🇩🇪 TG频道@memotee | 8
+  - 🇦🇶 TG频道@memotee | 9
+  - 🇯🇵 TG频道@memotee | 10
+  - 🇨🇳 TG频道@memotee | 11
+  - 🇭🇰 TG频道@memotee | 12
   - 🇭🇰 TG频道@memotee | 13
-  - 🇰🇷 TG频道@memotee | 14
+  - 🇯🇵 TG频道@memotee | 14
   - 🇨🇳 TG频道@memotee | 15
-  - 🇭🇰 TG频道@memotee | 16
-  - 🇯🇵 TG频道@memotee | 17
-  - 🇨🇳 TG频道@memotee | 18
-  - 🇨🇳 TG频道@memotee | 19
-  - 🇦🇶 TG频道@memotee | 20
-  - 🇯🇵 TG频道@memotee | 21
-  - 🇨🇳 TG频道@memotee | 22
-  - 🇨🇳 TG频道@memotee | 23
-  - 🇨🇳 TG频道@memotee | 24
-  - 🇬🇧 TG频道@memotee | 25
-  - 🇭🇰 TG频道@memotee | 26
-  - 🇷🇺 TG频道@memotee | 27
-  - 🇨🇳 TG频道@memotee | 28
+  - 🇨🇳 TG频道@memotee | 16
+  - 🇨🇳 TG频道@memotee | 17
+  - 🇭🇰 TG频道@memotee | 18
+  - 🇭🇰 TG频道@memotee | 19
+  - 🇨🇳 TG频道@memotee | 20
+  - 🇨🇳 TG频道@memotee | 21
+  - 🇭🇰 TG频道@memotee | 22
+  - 🇭🇰 TG频道@memotee | 23
+  - 🇯🇵 TG频道@memotee | 24
+  - 🇨🇳 TG频道@memotee | 25
+  - 🇨🇳 TG频道@memotee | 26
+  - 🇺🇸 TG频道@memotee | 27
+  - 🇺🇸 TG频道@memotee | 28
   - 🇨🇳 TG频道@memotee | 29
-  - 🇭🇰 TG频道@memotee | 30
-  - 🇬🇧 TG频道@memotee | 31
-  - 🇺🇸 TG频道@memotee | 32
-  - 🇩🇪 TG频道@memotee | 33
-  - 🇯🇵 TG频道@memotee | 34
-  - 🇨🇳 TG频道@memotee | 35
-  - 🇨🇳 TG频道@memotee | 36
-  - 🇭🇰 TG频道@memotee | 37
-  - 🇯🇵 TG频道@memotee | 38
-  - 🇭🇰 TG频道@memotee | 39
-  - 🇨🇳 TG频道@memotee | 40
+  - 🇯🇵 TG频道@memotee | 30
+  - 🇭🇰 TG频道@memotee | 31
+  - 🇵🇦 TG频道@memotee | 32
+  - 🇨🇳 TG频道@memotee | 33
+  - 🇨🇳 TG频道@memotee | 34
+  - 🇨🇦 TG频道@memotee | 35
+  - 🇨🇦 TG频道@memotee | 36
+  - 🇺🇸 TG频道@memotee | 37
+  - 🇺🇸 TG频道@memotee | 38
+  - 🇨🇳 TG频道@memotee | 39
+  - 🇧🇬 TG频道@memotee | 40
   - 🇨🇳 TG频道@memotee | 41
   - 🇨🇳 TG频道@memotee | 42
-  - 🇬🇧 TG频道@memotee | 43
+  - 🇺🇸 TG频道@memotee | 43
   - 🇯🇵 TG频道@memotee | 44
-  - 🇭🇰 TG频道@memotee | 45
-  - 🇨🇦 TG频道@memotee | 46
-  - 🇸🇪 TG频道@memotee | 47
-  - 🇨🇳 TG频道@memotee | 48
+  - 🇨🇳 TG频道@memotee | 45
+  - 🇰🇷 TG频道@memotee | 46
+  - 🇨🇳 TG频道@memotee | 47
+  - 🇸🇬 TG频道@memotee | 48
   - 🇨🇳 TG频道@memotee | 49
-  - 🇦🇺 TG频道@memotee | 50
-  - 🇨🇳 TG频道@memotee | 51
+  - 🇨🇳 TG频道@memotee | 50
+  - 🇦🇺 TG频道@memotee | 51
   - 🇨🇳 TG频道@memotee | 52
-  - 🇨🇳 TG频道@memotee | 53
-  - 🇦🇺 TG频道@memotee | 54
-  - 🇵🇦 TG频道@memotee | 55
-  - 🇨🇳 TG频道@memotee | 56
 - name: 🌍 国外媒体
   type: select
   proxies:
   - 🚀 节点选择
   - ♻️ 自动选择
   - 🎯 全球直连
-  - 🇨🇳 TG频道@memotee | 1
-  - 🇺🇸 TG频道@memotee | 2
-  - 🇨🇳 TG频道@memotee | 3
-  - 🇭🇰 TG频道@memotee | 4
+  - 🇺🇸 TG频道@memotee | 1
+  - 🇦🇺 TG频道@memotee | 2
+  - 🇦🇺 TG频道@memotee | 3
+  - 🇰🇷 TG频道@memotee | 4
   - 🇨🇳 TG频道@memotee | 5
-  - 🇨🇳 TG频道@memotee | 6
-  - 🇨🇳 TG频道@memotee | 7
-  - 🇨🇳 TG频道@memotee | 8
-  - 🇨🇳 TG频道@memotee | 9
-  - 🇫🇷 TG频道@memotee | 10
-  - 🇰🇷 TG频道@memotee | 11
-  - 🇺🇸 TG频道@memotee | 12
+  - 🇨🇦 TG频道@memotee | 6
+  - 🇩🇪 TG频道@memotee | 7
+  - 🇩🇪 TG频道@memotee | 8
+  - 🇦🇶 TG频道@memotee | 9
+  - 🇯🇵 TG频道@memotee | 10
+  - 🇨🇳 TG频道@memotee | 11
+  - 🇭🇰 TG频道@memotee | 12
   - 🇭🇰 TG频道@memotee | 13
-  - 🇰🇷 TG频道@memotee | 14
+  - 🇯🇵 TG频道@memotee | 14
   - 🇨🇳 TG频道@memotee | 15
-  - 🇭🇰 TG频道@memotee | 16
-  - 🇯🇵 TG频道@memotee | 17
-  - 🇨🇳 TG频道@memotee | 18
-  - 🇨🇳 TG频道@memotee | 19
-  - 🇦🇶 TG频道@memotee | 20
-  - 🇯🇵 TG频道@memotee | 21
-  - 🇨🇳 TG频道@memotee | 22
-  - 🇨🇳 TG频道@memotee | 23
-  - 🇨🇳 TG频道@memotee | 24
-  - 🇬🇧 TG频道@memotee | 25
-  - 🇭🇰 TG频道@memotee | 26
-  - 🇷🇺 TG频道@memotee | 27
-  - 🇨🇳 TG频道@memotee | 28
+  - 🇨🇳 TG频道@memotee | 16
+  - 🇨🇳 TG频道@memotee | 17
+  - 🇭🇰 TG频道@memotee | 18
+  - 🇭🇰 TG频道@memotee | 19
+  - 🇨🇳 TG频道@memotee | 20
+  - 🇨🇳 TG频道@memotee | 21
+  - 🇭🇰 TG频道@memotee | 22
+  - 🇭🇰 TG频道@memotee | 23
+  - 🇯🇵 TG频道@memotee | 24
+  - 🇨🇳 TG频道@memotee | 25
+  - 🇨🇳 TG频道@memotee | 26
+  - 🇺🇸 TG频道@memotee | 27
+  - 🇺🇸 TG频道@memotee | 28
   - 🇨🇳 TG频道@memotee | 29
-  - 🇭🇰 TG频道@memotee | 30
-  - 🇬🇧 TG频道@memotee | 31
-  - 🇺🇸 TG频道@memotee | 32
-  - 🇩🇪 TG频道@memotee | 33
-  - 🇯🇵 TG频道@memotee | 34
-  - 🇨🇳 TG频道@memotee | 35
-  - 🇨🇳 TG频道@memotee | 36
-  - 🇭🇰 TG频道@memotee | 37
-  - 🇯🇵 TG频道@memotee | 38
-  - 🇭🇰 TG频道@memotee | 39
-  - 🇨🇳 TG频道@memotee | 40
+  - 🇯🇵 TG频道@memotee | 30
+  - 🇭🇰 TG频道@memotee | 31
+  - 🇵🇦 TG频道@memotee | 32
+  - 🇨🇳 TG频道@memotee | 33
+  - 🇨🇳 TG频道@memotee | 34
+  - 🇨🇦 TG频道@memotee | 35
+  - 🇨🇦 TG频道@memotee | 36
+  - 🇺🇸 TG频道@memotee | 37
+  - 🇺🇸 TG频道@memotee | 38
+  - 🇨🇳 TG频道@memotee | 39
+  - 🇧🇬 TG频道@memotee | 40
   - 🇨🇳 TG频道@memotee | 41
   - 🇨🇳 TG频道@memotee | 42
-  - 🇬🇧 TG频道@memotee | 43
+  - 🇺🇸 TG频道@memotee | 43
   - 🇯🇵 TG频道@memotee | 44
-  - 🇭🇰 TG频道@memotee | 45
-  - 🇨🇦 TG频道@memotee | 46
-  - 🇸🇪 TG频道@memotee | 47
-  - 🇨🇳 TG频道@memotee | 48
+  - 🇨🇳 TG频道@memotee | 45
+  - 🇰🇷 TG频道@memotee | 46
+  - 🇨🇳 TG频道@memotee | 47
+  - 🇸🇬 TG频道@memotee | 48
   - 🇨🇳 TG频道@memotee | 49
-  - 🇦🇺 TG频道@memotee | 50
-  - 🇨🇳 TG频道@memotee | 51
+  - 🇨🇳 TG频道@memotee | 50
+  - 🇦🇺 TG频道@memotee | 51
   - 🇨🇳 TG频道@memotee | 52
-  - 🇨🇳 TG频道@memotee | 53
-  - 🇦🇺 TG频道@memotee | 54
-  - 🇵🇦 TG频道@memotee | 55
-  - 🇨🇳 TG频道@memotee | 56
 - name: 📲 电报信息
   type: select
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇨🇳 TG频道@memotee | 1
-  - 🇺🇸 TG频道@memotee | 2
-  - 🇨🇳 TG频道@memotee | 3
-  - 🇭🇰 TG频道@memotee | 4
+  - 🇺🇸 TG频道@memotee | 1
+  - 🇦🇺 TG频道@memotee | 2
+  - 🇦🇺 TG频道@memotee | 3
+  - 🇰🇷 TG频道@memotee | 4
   - 🇨🇳 TG频道@memotee | 5
-  - 🇨🇳 TG频道@memotee | 6
-  - 🇨🇳 TG频道@memotee | 7
-  - 🇨🇳 TG频道@memotee | 8
-  - 🇨🇳 TG频道@memotee | 9
-  - 🇫🇷 TG频道@memotee | 10
-  - 🇰🇷 TG频道@memotee | 11
-  - 🇺🇸 TG频道@memotee | 12
+  - 🇨🇦 TG频道@memotee | 6
+  - 🇩🇪 TG频道@memotee | 7
+  - 🇩🇪 TG频道@memotee | 8
+  - 🇦🇶 TG频道@memotee | 9
+  - 🇯🇵 TG频道@memotee | 10
+  - 🇨🇳 TG频道@memotee | 11
+  - 🇭🇰 TG频道@memotee | 12
   - 🇭🇰 TG频道@memotee | 13
-  - 🇰🇷 TG频道@memotee | 14
+  - 🇯🇵 TG频道@memotee | 14
   - 🇨🇳 TG频道@memotee | 15
-  - 🇭🇰 TG频道@memotee | 16
-  - 🇯🇵 TG频道@memotee | 17
-  - 🇨🇳 TG频道@memotee | 18
-  - 🇨🇳 TG频道@memotee | 19
-  - 🇦🇶 TG频道@memotee | 20
-  - 🇯🇵 TG频道@memotee | 21
-  - 🇨🇳 TG频道@memotee | 22
-  - 🇨🇳 TG频道@memotee | 23
-  - 🇨🇳 TG频道@memotee | 24
-  - 🇬🇧 TG频道@memotee | 25
-  - 🇭🇰 TG频道@memotee | 26
-  - 🇷🇺 TG频道@memotee | 27
-  - 🇨🇳 TG频道@memotee | 28
+  - 🇨🇳 TG频道@memotee | 16
+  - 🇨🇳 TG频道@memotee | 17
+  - 🇭🇰 TG频道@memotee | 18
+  - 🇭🇰 TG频道@memotee | 19
+  - 🇨🇳 TG频道@memotee | 20
+  - 🇨🇳 TG频道@memotee | 21
+  - 🇭🇰 TG频道@memotee | 22
+  - 🇭🇰 TG频道@memotee | 23
+  - 🇯🇵 TG频道@memotee | 24
+  - 🇨🇳 TG频道@memotee | 25
+  - 🇨🇳 TG频道@memotee | 26
+  - 🇺🇸 TG频道@memotee | 27
+  - 🇺🇸 TG频道@memotee | 28
   - 🇨🇳 TG频道@memotee | 29
-  - 🇭🇰 TG频道@memotee | 30
-  - 🇬🇧 TG频道@memotee | 31
-  - 🇺🇸 TG频道@memotee | 32
-  - 🇩🇪 TG频道@memotee | 33
-  - 🇯🇵 TG频道@memotee | 34
-  - 🇨🇳 TG频道@memotee | 35
-  - 🇨🇳 TG频道@memotee | 36
-  - 🇭🇰 TG频道@memotee | 37
-  - 🇯🇵 TG频道@memotee | 38
-  - 🇭🇰 TG频道@memotee | 39
-  - 🇨🇳 TG频道@memotee | 40
+  - 🇯🇵 TG频道@memotee | 30
+  - 🇭🇰 TG频道@memotee | 31
+  - 🇵🇦 TG频道@memotee | 32
+  - 🇨🇳 TG频道@memotee | 33
+  - 🇨🇳 TG频道@memotee | 34
+  - 🇨🇦 TG频道@memotee | 35
+  - 🇨🇦 TG频道@memotee | 36
+  - 🇺🇸 TG频道@memotee | 37
+  - 🇺🇸 TG频道@memotee | 38
+  - 🇨🇳 TG频道@memotee | 39
+  - 🇧🇬 TG频道@memotee | 40
   - 🇨🇳 TG频道@memotee | 41
   - 🇨🇳 TG频道@memotee | 42
-  - 🇬🇧 TG频道@memotee | 43
+  - 🇺🇸 TG频道@memotee | 43
   - 🇯🇵 TG频道@memotee | 44
-  - 🇭🇰 TG频道@memotee | 45
-  - 🇨🇦 TG频道@memotee | 46
-  - 🇸🇪 TG频道@memotee | 47
-  - 🇨🇳 TG频道@memotee | 48
+  - 🇨🇳 TG频道@memotee | 45
+  - 🇰🇷 TG频道@memotee | 46
+  - 🇨🇳 TG频道@memotee | 47
+  - 🇸🇬 TG频道@memotee | 48
   - 🇨🇳 TG频道@memotee | 49
-  - 🇦🇺 TG频道@memotee | 50
-  - 🇨🇳 TG频道@memotee | 51
+  - 🇨🇳 TG频道@memotee | 50
+  - 🇦🇺 TG频道@memotee | 51
   - 🇨🇳 TG频道@memotee | 52
-  - 🇨🇳 TG频道@memotee | 53
-  - 🇦🇺 TG频道@memotee | 54
-  - 🇵🇦 TG频道@memotee | 55
-  - 🇨🇳 TG频道@memotee | 56
 - name: Ⓜ️ 微软服务
   type: select
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
-  - 🇨🇳 TG频道@memotee | 1
-  - 🇺🇸 TG频道@memotee | 2
-  - 🇨🇳 TG频道@memotee | 3
-  - 🇭🇰 TG频道@memotee | 4
+  - 🇺🇸 TG频道@memotee | 1
+  - 🇦🇺 TG频道@memotee | 2
+  - 🇦🇺 TG频道@memotee | 3
+  - 🇰🇷 TG频道@memotee | 4
   - 🇨🇳 TG频道@memotee | 5
-  - 🇨🇳 TG频道@memotee | 6
-  - 🇨🇳 TG频道@memotee | 7
-  - 🇨🇳 TG频道@memotee | 8
-  - 🇨🇳 TG频道@memotee | 9
-  - 🇫🇷 TG频道@memotee | 10
-  - 🇰🇷 TG频道@memotee | 11
-  - 🇺🇸 TG频道@memotee | 12
+  - 🇨🇦 TG频道@memotee | 6
+  - 🇩🇪 TG频道@memotee | 7
+  - 🇩🇪 TG频道@memotee | 8
+  - 🇦🇶 TG频道@memotee | 9
+  - 🇯🇵 TG频道@memotee | 10
+  - 🇨🇳 TG频道@memotee | 11
+  - 🇭🇰 TG频道@memotee | 12
   - 🇭🇰 TG频道@memotee | 13
-  - 🇰🇷 TG频道@memotee | 14
+  - 🇯🇵 TG频道@memotee | 14
   - 🇨🇳 TG频道@memotee | 15
-  - 🇭🇰 TG频道@memotee | 16
-  - 🇯🇵 TG频道@memotee | 17
-  - 🇨🇳 TG频道@memotee | 18
-  - 🇨🇳 TG频道@memotee | 19
-  - 🇦🇶 TG频道@memotee | 20
-  - 🇯🇵 TG频道@memotee | 21
-  - 🇨🇳 TG频道@memotee | 22
-  - 🇨🇳 TG频道@memotee | 23
-  - 🇨🇳 TG频道@memotee | 24
-  - 🇬🇧 TG频道@memotee | 25
-  - 🇭🇰 TG频道@memotee | 26
-  - 🇷🇺 TG频道@memotee | 27
-  - 🇨🇳 TG频道@memotee | 28
+  - 🇨🇳 TG频道@memotee | 16
+  - 🇨🇳 TG频道@memotee | 17
+  - 🇭🇰 TG频道@memotee | 18
+  - 🇭🇰 TG频道@memotee | 19
+  - 🇨🇳 TG频道@memotee | 20
+  - 🇨🇳 TG频道@memotee | 21
+  - 🇭🇰 TG频道@memotee | 22
+  - 🇭🇰 TG频道@memotee | 23
+  - 🇯🇵 TG频道@memotee | 24
+  - 🇨🇳 TG频道@memotee | 25
+  - 🇨🇳 TG频道@memotee | 26
+  - 🇺🇸 TG频道@memotee | 27
+  - 🇺🇸 TG频道@memotee | 28
   - 🇨🇳 TG频道@memotee | 29
-  - 🇭🇰 TG频道@memotee | 30
-  - 🇬🇧 TG频道@memotee | 31
-  - 🇺🇸 TG频道@memotee | 32
-  - 🇩🇪 TG频道@memotee | 33
-  - 🇯🇵 TG频道@memotee | 34
-  - 🇨🇳 TG频道@memotee | 35
-  - 🇨🇳 TG频道@memotee | 36
-  - 🇭🇰 TG频道@memotee | 37
-  - 🇯🇵 TG频道@memotee | 38
-  - 🇭🇰 TG频道@memotee | 39
-  - 🇨🇳 TG频道@memotee | 40
+  - 🇯🇵 TG频道@memotee | 30
+  - 🇭🇰 TG频道@memotee | 31
+  - 🇵🇦 TG频道@memotee | 32
+  - 🇨🇳 TG频道@memotee | 33
+  - 🇨🇳 TG频道@memotee | 34
+  - 🇨🇦 TG频道@memotee | 35
+  - 🇨🇦 TG频道@memotee | 36
+  - 🇺🇸 TG频道@memotee | 37
+  - 🇺🇸 TG频道@memotee | 38
+  - 🇨🇳 TG频道@memotee | 39
+  - 🇧🇬 TG频道@memotee | 40
   - 🇨🇳 TG频道@memotee | 41
   - 🇨🇳 TG频道@memotee | 42
-  - 🇬🇧 TG频道@memotee | 43
+  - 🇺🇸 TG频道@memotee | 43
   - 🇯🇵 TG频道@memotee | 44
-  - 🇭🇰 TG频道@memotee | 45
-  - 🇨🇦 TG频道@memotee | 46
-  - 🇸🇪 TG频道@memotee | 47
-  - 🇨🇳 TG频道@memotee | 48
+  - 🇨🇳 TG频道@memotee | 45
+  - 🇰🇷 TG频道@memotee | 46
+  - 🇨🇳 TG频道@memotee | 47
+  - 🇸🇬 TG频道@memotee | 48
   - 🇨🇳 TG频道@memotee | 49
-  - 🇦🇺 TG频道@memotee | 50
-  - 🇨🇳 TG频道@memotee | 51
+  - 🇨🇳 TG频道@memotee | 50
+  - 🇦🇺 TG频道@memotee | 51
   - 🇨🇳 TG频道@memotee | 52
-  - 🇨🇳 TG频道@memotee | 53
-  - 🇦🇺 TG频道@memotee | 54
-  - 🇵🇦 TG频道@memotee | 55
-  - 🇨🇳 TG频道@memotee | 56
 - name: 🍎 苹果服务
   type: select
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇨🇳 TG频道@memotee | 1
-  - 🇺🇸 TG频道@memotee | 2
-  - 🇨🇳 TG频道@memotee | 3
-  - 🇭🇰 TG频道@memotee | 4
+  - 🇺🇸 TG频道@memotee | 1
+  - 🇦🇺 TG频道@memotee | 2
+  - 🇦🇺 TG频道@memotee | 3
+  - 🇰🇷 TG频道@memotee | 4
   - 🇨🇳 TG频道@memotee | 5
-  - 🇨🇳 TG频道@memotee | 6
-  - 🇨🇳 TG频道@memotee | 7
-  - 🇨🇳 TG频道@memotee | 8
-  - 🇨🇳 TG频道@memotee | 9
-  - 🇫🇷 TG频道@memotee | 10
-  - 🇰🇷 TG频道@memotee | 11
-  - 🇺🇸 TG频道@memotee | 12
+  - 🇨🇦 TG频道@memotee | 6
+  - 🇩🇪 TG频道@memotee | 7
+  - 🇩🇪 TG频道@memotee | 8
+  - 🇦🇶 TG频道@memotee | 9
+  - 🇯🇵 TG频道@memotee | 10
+  - 🇨🇳 TG频道@memotee | 11
+  - 🇭🇰 TG频道@memotee | 12
   - 🇭🇰 TG频道@memotee | 13
-  - 🇰🇷 TG频道@memotee | 14
+  - 🇯🇵 TG频道@memotee | 14
   - 🇨🇳 TG频道@memotee | 15
-  - 🇭🇰 TG频道@memotee | 16
-  - 🇯🇵 TG频道@memotee | 17
-  - 🇨🇳 TG频道@memotee | 18
-  - 🇨🇳 TG频道@memotee | 19
-  - 🇦🇶 TG频道@memotee | 20
-  - 🇯🇵 TG频道@memotee | 21
-  - 🇨🇳 TG频道@memotee | 22
-  - 🇨🇳 TG频道@memotee | 23
-  - 🇨🇳 TG频道@memotee | 24
-  - 🇬🇧 TG频道@memotee | 25
-  - 🇭🇰 TG频道@memotee | 26
-  - 🇷🇺 TG频道@memotee | 27
-  - 🇨🇳 TG频道@memotee | 28
+  - 🇨🇳 TG频道@memotee | 16
+  - 🇨🇳 TG频道@memotee | 17
+  - 🇭🇰 TG频道@memotee | 18
+  - 🇭🇰 TG频道@memotee | 19
+  - 🇨🇳 TG频道@memotee | 20
+  - 🇨🇳 TG频道@memotee | 21
+  - 🇭🇰 TG频道@memotee | 22
+  - 🇭🇰 TG频道@memotee | 23
+  - 🇯🇵 TG频道@memotee | 24
+  - 🇨🇳 TG频道@memotee | 25
+  - 🇨🇳 TG频道@memotee | 26
+  - 🇺🇸 TG频道@memotee | 27
+  - 🇺🇸 TG频道@memotee | 28
   - 🇨🇳 TG频道@memotee | 29
-  - 🇭🇰 TG频道@memotee | 30
-  - 🇬🇧 TG频道@memotee | 31
-  - 🇺🇸 TG频道@memotee | 32
-  - 🇩🇪 TG频道@memotee | 33
-  - 🇯🇵 TG频道@memotee | 34
-  - 🇨🇳 TG频道@memotee | 35
-  - 🇨🇳 TG频道@memotee | 36
-  - 🇭🇰 TG频道@memotee | 37
-  - 🇯🇵 TG频道@memotee | 38
-  - 🇭🇰 TG频道@memotee | 39
-  - 🇨🇳 TG频道@memotee | 40
+  - 🇯🇵 TG频道@memotee | 30
+  - 🇭🇰 TG频道@memotee | 31
+  - 🇵🇦 TG频道@memotee | 32
+  - 🇨🇳 TG频道@memotee | 33
+  - 🇨🇳 TG频道@memotee | 34
+  - 🇨🇦 TG频道@memotee | 35
+  - 🇨🇦 TG频道@memotee | 36
+  - 🇺🇸 TG频道@memotee | 37
+  - 🇺🇸 TG频道@memotee | 38
+  - 🇨🇳 TG频道@memotee | 39
+  - 🇧🇬 TG频道@memotee | 40
   - 🇨🇳 TG频道@memotee | 41
   - 🇨🇳 TG频道@memotee | 42
-  - 🇬🇧 TG频道@memotee | 43
+  - 🇺🇸 TG频道@memotee | 43
   - 🇯🇵 TG频道@memotee | 44
-  - 🇭🇰 TG频道@memotee | 45
-  - 🇨🇦 TG频道@memotee | 46
-  - 🇸🇪 TG频道@memotee | 47
-  - 🇨🇳 TG频道@memotee | 48
+  - 🇨🇳 TG频道@memotee | 45
+  - 🇰🇷 TG频道@memotee | 46
+  - 🇨🇳 TG频道@memotee | 47
+  - 🇸🇬 TG频道@memotee | 48
   - 🇨🇳 TG频道@memotee | 49
-  - 🇦🇺 TG频道@memotee | 50
-  - 🇨🇳 TG频道@memotee | 51
+  - 🇨🇳 TG频道@memotee | 50
+  - 🇦🇺 TG频道@memotee | 51
   - 🇨🇳 TG频道@memotee | 52
-  - 🇨🇳 TG频道@memotee | 53
-  - 🇦🇺 TG频道@memotee | 54
-  - 🇵🇦 TG频道@memotee | 55
-  - 🇨🇳 TG频道@memotee | 56
 - name: 🎯 全球直连
   type: select
   proxies:
@@ -1017,62 +990,58 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
-  - 🇨🇳 TG频道@memotee | 1
-  - 🇺🇸 TG频道@memotee | 2
-  - 🇨🇳 TG频道@memotee | 3
-  - 🇭🇰 TG频道@memotee | 4
+  - 🇺🇸 TG频道@memotee | 1
+  - 🇦🇺 TG频道@memotee | 2
+  - 🇦🇺 TG频道@memotee | 3
+  - 🇰🇷 TG频道@memotee | 4
   - 🇨🇳 TG频道@memotee | 5
-  - 🇨🇳 TG频道@memotee | 6
-  - 🇨🇳 TG频道@memotee | 7
-  - 🇨🇳 TG频道@memotee | 8
-  - 🇨🇳 TG频道@memotee | 9
-  - 🇫🇷 TG频道@memotee | 10
-  - 🇰🇷 TG频道@memotee | 11
-  - 🇺🇸 TG频道@memotee | 12
+  - 🇨🇦 TG频道@memotee | 6
+  - 🇩🇪 TG频道@memotee | 7
+  - 🇩🇪 TG频道@memotee | 8
+  - 🇦🇶 TG频道@memotee | 9
+  - 🇯🇵 TG频道@memotee | 10
+  - 🇨🇳 TG频道@memotee | 11
+  - 🇭🇰 TG频道@memotee | 12
   - 🇭🇰 TG频道@memotee | 13
-  - 🇰🇷 TG频道@memotee | 14
+  - 🇯🇵 TG频道@memotee | 14
   - 🇨🇳 TG频道@memotee | 15
-  - 🇭🇰 TG频道@memotee | 16
-  - 🇯🇵 TG频道@memotee | 17
-  - 🇨🇳 TG频道@memotee | 18
-  - 🇨🇳 TG频道@memotee | 19
-  - 🇦🇶 TG频道@memotee | 20
-  - 🇯🇵 TG频道@memotee | 21
-  - 🇨🇳 TG频道@memotee | 22
-  - 🇨🇳 TG频道@memotee | 23
-  - 🇨🇳 TG频道@memotee | 24
-  - 🇬🇧 TG频道@memotee | 25
-  - 🇭🇰 TG频道@memotee | 26
-  - 🇷🇺 TG频道@memotee | 27
-  - 🇨🇳 TG频道@memotee | 28
+  - 🇨🇳 TG频道@memotee | 16
+  - 🇨🇳 TG频道@memotee | 17
+  - 🇭🇰 TG频道@memotee | 18
+  - 🇭🇰 TG频道@memotee | 19
+  - 🇨🇳 TG频道@memotee | 20
+  - 🇨🇳 TG频道@memotee | 21
+  - 🇭🇰 TG频道@memotee | 22
+  - 🇭🇰 TG频道@memotee | 23
+  - 🇯🇵 TG频道@memotee | 24
+  - 🇨🇳 TG频道@memotee | 25
+  - 🇨🇳 TG频道@memotee | 26
+  - 🇺🇸 TG频道@memotee | 27
+  - 🇺🇸 TG频道@memotee | 28
   - 🇨🇳 TG频道@memotee | 29
-  - 🇭🇰 TG频道@memotee | 30
-  - 🇬🇧 TG频道@memotee | 31
-  - 🇺🇸 TG频道@memotee | 32
-  - 🇩🇪 TG频道@memotee | 33
-  - 🇯🇵 TG频道@memotee | 34
-  - 🇨🇳 TG频道@memotee | 35
-  - 🇨🇳 TG频道@memotee | 36
-  - 🇭🇰 TG频道@memotee | 37
-  - 🇯🇵 TG频道@memotee | 38
-  - 🇭🇰 TG频道@memotee | 39
-  - 🇨🇳 TG频道@memotee | 40
+  - 🇯🇵 TG频道@memotee | 30
+  - 🇭🇰 TG频道@memotee | 31
+  - 🇵🇦 TG频道@memotee | 32
+  - 🇨🇳 TG频道@memotee | 33
+  - 🇨🇳 TG频道@memotee | 34
+  - 🇨🇦 TG频道@memotee | 35
+  - 🇨🇦 TG频道@memotee | 36
+  - 🇺🇸 TG频道@memotee | 37
+  - 🇺🇸 TG频道@memotee | 38
+  - 🇨🇳 TG频道@memotee | 39
+  - 🇧🇬 TG频道@memotee | 40
   - 🇨🇳 TG频道@memotee | 41
   - 🇨🇳 TG频道@memotee | 42
-  - 🇬🇧 TG频道@memotee | 43
+  - 🇺🇸 TG频道@memotee | 43
   - 🇯🇵 TG频道@memotee | 44
-  - 🇭🇰 TG频道@memotee | 45
-  - 🇨🇦 TG频道@memotee | 46
-  - 🇸🇪 TG频道@memotee | 47
-  - 🇨🇳 TG频道@memotee | 48
+  - 🇨🇳 TG频道@memotee | 45
+  - 🇰🇷 TG频道@memotee | 46
+  - 🇨🇳 TG频道@memotee | 47
+  - 🇸🇬 TG频道@memotee | 48
   - 🇨🇳 TG频道@memotee | 49
-  - 🇦🇺 TG频道@memotee | 50
-  - 🇨🇳 TG频道@memotee | 51
+  - 🇨🇳 TG频道@memotee | 50
+  - 🇦🇺 TG频道@memotee | 51
   - 🇨🇳 TG频道@memotee | 52
-  - 🇨🇳 TG频道@memotee | 53
-  - 🇦🇺 TG频道@memotee | 54
-  - 🇵🇦 TG频道@memotee | 55
-  - 🇨🇳 TG频道@memotee | 56
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
 - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连

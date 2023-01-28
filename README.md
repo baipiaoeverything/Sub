@@ -2,10 +2,10 @@
 
 ### 关注频道加入群聊获取每日分享订阅/破解软件/资源分享
 
-#### TG频道   
+### TG频道   
 https://t.me/memotee
 
-#### TG群聊   
+### TG群聊   
 https://t.me/memoteetalk
 
 ### 订阅链接  
@@ -15,10 +15,10 @@ https://raw.githubusercontent.com/baipiaoeverything/Sub/master/V2ray
 - yaml  
 https://raw.githubusercontent.com/baipiaoeverything/Sub/master/Clash
 
-- quantumultX
+- quantumultX  
 https://raw.githubusercontent.com/baipiaoeverything/Sub/master/Qx
 
-- surf
+- surf  
 https://raw.githubusercontent.com/baipiaoeverything/Sub/master/Surf
 
 
